@@ -6,6 +6,7 @@ const vitepressConfig = readFileSync(new URL('../.vitepress/config.ts', import.m
 const index = readFileSync(new URL('../index.md', import.meta.url), 'utf8');
 const whoWeAre = readFileSync(new URL('../who-we-are.md', import.meta.url), 'utf8');
 const howWeWork = readFileSync(new URL('../how-we-work.md', import.meta.url), 'utf8');
+const ourClients = readFileSync(new URL('../our-clients.md', import.meta.url), 'utf8');
 
 const expectedScripts = {
   dev: 'vitepress dev',
@@ -142,4 +143,36 @@ const howWeWorkWordCount = howWeWork
 
 if (howWeWorkWordCount < 400 || howWeWorkWordCount > 600) {
   throw new Error(`how-we-work.md must be between 400 and 600 words. Got ${howWeWorkWordCount}.`);
+}
+
+if (!ourClients.includes('# Our Clients')) {
+  throw new Error('our-clients.md must include the requested title.');
+}
+
+if (!/ideal 2x client/i.test(ourClients)) {
+  throw new Error('our-clients.md must describe the ideal client profile.');
+}
+
+if (!/We are not a fit/i.test(ourClients)) {
+  throw new Error('our-clients.md must explain who the agency does not work with.');
+}
+
+if (!/A great client relationship/i.test(ourClients)) {
+  throw new Error('our-clients.md must describe what a great client relationship looks like.');
+}
+
+if (!/What we expect from each other/i.test(ourClients)) {
+  throw new Error('our-clients.md must define mutual expectations.');
+}
+
+const ourClientsWordCount = ourClients
+  .split('\n')
+  .slice(2)
+  .join(' ')
+  .trim()
+  .split(/\s+/)
+  .filter(Boolean).length;
+
+if (ourClientsWordCount < 400 || ourClientsWordCount > 600) {
+  throw new Error(`our-clients.md must be between 400 and 600 words. Got ${ourClientsWordCount}.`);
 }
