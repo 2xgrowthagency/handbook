@@ -9,6 +9,7 @@ const howWeWork = readFileSync(new URL('../how-we-work.md', import.meta.url), 'u
 const ourClients = readFileSync(new URL('../our-clients.md', import.meta.url), 'utf8');
 const theWork = readFileSync(new URL('../the-work.md', import.meta.url), 'utf8');
 const communication = readFileSync(new URL('../communication.md', import.meta.url), 'utf8');
+const makingACareer = readFileSync(new URL('../making-a-career.md', import.meta.url), 'utf8');
 
 const expectedScripts = {
   dev: 'vitepress dev',
@@ -245,4 +246,40 @@ const communicationWordCount = communication
 
 if (communicationWordCount < 400 || communicationWordCount > 600) {
   throw new Error(`communication.md must be between 400 and 600 words. Got ${communicationWordCount}.`);
+}
+
+if (!makingACareer.includes('# Making a Career at 2x')) {
+  throw new Error('making-a-career.md must include the requested title.');
+}
+
+if (!makingACareer.includes('Growth here is not a ladder made of titles for their own sake.')) {
+  throw new Error('making-a-career.md must explain how career growth works at 2x.');
+}
+
+if (!makingACareer.includes('We look for people who combine sharp thinking with follow-through.')) {
+  throw new Error('making-a-career.md must describe what the team looks for.');
+}
+
+if (!makingACareer.includes('Growth at 2x usually happens in a few visible ways.')) {
+  throw new Error('making-a-career.md must describe the signs of growth.');
+}
+
+if (!makingACareer.includes('How we work together is part of career development')) {
+  throw new Error('making-a-career.md must explain how collaboration factors into growth.');
+}
+
+if (!makingACareer.includes('Managers and leaders have responsibilities too.')) {
+  throw new Error('making-a-career.md must explain the leadership role in development.');
+}
+
+const makingACareerWordCount = makingACareer
+  .split('\n')
+  .slice(2)
+  .join(' ')
+  .trim()
+  .split(/\s+/)
+  .filter(Boolean).length;
+
+if (makingACareerWordCount < 400 || makingACareerWordCount > 600) {
+  throw new Error(`making-a-career.md must be between 400 and 600 words. Got ${makingACareerWordCount}.`);
 }

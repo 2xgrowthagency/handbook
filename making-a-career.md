@@ -1,0 +1,15 @@
+# Making a Career at 2x
+
+A career at 2x is built through judgment, trust, and repeated evidence that you can make the work better. Growth here is not a ladder made of titles for their own sake. It is a steady expansion of scope, responsibility, and influence. As people grow, they are trusted with harder problems, more ownership, and a bigger role in shaping how we operate. Advancement follows contribution. It does not come from staying busy, sounding polished, or waiting to be noticed.
+
+We look for people who combine sharp thinking with follow-through. Strong performance is not just having good ideas. It is understanding the problem, making sensible decisions, communicating clearly, and finishing the work at a high standard. Reliability matters because the team has to trust that when you own something, it will move. Taste matters because details compound. Self-awareness matters because people who can assess their own strengths, gaps, and patterns improve faster than people who need constant external correction.
+
+Growth at 2x usually happens in a few visible ways. First, people become more autonomous. They need less prompting, less hand-holding, and less review to get to a strong outcome. Second, their judgment improves. They can tell the difference between what is urgent and what is noise, what is a real blocker and what just needs a decision. Third, they raise the standard around them. They make teammates sharper, documentation clearer, systems cleaner, and client work more thoughtful. That is what progression looks like in practice.
+
+We do not expect everyone to grow in the same shape or at the same speed. Some people deepen expertise. Others broaden across strategy, execution, and operations. Both can be valuable if the work improves. What matters is that development is real, visible, and useful to the business. If someone wants more responsibility, the path is simple: demonstrate readiness before asking for the title that goes with it. Show that you can own outcomes, not just tasks.
+
+How we work together is part of career development, not separate from it. People who do well here communicate directly, document decisions, ask good questions, and surface risks early. They do not hide confusion behind vague language or wait until a problem becomes expensive. They give feedback in a way that is honest and useful. They can disagree without becoming defensive. They know that trust is built by telling the truth, keeping commitments, and making collaboration easier for everyone else.
+
+Managers and leaders have responsibilities too. Growth is not only the individual's job. The company should create clarity around expectations, give feedback early, and provide stretch opportunities that are earned and supported. A good manager does not protect someone from every hard moment. They help them learn from it. The goal is not comfort. The goal is capability.
+
+Making a career at 2x means becoming the kind of person others rely on when the work is important, ambiguous, and worth doing well. If your range expands, your judgment gets stronger, and your presence raises the standard of the team, your career will move.
