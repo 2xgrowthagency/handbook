@@ -30,7 +30,14 @@ test('custom vitepress theme entry imports the default theme and custom styleshe
   assert.match(themeIndex, /export default DefaultTheme;/);
 });
 
-test('custom vitepress stylesheet defines a brand color override', () => {
+test('custom vitepress stylesheet defines the requested handbook typography and colors', () => {
   assert.equal(existsSync(themeStylePath), true);
+  assert.match(themeStyle, /--vp-font-family-base:\s*Georgia,\s*serif;/);
+  assert.match(themeStyle, /--vp-c-text-1:\s*#1a1a1a;/);
+  assert.match(themeStyle, /--vp-c-bg:\s*#fafaf8;/);
+  assert.match(themeStyle, /--vp-c-bg-soft:\s*#f3f4f6;/);
   assert.match(themeStyle, /--vp-c-brand-1:\s*#2563eb;/);
+  assert.match(themeStyle, /body\s*\{[\s\S]*font-size:\s*18px;[\s\S]*line-height:\s*1\.75;/);
+  assert.match(themeStyle, /h1,[\s\S]*h6,[\s\S]*font-family:\s*Inter,\s*sans-serif;/);
+  assert.match(themeStyle, /\.content-container\s*\{[\s\S]*max-width:\s*740px;/);
 });
