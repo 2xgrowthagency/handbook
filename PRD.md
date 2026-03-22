@@ -37,4 +37,4 @@ Build the 2x Agency public handbook as a VitePress site. Modelled after basecamp
 - [x] Create `making-a-career.md` — Making a career at 2x: how we think about growth and development, what we look for, how we work together as a team. ~400-600 words.
 - [x] Create `README.md` — one-liner description and note that the live site is at handbook.2x.agency
 - [x] Run `npm run build` and confirm it succeeds with no errors
-- [ ] Stage all files and commit with message `feat: initial handbook build` using git author John Chan <john@2xcd.com>
+- [x] Stage all files and commit with message `feat: initial handbook build` using git author John Chan <john@2xcd.com>
