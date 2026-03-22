@@ -1,43 +1,33 @@
 # The Work
 
-Performance marketing, to us, isn't the narrow act of buying traffic and reporting on clicks. It's the discipline of turning demand into revenue — with clear economics, honest measurement, and constant improvement.
+## What we actually do
 
-Paid media matters. But it's one part of the system. The work includes the offer, the message, the landing page, the checkout or lead flow, the follow-up, and the retention engine behind the first conversion. If any of those are weak, the channel data will eventually expose it. Good performance marketing doesn't hide problems. It surfaces them.
+We run paid search, paid social, email, SMS, and conversion rate optimization for our clients. On any given account, that usually means managing ad campaigns, writing and testing creative, improving landing pages and flows, building and optimizing email/SMS sequences, and reporting on what's working and what to do next.
 
----
+The work is both strategic and executional. You're expected to have opinions about what a client should be doing, and the skills to execute on those opinions.
 
-## How we think about growth
+## How we approach performance marketing
 
-Growth is a system, not a sequence of hacks.
+We start from the business goal, not the channel. Before touching ad spend or creative, we need to understand what the client is trying to accomplish, what the constraint is right now, and what success actually looks like.
 
-We start by getting clear on the business goal, the customer, and the constraint that matters most right now. Sometimes the problem is volume. Sometimes it's conversion, retention, margin, or message-market fit. We don't assume more spend is the answer before we understand the bottleneck.
+Once that's clear, we identify where in the funnel the work should focus. Sometimes the problem is top-of-funnel volume. Sometimes it's conversion rate. Sometimes it's retention. The channel work follows from the diagnosis, not the other way around.
 
-Find the constraint. Improve it. Then scale with confidence.
+## What good work looks like
 
-That usually means combining strategy with execution — not treating them as separate phases.
+Good work is legible. You should be able to explain what you're doing, why, what you expect to happen, and what you learned. If you can't explain it clearly, it probably needs more thinking.
 
----
+Good work is tied to outcomes the client cares about — revenue, qualified pipeline, payback period, retention rate — not to activity metrics like impressions or open rates.
 
-## What good looks like
+Good work produces decisions. Every test, every analysis, every review should result in a clear next action. If it doesn't, the work isn't done.
 
-Good work produces signal, not noise. It ties channel performance to outcomes people actually care about: qualified pipeline, profitable revenue, customer quality, payback period, retention.
+## Testing
 
-Good work is also legible. We should be able to explain what we're doing, why, what we expect to happen, and what we learned. A healthy account isn't one with perfect numbers every day. It's one with clear priorities, stable decision-making, and a team that can tell the difference between a normal fluctuation and a real problem.
+We test to reduce uncertainty, not to stay busy. A test should have a hypothesis, a specific variable, and a reason the result will change what we do next.
 
----
+If you're proposing a test, be prepared to explain what you'll do differently depending on the outcome. If both outcomes lead to the same action, it's not a useful test.
 
-## How we test
+## Reporting
 
-Disciplined, not theatrical. We don't run experiments just to say we're testing.
+Reports should tell a story, not just present data. The person reading it should come away knowing what happened, what it means, and what comes next — without having to ask.
 
-A useful test starts with a specific hypothesis, a clear variable, and a reason the result would change what we do next. We prefer fewer, sharper tests over a crowded backlog of low-conviction ideas. If a test is too small to matter, too vague to interpret, or too messy to isolate, it's probably not worth running.
-
----
-
-## Iteration
-
-This is where compounding happens.
-
-Make a call. Watch the data. Learn. Refine. Some iterations are creative. Some are operational — targeting, spend allocation, the quality of downstream follow-up. The point isn't to chase novelty. The point is to get a little closer to truth each cycle.
-
-That requires patience, pattern recognition, and enough consistency to know whether a change actually helped. We're not looking for magic. We're looking for repeatable progress built on evidence and judgment.
+Keep reports short. If it takes more than a few minutes to read, it's probably too long.

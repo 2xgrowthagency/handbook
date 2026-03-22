@@ -1,49 +1,37 @@
 # Making a Career at 2x
 
-A career at 2x is built through judgment, trust, and repeated evidence that you can make the work better.
+## Your first 90 days
 
-Growth here isn't a ladder of titles for their own sake. It's a steady expansion of scope, responsibility, and influence. As people grow, they're trusted with harder problems, more ownership, and a bigger role in shaping how we operate. Advancement follows contribution — not tenure, not seniority theater.
+In your first 90 days, you'll be working on real accounts with real clients. Your manager will set clear expectations for what you're responsible for and what good looks like in your role. You'll get feedback along the way — not just at a formal review.
 
----
+At the 90-day mark, you'll have a review conversation. We'll cover how the role is going from your side, how it's going from ours, and whether we're on the right track together.
+
+## How growth works here
+
+We're a small team, so there aren't many titles or promotion ladders. What there is: more scope, more ownership, and more responsibility as you demonstrate you can handle it.
+
+You grow here by doing the work at a higher level over time — better judgment, more autonomy, broader range. When that's happening, it gets recognized and compensated.
+
+We don't operate on annual review cycles for compensation. If your contribution has grown significantly, we'll have that conversation without waiting for a calendar date.
 
 ## What we look for
 
-Sharp thinking combined with follow-through.
+**Judgment.** The ability to figure out what needs to happen next without being told, and to make reasonable decisions with imperfect information.
 
-Strong performance isn't just having good ideas. It's understanding the problem, making sensible decisions, communicating clearly, and finishing the work at a high standard. Reliability matters — the team has to trust that when you own something, it moves. Taste matters because details compound. Self-awareness matters because people who can honestly assess their own strengths and gaps improve faster than those who need constant external correction.
+**Follow-through.** If you own something, it gets done. If something changes and it won't get done, you say so early enough that it can be handled.
 
----
+**Clear communication.** You write well, you give feedback that people can act on, and you flag problems before they get expensive.
 
-## What growth actually looks like
+**Range.** As you develop, you're expected to get better at both the strategic and executional sides of the work. Specialists are valuable, but people who can think and do are more valuable.
 
-Three things tend to be visible as people develop:
+## Feedback
 
-**Autonomy.** Less prompting, less hand-holding, less review needed to reach a strong outcome.
+You'll get feedback regularly, not just at formal reviews. If something isn't working, you'll hear it specifically and early — not in a year-end summary.
 
-**Judgment.** The ability to tell the difference between what's urgent and what's noise, what's a real blocker and what just needs a decision.
+If you want feedback on something specific, ask for it. We'd rather you ask than wonder.
 
-**Range.** Making teammates sharper, documentation clearer, systems cleaner, client work more thoughtful. Raising the standard around you.
+## Side work
 
-We don't expect everyone to grow in the same shape or at the same speed. Some people deepen expertise. Others broaden across strategy, execution, and operations. Both are valuable when the work improves.
+Taking on occasional side projects is fine, as long as it doesn't affect your performance here and there's no conflict of interest with our clients or our work. If you're unsure whether something is a conflict, ask before taking it on.
 
-If you want more responsibility, the path is simple: demonstrate readiness before asking for the title that goes with it. Show that you can own outcomes, not just tasks.
-
----
-
-## How we work together
-
-This is part of career development, not separate from it.
-
-People who do well here communicate directly, document decisions, ask good questions, and surface risks early. They don't hide confusion behind vague language or wait until a problem gets expensive. They give feedback that's honest and useful. They can disagree without becoming defensive.
-
-Trust is built by telling the truth, keeping commitments, and making collaboration easier for everyone else.
-
----
-
-## What the company owes you
-
-Growth isn't only the individual's job. 
-
-We're responsible for creating clarity around expectations, giving feedback early, and providing stretch opportunities that are earned and supported. A good manager doesn't protect people from every hard moment — they help them learn from it.
-
-The goal isn't comfort. The goal is capability.
+Working for another agency, or taking on a client we work with or could work with, isn't okay.

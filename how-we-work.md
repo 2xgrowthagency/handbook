@@ -1,43 +1,33 @@
 # How We Work
 
-We work async-first because thoughtful work rarely happens on demand in a crowded calendar.
+## Async first
 
-The default is to write things down, share context clearly, and let people respond when they can actually add signal — not noise. Decisions, updates, blockers, ideas: they should live in durable places where anyone can find them later. Async isn't about being slow. It's about protecting focus and reducing the interruption tax.
+Most communication happens in writing, not in meetings. If you have a question, a decision to document, or an update to share — write it down somewhere findable. We use Basecamp for project communication and Linear for task tracking. Don't rely on Slack for anything that needs to last more than a day.
 
----
+This doesn't mean we're slow. It means the people you're working with can respond thoughtfully when it fits their day, rather than being pulled out of focused work.
 
 ## Bias for action
 
-If the next step is obvious, take it. If something is broken, fix it — or propose the fix with a clear recommendation.
+If the next step is clear, take it. If something is broken, fix it or flag it with a concrete recommendation — not just an observation that something's wrong.
 
-We don't wait for perfect certainty before moving. We also don't confuse motion with progress. Action matters when it's tied to judgment. Make the best call you can with the information available, show your reasoning, and keep the momentum going. Small decisions made quickly and documented well beat long delays dressed up as caution.
+You're expected to use your judgment. You don't need approval for decisions within your scope. If you're not sure whether something falls within your scope, ask once, then act.
 
----
+## Meetings
 
-## Fewer meetings
+Meetings are for decisions that need live discussion to resolve, and for situations where writing would be slower than just talking. Everything else should happen in writing.
 
-Meetings are expensive. They pull multiple people out of focused work at once.
+If there's a meeting, it should have an agenda sent in advance and end with a clear decision, owner, and next step. If you're in a meeting that has none of those things, it's okay to say so.
 
-A meeting should exist only when live discussion will materially improve the outcome — resolving a decision that's genuinely blocked, handling a sensitive conversation, working through complexity faster together than apart. Everything else should happen in writing.
+We don't do status update meetings. Status belongs in Basecamp.
 
-If a meeting is needed: keep it short, send context in advance, end with a clear owner and next step. If those things are missing, the meeting probably shouldn't have happened.
+## Hours and availability
 
----
+We work normal business hours in your timezone. There's no expectation to be online outside of those hours unless something is genuinely urgent and you've agreed to be on-call for it.
 
-## Communication standards
+We don't track hours. We track results.
 
-Be direct, clear, and respectful. Say what's true, not what sounds polished.
+## Working with clients
 
-Surface risks early. Ask precise questions. When giving feedback, anchor it in the work, not the person. When asking for help, include enough context that someone can actually help without starting from zero.
+Client communication is part of the job, not a separate function. You're expected to communicate directly with clients, understand what they need, flag problems early, and write updates that don't require anyone to read between the lines.
 
-Good communication lowers coordination cost. It reduces rework, shortens handoff time, and makes trust easier to build. Silence, vagueness, and performative agreement do the opposite.
-
----
-
-## How decisions get made
-
-Start by identifying the owner. The owner gathers input, makes the call, records the reasoning.
-
-Not every decision needs consensus — treating every choice like a committee exercise just slows everything down. The scale of the decision should match the scale of the process. Reversible decisions should move fast. Higher-stakes decisions deserve more scrutiny, but still need a deadline and a decider.
-
-Once a decision is made, commit to it long enough to actually learn from it. Change course fast if the evidence says you should.
+If something is off with a client relationship — a missed expectation, a misunderstanding, a growing tension — surface it early. Small problems are easier to fix than big ones.

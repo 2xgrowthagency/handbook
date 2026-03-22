@@ -1,39 +1,9 @@
 # Who We Are
 
-2x exists to help businesses grow — with clear strategy, disciplined execution, and marketing that holds up over time. Not vanity metrics. Not busywork. Not wins that look great in a slide deck and collapse a quarter later.
+2x is a performance marketing agency based in Vancouver. We help DTC and SaaS companies grow through paid search, paid social, conversion optimization, email, and SMS. We've been doing this since 2018.
 
-The mission is simple: build growth systems that are useful, honest, and durable.
+John leads client strategy, positioning, and new business. Jenn is Co-Founder and COO — she runs internal operations and people, and does hands-on performance marketing strategy, creative direction, and retention work with clients. Between the two of them, they cover strategy, execution, and operations.
 
----
+We're a small team. That means everyone who works here has real responsibility and real impact. There's no layer of account managers between you and the client, and no layer of management between you and the decision-makers here.
 
-## John + Jenn
-
-The agency is shaped by how John and Jenn work.
-
-John comes from an operator's mindset — built through teaching, building, and learning the hard way. He values self-awareness over ego. He'd rather tell you an uncomfortable truth than protect a bad idea with polite language.
-
-Jenn is the execution engine. Performance marketing strategy, creative direction, retention, and the internal systems that let a team actually deliver — consistently. Seven years of it. $30M+ in ad-attributed revenue for clients.
-
-Together they cover strategy, operations, and hands-on marketing. That balance is the point.
-
----
-
-## Where we came from
-
-There wasn't a dramatic founding moment. 2x was built around a shared standard.
-
-Both John and Jenn saw the same pattern repeatedly: businesses getting pushed into tactics before anyone got clear on positioning, on what success should actually mean, or on whether the offer was even worth scaling. Agencies optimizing for activity instead of outcomes. Dashboards full of movement, not momentum.
-
-2x was built as an answer to that. Start with the truth. Build the system. Scale what works.
-
----
-
-## What we believe about marketing
-
-Strategy comes first. Execution matters. Operations matter too.
-
-A strong campaign can only carry so much weight if the offer is weak, the message is fuzzy, or the follow-through falls apart. We do performance marketing — paid search, paid social, conversion optimization, landing pages, email, SMS — but we don't treat paid media like magic.
-
-We believe sustainable growth beats short-term theatrics. Community matters. Trust matters. Retention matters. The goal isn't to squeeze every click out of a campaign and call it a win. The goal is to help brands build momentum they can keep.
-
-That means making smart decisions, measuring what actually matters, and being willing to say: *"That's not going to work. Here's what will."*
+We're public about how we work. This handbook is one version of that. If you're reading it as a prospective client or hire, what you see is what you get.
