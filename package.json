@@ -1,0 +1,18 @@
+{
+  "name": "2x-handbook",
+  "version": "1.0.0",
+  "description": "Project docs powered by VitePress.",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "lint": "node scripts/lint.mjs",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "1.6.4"
+  }
+}
