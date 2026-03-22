@@ -8,6 +8,7 @@ const whoWeAre = readFileSync(new URL('../who-we-are.md', import.meta.url), 'utf
 const howWeWork = readFileSync(new URL('../how-we-work.md', import.meta.url), 'utf8');
 const ourClients = readFileSync(new URL('../our-clients.md', import.meta.url), 'utf8');
 const theWork = readFileSync(new URL('../the-work.md', import.meta.url), 'utf8');
+const communication = readFileSync(new URL('../communication.md', import.meta.url), 'utf8');
 
 const expectedScripts = {
   dev: 'vitepress dev',
@@ -212,4 +213,36 @@ const theWorkWordCount = theWork
 
 if (theWorkWordCount < 400 || theWorkWordCount > 600) {
   throw new Error(`the-work.md must be between 400 and 600 words. Got ${theWorkWordCount}.`);
+}
+
+if (!communication.includes('# Communication')) {
+  throw new Error('communication.md must include the requested title.');
+}
+
+if (!communication.includes('How we communicate starts with choosing the right channel')) {
+  throw new Error('communication.md must explain channel selection.');
+}
+
+if (!/response times/i.test(communication)) {
+  throw new Error('communication.md must define response times.');
+}
+
+if (!communication.includes('Feedback works best')) {
+  throw new Error('communication.md must explain how feedback should be given.');
+}
+
+if (!communication.includes('Concerns should be raised early')) {
+  throw new Error('communication.md must explain how to raise concerns.');
+}
+
+const communicationWordCount = communication
+  .split('\n')
+  .slice(2)
+  .join(' ')
+  .trim()
+  .split(/\s+/)
+  .filter(Boolean).length;
+
+if (communicationWordCount < 400 || communicationWordCount > 600) {
+  throw new Error(`communication.md must be between 400 and 600 words. Got ${communicationWordCount}.`);
 }
