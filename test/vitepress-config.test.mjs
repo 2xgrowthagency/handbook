@@ -1,8 +1,12 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 
 const config = readFileSync(new URL('../.vitepress/config.ts', import.meta.url), 'utf8');
+const themeIndexPath = new URL('../.vitepress/theme/index.ts', import.meta.url);
+const themeStylePath = new URL('../.vitepress/theme/style.css', import.meta.url);
+const themeIndex = readFileSync(themeIndexPath, 'utf8');
+const themeStyle = readFileSync(themeStylePath, 'utf8');
 
 test('vitepress config defines handbook metadata', () => {
   assert.match(config, /title:\s*'2x Agency Handbook'/);
@@ -17,4 +21,16 @@ test('vitepress config includes all six handbook chapters in the sidebar', () =>
   const chapterLinks = [...config.matchAll(/link:\s*'\/chapter-(\d+)'/g)].map((match) => match[1]);
 
   assert.deepEqual(chapterLinks, ['1', '2', '3', '4', '5', '6']);
+});
+
+test('custom vitepress theme entry imports the default theme and custom stylesheet', () => {
+  assert.equal(existsSync(themeIndexPath), true);
+  assert.match(themeIndex, /import DefaultTheme from 'vitepress\/theme';/);
+  assert.match(themeIndex, /import '\.\/style\.css';/);
+  assert.match(themeIndex, /export default DefaultTheme;/);
+});
+
+test('custom vitepress stylesheet defines a brand color override', () => {
+  assert.equal(existsSync(themeStylePath), true);
+  assert.match(themeStyle, /--vp-c-brand-1:\s*#2563eb;/);
 });
