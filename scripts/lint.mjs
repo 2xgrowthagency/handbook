@@ -7,6 +7,7 @@ const index = readFileSync(new URL('../index.md', import.meta.url), 'utf8');
 const whoWeAre = readFileSync(new URL('../who-we-are.md', import.meta.url), 'utf8');
 const howWeWork = readFileSync(new URL('../how-we-work.md', import.meta.url), 'utf8');
 const ourClients = readFileSync(new URL('../our-clients.md', import.meta.url), 'utf8');
+const theWork = readFileSync(new URL('../the-work.md', import.meta.url), 'utf8');
 
 const expectedScripts = {
   dev: 'vitepress dev',
@@ -175,4 +176,40 @@ const ourClientsWordCount = ourClients
 
 if (ourClientsWordCount < 400 || ourClientsWordCount > 600) {
   throw new Error(`our-clients.md must be between 400 and 600 words. Got ${ourClientsWordCount}.`);
+}
+
+if (!theWork.includes('# The Work')) {
+  throw new Error('the-work.md must include the requested title.');
+}
+
+if (!theWork.includes('Performance marketing, to us,')) {
+  throw new Error('the-work.md must define what performance marketing means to the agency.');
+}
+
+if (!theWork.includes('How we think about growth')) {
+  throw new Error('the-work.md must explain the agency growth philosophy.');
+}
+
+if (!theWork.includes('What good looks like')) {
+  throw new Error('the-work.md must define what good work looks like.');
+}
+
+if (!theWork.includes('Our philosophy on testing')) {
+  throw new Error('the-work.md must describe the testing philosophy.');
+}
+
+if (!theWork.includes('Iteration is where compounding happens')) {
+  throw new Error('the-work.md must describe iteration.');
+}
+
+const theWorkWordCount = theWork
+  .split('\n')
+  .slice(2)
+  .join(' ')
+  .trim()
+  .split(/\s+/)
+  .filter(Boolean).length;
+
+if (theWorkWordCount < 400 || theWorkWordCount > 600) {
+  throw new Error(`the-work.md must be between 400 and 600 words. Got ${theWorkWordCount}.`);
 }
