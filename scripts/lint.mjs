@@ -4,6 +4,7 @@ const pkg = JSON.parse(readFileSync(new URL('../package.json', import.meta.url),
 const gitignore = readFileSync(new URL('../.gitignore', import.meta.url), 'utf8');
 const vitepressConfig = readFileSync(new URL('../.vitepress/config.ts', import.meta.url), 'utf8');
 const index = readFileSync(new URL('../index.md', import.meta.url), 'utf8');
+const whoWeAre = readFileSync(new URL('../who-we-are.md', import.meta.url), 'utf8');
 
 const expectedScripts = {
   dev: 'vitepress dev',
@@ -68,4 +69,40 @@ const homepageChapterLinks = [...index.matchAll(/\[Chapter (\d+)\]\(\/chapter-\d
 
 if (JSON.stringify(homepageChapterLinks) !== JSON.stringify(['1', '2', '3', '4', '5', '6'])) {
   throw new Error('Homepage must link to chapter-1 through chapter-6.');
+}
+
+if (!whoWeAre.includes('# Who We Are')) {
+  throw new Error('who-we-are.md must include the requested title.');
+}
+
+if (!whoWeAre.includes('Our mission is simple:')) {
+  throw new Error('who-we-are.md must include a mission statement.');
+}
+
+if (!whoWeAre.includes('Our origin story')) {
+  throw new Error('who-we-are.md must include an origin story section.');
+}
+
+if (!whoWeAre.includes('What we believe about marketing')) {
+  throw new Error('who-we-are.md must describe the company marketing philosophy.');
+}
+
+if (!whoWeAre.includes('John leads client strategy, positioning, discovery, and new business development.')) {
+  throw new Error('who-we-are.md must include John\'s introduction.');
+}
+
+if (!whoWeAre.includes('Jenn is Co-Founder and COO, leading internal systems and people while also driving performance marketing strategy, creative direction, and retention.')) {
+  throw new Error('who-we-are.md must include Jenn\'s introduction.');
+}
+
+const whoWeAreWordCount = whoWeAre
+  .split('\n')
+  .slice(2)
+  .join(' ')
+  .trim()
+  .split(/\s+/)
+  .filter(Boolean).length;
+
+if (whoWeAreWordCount < 400 || whoWeAreWordCount > 600) {
+  throw new Error(`who-we-are.md must be between 400 and 600 words. Got ${whoWeAreWordCount}.`);
 }
