@@ -1,6 +1,7 @@
 import { readFileSync } from 'node:fs';
 
 const pkg = JSON.parse(readFileSync(new URL('../package.json', import.meta.url), 'utf8'));
+const gitignore = readFileSync(new URL('../.gitignore', import.meta.url), 'utf8');
 
 const expectedScripts = {
   dev: 'vitepress dev',
@@ -20,5 +21,13 @@ if (pkg.devDependencies?.vitepress !== '1.6.4') {
 for (const [name, command] of Object.entries(expectedScripts)) {
   if (pkg.scripts?.[name] !== command) {
     throw new Error(`Missing or incorrect script: ${name}.`);
+  }
+}
+
+const expectedGitignoreEntries = ['node_modules/', 'dist/', '.vitepress/cache/'];
+
+for (const entry of expectedGitignoreEntries) {
+  if (!gitignore.includes(`${entry}\n`) && gitignore.trimEnd() !== entry) {
+    throw new Error(`Missing .gitignore entry: ${entry}.`);
   }
 }
