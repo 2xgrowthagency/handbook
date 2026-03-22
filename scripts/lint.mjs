@@ -2,6 +2,7 @@ import { readFileSync } from 'node:fs';
 
 const pkg = JSON.parse(readFileSync(new URL('../package.json', import.meta.url), 'utf8'));
 const gitignore = readFileSync(new URL('../.gitignore', import.meta.url), 'utf8');
+const readme = readFileSync(new URL('../README.md', import.meta.url), 'utf8');
 const vitepressConfig = readFileSync(new URL('../.vitepress/config.ts', import.meta.url), 'utf8');
 const index = readFileSync(new URL('../index.md', import.meta.url), 'utf8');
 const whoWeAre = readFileSync(new URL('../who-we-are.md', import.meta.url), 'utf8');
@@ -38,6 +39,14 @@ for (const entry of expectedGitignoreEntries) {
   if (!gitignore.includes(`${entry}\n`) && gitignore.trimEnd() !== entry) {
     throw new Error(`Missing .gitignore entry: ${entry}.`);
   }
+}
+
+if (!readme.includes('# 2x Agency Handbook')) {
+  throw new Error('README.md must include the handbook title.');
+}
+
+if (!readme.includes('Internal handbook for how 2x Agency works and ships; the live site is at [handbook.2x.agency](https://handbook.2x.agency).')) {
+  throw new Error('README.md must include the one-line description and live site link.');
 }
 
 if (!vitepressConfig.includes("title: '2x Agency Handbook'")) {
