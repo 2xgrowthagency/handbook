@@ -3,6 +3,9 @@ import { readFileSync } from 'node:fs';
 const pkg = JSON.parse(readFileSync(new URL('../package.json', import.meta.url), 'utf8'));
 
 const expectedScripts = {
+  dev: 'vitepress dev',
+  build: 'vitepress build',
+  preview: 'vitepress preview',
   'docs:dev': 'vitepress dev docs',
   'docs:build': 'vitepress build docs',
   'docs:preview': 'vitepress preview docs',
