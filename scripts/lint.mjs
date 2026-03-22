@@ -5,6 +5,7 @@ const gitignore = readFileSync(new URL('../.gitignore', import.meta.url), 'utf8'
 const vitepressConfig = readFileSync(new URL('../.vitepress/config.ts', import.meta.url), 'utf8');
 const index = readFileSync(new URL('../index.md', import.meta.url), 'utf8');
 const whoWeAre = readFileSync(new URL('../who-we-are.md', import.meta.url), 'utf8');
+const howWeWork = readFileSync(new URL('../how-we-work.md', import.meta.url), 'utf8');
 
 const expectedScripts = {
   dev: 'vitepress dev',
@@ -105,4 +106,40 @@ const whoWeAreWordCount = whoWeAre
 
 if (whoWeAreWordCount < 400 || whoWeAreWordCount > 600) {
   throw new Error(`who-we-are.md must be between 400 and 600 words. Got ${whoWeAreWordCount}.`);
+}
+
+if (!howWeWork.includes('# How We Work')) {
+  throw new Error('how-we-work.md must include the requested title.');
+}
+
+if (!howWeWork.includes('async-first')) {
+  throw new Error('how-we-work.md must describe async-first work.');
+}
+
+if (!howWeWork.includes('bias for action')) {
+  throw new Error('how-we-work.md must include bias for action.');
+}
+
+if (!howWeWork.includes('unnecessary meetings')) {
+  throw new Error('how-we-work.md must explain the no unnecessary meetings principle.');
+}
+
+if (!howWeWork.includes('How we communicate matters')) {
+  throw new Error('how-we-work.md must describe communication norms.');
+}
+
+if (!howWeWork.includes('We make decisions')) {
+  throw new Error('how-we-work.md must describe decision making.');
+}
+
+const howWeWorkWordCount = howWeWork
+  .split('\n')
+  .slice(2)
+  .join(' ')
+  .trim()
+  .split(/\s+/)
+  .filter(Boolean).length;
+
+if (howWeWorkWordCount < 400 || howWeWorkWordCount > 600) {
+  throw new Error(`how-we-work.md must be between 400 and 600 words. Got ${howWeWorkWordCount}.`);
 }
