@@ -2,17 +2,22 @@
 layout: home
 
 hero:
-  name: "The 2x Agency Handbook"
-  tagline: "How we work, who we are, and what we're here to do."
+  name: "OpenClaw Handbook"
+  tagline: "A guide to running your AI agent at 2x."
 ---
 
-# The 2x Agency Handbook
+# OpenClaw Handbook
 
-Everything you need to know about how 2x Agency operates — our values, how we work, who we work with, and what we believe about marketing.
+Everything you need to know to operate, troubleshoot, and get the most out of your OpenClaw agent.
 
-- [Who We Are](/who-we-are) — Mission, origin, John + Jenn
-- [How We Work](/how-we-work) — Async-first, bias for action, fewer meetings
-- [Our Clients](/our-clients) — Who we work with, and who we don't
-- [The Work](/the-work) — How we think about performance marketing and growth
-- [Communication](/communication) — How we communicate internally and with clients
-- [Making a Career](/making-a-career) — Growth, development, and what we look for
+**For operators** — team members working with an agent day-to-day:
+
+- [Getting Started](/getting-started) — What your agent is, how to talk to it, your first 15 minutes
+- [Daily Use](/daily-use) — Sessions, memory, commands, and working across topics
+- [Skills](/skills) — What skills are, how to install them safely, common ones to know
+- [Troubleshooting](/troubleshooting) — When things go wrong and how to fix them
+
+**For owners** — principals deploying and maintaining agents:
+
+- [Architecture](/architecture) — How sessions, memory, heartbeats, and skills fit together
+- [Upgrade Checklist](/upgrade-checklist) — What "fully upgraded" looks like and how to get there

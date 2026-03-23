@@ -1,19 +1,27 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
-  title: '2x Agency Handbook',
-  description: 'How we work, who we are, and what we\'re here to do.',
+  title: 'OpenClaw Handbook',
+  description: 'A guide to running your AI agent at 2x.',
   themeConfig: {
-    nav: [
-      { text: 'Home', link: '/' },
-    ],
+    nav: [{ text: 'Home', link: '/' }],
     sidebar: [
-      { text: 'Who We Are', link: '/who-we-are' },
-      { text: 'How We Work', link: '/how-we-work' },
-      { text: 'Our Clients', link: '/our-clients' },
-      { text: 'The Work', link: '/the-work' },
-      { text: 'Communication', link: '/communication' },
-      { text: 'Making a Career', link: '/making-a-career' },
+      {
+        text: 'For Operators',
+        items: [
+          { text: 'Getting Started', link: '/getting-started' },
+          { text: 'Daily Use', link: '/daily-use' },
+          { text: 'Skills', link: '/skills' },
+          { text: 'Troubleshooting', link: '/troubleshooting' },
+        ],
+      },
+      {
+        text: 'For Owners',
+        items: [
+          { text: 'Architecture', link: '/architecture' },
+          { text: 'Upgrade Checklist', link: '/upgrade-checklist' },
+        ],
+      },
     ],
   },
 });

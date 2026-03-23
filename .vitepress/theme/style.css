@@ -31,6 +31,33 @@
 }
 
 /**
+ * Dark mode
+ */
+.dark {
+  --vp-c-bg: #18171a;
+  --vp-c-bg-soft: #1f1e22;
+  --vp-c-bg-mute: #28272c;
+  --vp-c-text-1: #f5f4f1;
+  --vp-c-text-2: #a8a29e;
+  --vp-c-text-3: #6b7280;
+  --vp-c-divider: #2e2d32;
+  --vp-sidebar-bg-color: #1f1e22;
+  --vp-c-brand-1: #60a5fa;
+  --vp-c-brand-2: #60a5fa;
+  --vp-c-brand-soft: #1e3a5f;
+}
+
+.dark .VPHero .clip {
+  -webkit-text-fill-color: var(--vp-c-text-1) !important;
+}
+
+.dark .vp-doc h1,
+.dark .vp-doc h2,
+.dark .vp-doc h3 {
+  color: var(--vp-c-text-1);
+}
+
+/**
  * Nav
  */
 .VPNav {
