@@ -76,7 +76,15 @@
 .VPSidebar {
   background-color: var(--vp-c-bg-soft) !important;
   border-right: 1px solid var(--vp-c-divider) !important;
-  padding-top: 32px !important;
+  padding-top: 48px !important;
+}
+
+.VPSidebarItem:first-child {
+  margin-top: 8px;
+}
+
+.VPSidebar .group:first-child {
+  margin-top: 8px;
 }
 
 .VPSidebarItem .text {
@@ -212,7 +220,14 @@
 }
 
 .VPHero .actions {
-  display: none;
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.VPHero .action .VPButton {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
 }
 
 /* Home content below hero */
