@@ -85,7 +85,6 @@ This is the agent's record of who it's helping — you.
 
 - **Name:**
 - **What to call them:**
-- **Pronouns:** (optional)
 - **Timezone:**
 - **Notes:**
 
