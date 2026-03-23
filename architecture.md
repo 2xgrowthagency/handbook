@@ -1,6 +1,6 @@
 # Architecture
 
-For owners. How it actually works.
+This section is for owners and principals. It explains how the system actually works — the memory model, security posture, model selection, and everything else that matters when you're deploying and maintaining agents.
 
 ---
 
@@ -236,4 +236,4 @@ Without re-indexing, new documents don't surface in semantic search.
 
 ---
 
-This is the architecture. If you understand this, you understand how to run, extend, and troubleshoot the system.
+If you understand this, you understand how to run, extend, and troubleshoot the system.

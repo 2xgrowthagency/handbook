@@ -4,7 +4,7 @@ When things go sideways, here's how to fix them.
 
 ---
 
-## Agent Not Responding
+## Agent not responding
 
 **Symptom:** You send a message, nothing comes back.
 
@@ -29,7 +29,7 @@ If the problem persists, check `~/.openclaw/logs/` for errors.
 
 ---
 
-## Wrong Context / Confusion
+## Wrong context / confusion
 
 **Symptom:** Agent gives answers that make no sense, references things from the wrong conversation, or seems to have forgotten recent work.
 
@@ -59,7 +59,7 @@ If the problem persists, check `~/.openclaw/logs/` for errors.
 
 ---
 
-## Skill Install Failed / Wrong Skill Installed
+## Skill install failed / wrong skill installed
 
 **Symptom:** Skill doesn't work as expected, or the wrong skill got installed.
 
@@ -96,7 +96,7 @@ If the problem persists, check `~/.openclaw/logs/` for errors.
 
 ---
 
-## Memory Seems Off (Agent Forgot Something)
+## Memory seems off
 
 **Symptom:** Agent doesn't remember something you told it to remember.
 
@@ -132,7 +132,7 @@ If the problem persists, check `~/.openclaw/logs/` for errors.
 
 ---
 
-## Auth Failures
+## Auth failures
 
 **Symptom:** "Authentication failed" or "token expired" errors.
 
@@ -165,7 +165,7 @@ If the Mac node is disconnected, switch to `profile="openclaw"` (VPS browser) or
 
 ---
 
-## Context Compaction
+## Context compaction
 
 **What it is:** When a session hits 200k tokens, OpenClaw summarizes older messages to free space. You'll see a summary instead of full history.
 
@@ -218,7 +218,7 @@ diff ~/.openclaw/openclaw.json ~/.openclaw/openclaw.json.manual-backup
 
 ---
 
-## Still Stuck?
+## Still stuck?
 
 1. **Check the logs:**
    ```bash
