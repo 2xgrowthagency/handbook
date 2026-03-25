@@ -1,25 +1,26 @@
 # Creating Skills
 
-Not every repeated task deserves to become a skill. But some absolutely do.
+Some workflows are worth turning into skills. The sign is usually repetition: you keep having to explain the same process to your agent, using the same steps, the same inputs, the same expected output. At that point, the workflow has earned its own name and documentation.
 
-The usual sign is simple: you keep having to remind the agent of the same process. Same steps, same tools, same inputs, same expected output, same caveats. At that point, you're not dealing with a one-off request anymore. You're looking at a workflow that wants to be packaged.
+Before a skill exists, the pattern tends to feel like: "Every time we do this, I have to walk the agent through the same setup." After it becomes a skill: "Use the [name] process." The workflow stops living in your head or in temporary context and becomes something reusable.
 
-Before a skill exists, the pattern usually feels like: "Every time we do this, I have to explain the same setup again." Tolerable once. Wasteful the tenth time.
+---
 
-After the workflow becomes a skill, it changes: "This process already has a name, a documented way of working, examples, and known boundaries. Use that." That's not just a convenience improvement — it's operational memory. The workflow stops living half in your head and half in the agent's temporary context. It becomes reusable, teachable, and less fragile.
+## What makes a good skill
 
-A good skill has a tight boundary. One problem, solved well. Clear about what it's for. Clear about what good output looks like. Clear about what assumptions it depends on. And useful outside one specific afternoon that never repeats.
+A few things worth checking before formalizing something as a skill:
 
-Bad skill candidates are usually mushy — trying to absorb too many unrelated tasks, depending on hidden context nobody wrote down, only making sense if one specific person is explaining them live. That's not a skill. That's a habit with branding.
+- Is the process stable, or still changing? Skills work best on workflows that have settled.
+- Is it reusable beyond one specific context? A good skill is useful across projects, not just for one unusual situation.
+- Is the scope clear? One problem, handled well, is better than a skill that tries to absorb several loosely related tasks.
+- Does it have dependencies that are hard to document? If the process only works when a specific person is explaining it live, it's probably not ready to be a skill yet.
 
-The right moment to speak up is when you notice a stable pattern forming. Every project kickoff needs the same prep. A research workflow always uses the same structure. A reporting format keeps proving useful. An SOP is mature enough to stop being passed around informally.
+When a workflow is stable, scoped, and repeatable — that's the moment to ask your agent to turn it into a skill. You're not asking for something new. You're asking for the existing process to be written down, documented with examples, and made executable without hand-holding.
 
-That's when to tell your agent: this should become a skill.
+---
 
-You're not commissioning a novelty project. You're asking for the workflow to harden into a tool. Your agent writes the SKILL.md documentation, structures the examples, defines the boundaries, and makes it repeatable. You don't need to build it yourself — you need to recognize when something's worth building.
+## From SOP to skill
 
-The before-and-after matters. Before: repeated through memory, reminders, and manual explanation. After: captured with clear docs and examples so the agent can execute consistently and anyone else can pick it up without folklore.
+A lot of teams have informal SOPs that get passed around in Slack, explained verbally in onboarding, or re-described every time someone new joins. Skills are what those SOPs look like when they're properly codified — with clear docs, known inputs, expected outputs, and a way for any agent to execute them without the institutional knowledge walking out of the room.
 
-Some skills will stay internal because they're specific to how the team works. Others may eventually be mature enough to share more broadly. Publishing is the last step, not the first. First, the skill needs to prove it solves a real repeated problem cleanly.
-
-If you're repeating yourself, if the workflow is stable, and if the result would benefit from being reusable instead of improvised — it probably wants to become a skill. That's the moment when a good SOP stops being advice and starts becoming infrastructure.
+Some skills stay internal because they're specific to how the team works. Others, once they're mature and broadly useful, can be published to the wider skills ecosystem. Publishing is the final step, not the first one.

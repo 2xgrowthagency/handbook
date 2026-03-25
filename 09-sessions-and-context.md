@@ -2,20 +2,28 @@
 
 A session is the working memory of a conversation.
 
-In this system, each Telegram topic is its own workspace. That's not a cosmetic choice — it's one of the main reasons agents stay organized instead of becoming confused generalists.
+In this system, each Telegram topic is its own workspace — not just for organizational tidiness, but because it gives the agent a cleaner context for each area of work. Keeping projects in separate topics prevents context from bleeding across unrelated jobs and makes it easier for the agent to stay focused on what's actually relevant.
 
-Picture an office with separate project rooms. One room for the website redesign. Another for hiring. Another for a product launch. If you walk into the hiring room and start talking as if everyone has been discussing the website redesign all day, the room won't make sense. The same principle applies here. A topic holds the active context for the work happening there. Keeping projects in separate topics gives the agent cleaner working memory and prevents context from bleeding across unrelated jobs.
+A useful way to picture it: separate rooms for separate projects. Walking into the hiring room and starting a conversation about the website redesign creates confusion. The same applies here — a topic holds the active context for the work happening there.
 
-Context is also finite. Long conversations don't grow forever in perfect detail. Over time, they compress — important points are summarized so work can continue without carrying every line forever. That's not failure. It's how the system stays usable.
+---
 
-The right metaphor: a whiteboard in a project room. At first, everything is written out in full. As work goes on, somebody cleans it up, keeps the important points, and erases what no longer needs to stay visible. The room still works. It just can't keep every past scribble on the wall at once.
+## Context compaction
 
-This is why disciplined topic boundaries matter. One huge all-purpose chat feels convenient until it becomes a junk drawer. Separate topics make it easier for the agent to stay sharp, easier for background work to route back to the right place, and easier for the system to recover when a conversation gets compacted.
+Context is finite. Long conversations don't grow forever in perfect detail. Over time, they get compressed — important points are summarized so work can continue without carrying every line of the conversation indefinitely. This is normal behavior, not a failure.
 
-It's also why you may occasionally see the agent refer back to notes, memory, or prior project context when regaining its footing. That's normal. A well-run system doesn't pretend the current chat should hold everything forever. It uses written memory to preserve continuity beyond what any one live conversation can safely carry.
+Think of a whiteboard that gets tidied up as a project progresses. The important points stay. The rest gets cleared to make room. The work continues, just without every past scribble on the wall.
 
-The practical takeaway: organized topics make smarter agents.
+This is why you may occasionally see your agent refer back to notes, memory, or prior project context when picking up a thread. It's using written memory to bridge what the current conversation can't carry — which is what it's supposed to do.
 
-If a project has its own topic, use it. If a conversation starts drifting into a different project, move it. Give the agent clean rooms to work in rather than one crowded hallway where every conversation echoes into every other one.
+---
 
-You don't need to think about token limits or compaction mechanics. Just remember: topic = project room, session = that room's working memory. When the whiteboard fills up, a good summary plus good written memory beats pretending infinite wall space exists.
+## Practical habits
+
+A few things that help:
+
+- If a project has its own topic, use it consistently.
+- If a conversation drifts into a different project, move it rather than letting it accumulate in the wrong place.
+- One large all-purpose chat feels convenient until it becomes hard to navigate. Separate topics keep each area of work readable.
+
+You don't need to think about token limits or compaction mechanics to use this well. The main idea is simple: cleaner topic boundaries give the agent better working context, and better context produces more useful results.
