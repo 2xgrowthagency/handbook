@@ -6,6 +6,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'All Chapters', link: '/chapters' },
       { text: 'For Agents', link: '/23-agent-onboarding' },
     ],
     sidebar: [
