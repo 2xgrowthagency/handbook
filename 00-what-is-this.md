@@ -2,7 +2,7 @@
 
 This handbook is the plain-English explanation of how our team works with agents every day.
 
-Not product documentation. Not a setup guide. The real thing — how we operate, what we expect from the system, and why it's built this way. The benchmark is the 37signals handbook: honest, opinionated, written by people who actually do this work. If you haven't read it, the idea is simple. A good handbook is a statement of values and method, not a manual for the machinery.
+Not product documentation. Not a setup guide. The real thing — how we operate, what we expect from the system, and why it's built this way. A good handbook is a statement of values and method, not a manual for the machinery. Honest, opinionated, written by people who actually do the work.
 
 The first thing to understand is also the most important: Telegram is the interface. That's where you work with your agent. You don't need to manage infrastructure, open a terminal, or keep a pile of internal files synchronized. You talk to your agent in Telegram, and your agent handles the mechanics behind the scenes.
 
