@@ -1,37 +1,21 @@
 # What Is This
 
-This handbook explains how we work with AI agents at 2x — what we've set up, why we've made the choices we have, and what we've learned along the way.
+This handbook is the plain-English explanation of how our team works with agents every day.
 
-We're not writing from a position of having figured it all out. The field is moving fast and so are we. What you'll find here is honest documentation of a real working system: what the pieces are, how they fit together, and how to get the most out of them.
+Not product documentation. Not a setup guide. The real thing — how we operate, what we expect from the system, and why it's built this way. The benchmark is the 37signals handbook: honest, opinionated, written by people who actually do this work. If you haven't read it, the idea is simple. A good handbook is a statement of values and method, not a manual for the machinery.
 
-If you're new to the team, this should give you a clear picture of how agents fit into daily work without needing a private walkthrough. If you're experienced, it should make the system easier to explain to others.
+The first thing to understand is also the most important: Telegram is the interface. That's where you work with your agent. You don't need to manage infrastructure, open a terminal, or keep a pile of internal files synchronized. You talk to your agent in Telegram, and your agent handles the mechanics behind the scenes.
 
----
+That distinction matters because it changes the job. Your job is not to operate the machine. Your job is to direct the work.
 
-## Two audiences
+In practice, that means your first requests will look a lot like ordinary work. Ask for a thread summary. Check what changed overnight on a project. Draft a response. Pull together background research. Keep an eye on something that tends to drift unless someone's watching. Those are normal uses of the system — and in fact the best uses, because they tie the technology to real output instead of novelty.
 
-There are two audiences for this handbook, and the chapters are written with that in mind.
+Think of this handbook as the answer to "how do we work here?" not "which buttons do I press?" Culture and systems aren't separate things. If the team works through agents every day, the operating model needs to be visible, legible, and shared. A private explanation in someone's head isn't enough. New staff should be able to read this and understand the shape of the system without needing a backstage tour.
 
-**Staff** — people on the team who work with an agent day to day. Your interface is Telegram. You don't manage infrastructure, edit config files, or touch a terminal. You have a conversation, and your agent handles the mechanics.
+There are two audiences here, and that's deliberate. The first is staff: people using agents to get things done. The second is the agents themselves. The early chapters are written for humans and stay focused on what the experience should feel like from Telegram. The later technical chapters are for agents, so they can onboard themselves, maintain continuity, and follow the same operating rules. One handbook, two readers, one operating system.
 
-**Agents** — the agents themselves. The later chapters (23–25) are technical and written for agents to reference during setup and operation.
+That matters for trust. Agents become useful when they're predictable. Predictability doesn't come from pretending the system is magic. It comes from making the relationship clear. You give direction, context, priorities, and feedback. Your agent does the legwork, keeps notes, checks the right things, and comes back with useful work. Over time, the relationship gets sharper because the system is designed to learn from repetition instead of starting fresh every day.
 
-If you're a human reading this: everything through chapter 22 is for you. The agent chapters at the end are there if you're curious, but you don't need them.
+So this handbook exists for a practical reason: to make the way we work understandable. If you're new, it should lower the intimidation factor. If you're experienced, it should make the system easier to explain. And if the operating model is real, it should stand up in public without hand-waving or mystery.
 
----
-
-## How the system works, in one paragraph
-
-You talk to your agent in Telegram. Your agent reads a set of configuration files that define who it is, who it's helping, and how it should behave. It maintains memory across sessions through a layered system of notes and structured knowledge. It can acquire new capabilities by installing skills. It runs background checks and scheduled tasks to stay on top of things without being asked. And when work is too big for one conversation, it can delegate to sub-agents and report back when it's done.
-
-That's the whole thing. The rest of this handbook is just the details.
-
----
-
-## Official docs
-
-This handbook covers how we use OpenClaw at 2x. For the platform itself — installation, configuration, all the core mechanics — the official documentation is the authoritative source:
-
-**[docs.openclaw.ai](https://docs.openclaw.ai)**
-
-Where we've made choices that differ from the defaults, we'll say so. Where we're just using the system as designed, we'll link to the relevant official docs rather than duplicate them.
+That's the standard here.

@@ -14,12 +14,26 @@ This is what makes the memory trustworthy: it doesn't have to pretend the first 
 
 **Synthesis** is the final layer. Facts are useful, but human-readable summaries are what make the system pleasant to work with. So the memory architecture periodically turns active facts into a cleaner "current state" story — not a hallucinated fresh start, but a summary built from what's actually true now.
 
-The historical analogy works well here: journals preserve what happened, index cards preserve facts, summaries tell the current story. You need all three if you want both memory and the ability to correct it.
+The historical analogy: journals preserve what happened, index cards preserve facts, summaries tell the current story. You need all three if you want both memory and the ability to correct it.
 
-This affects behavior more than people realize. It's why the agent can recover after a conversation gets compacted — the durable facts didn't live in the chat. It's why recurring preferences survive longer than the specific session where they were mentioned. It's why the system doesn't have to relearn the same lesson every week.
+---
 
-Good memory isn't just about recall. It's about stability of behavior.
+## Why each layer needs to stay separate
 
-Journal-only memory means knowing too much in the least useful way. Summaries-only means smooth but untrustworthy — the audit trail disappears. Facts-only means correct but hard to read. The architecture works because the layers support each other. Raw history keeps the record honest. Durable facts keep memory updatable. Summaries keep the current state usable.
+Layer confusion is one of the most common ways memory degrades in practice.
 
-That's why the agent can stay aligned over time instead of acting like every week is its first.
+If everything important goes into daily notes but never gets promoted to durable facts or synthesis, the agent can eventually recall anything but retrieve nothing efficiently. The journal becomes an archaeological dig instead of a useful record.
+
+If durable facts get written with vague categories or without timestamps, the audit trail breaks down. When the same fact changes three times, you can't tell which version is current or why the others were superseded.
+
+If curated long-term memory gets treated as a dump for everything rather than a distillation of what matters, it bloats into noise and loses its function as a reliable operating reference.
+
+The separation has to be maintained by design, not just intention. Each piece of information belongs in one layer — and the agent is responsible for routing it correctly, not leaving it wherever it first appeared.
+
+---
+
+## Why this affects behavior
+
+This matters more than people realize. It's why the agent can recover after a conversation gets compacted — the durable facts didn't live in the chat. It's why recurring preferences survive longer than the specific session where they were mentioned. It's why the system doesn't have to relearn the same lesson every week.
+
+Good memory isn't just about recall. It's about stability of behavior. An agent with well-maintained memory layers is less surprising, more consistent, and more useful over time — not because it's smarter, but because it's better organized.

@@ -25,4 +25,16 @@ One way to remember this:
 
 Both matter, but they solve different problems. Without heartbeats, the system becomes reactive and brittle — it only notices things when someone asks. Without crons, the system becomes fuzzy about timing. Together they create a healthier rhythm: the agent maintains the environment quietly where it can, and surfaces punctual information where it should.
 
-So if you ever wonder why one task produced no message while another shows up like an appointment — that's the answer. One is background maintenance. The other is scheduled delivery. Housekeeping versus alarms. That's the whole model.
+---
+
+## How they're designed together
+
+Heartbeats and crons aren't alternatives — they're complementary parts of the same control system. The cleanest setups give each one a distinct job and don't blur the line.
+
+A useful pattern that emerged from practice: separate *prep* from *delivery*. An early-morning cron quietly gathers information and writes it to a file. A later cron reads that file and sends the daily brief. Neither tries to do both. This keeps each job simple, restartable, and easy to debug when something goes wrong.
+
+The same principle applies to long-running delegated work. When an agent launches a background task that might run for an hour or more, a temporary monitor cron can check in every 20 minutes — watching for completion or failure — then cancel itself once the job is confirmed done. That's a cron doing supervision work so the heartbeat doesn't have to carry state it doesn't need.
+
+**Ownership matters.** Each check should have one owner. If the same thing is being watched by both a heartbeat and a cron, you'll eventually get duplicate alerts or, worse, silent gaps when each assumes the other is handling it. Design them together, not independently.
+
+So if you ever wonder why one task produced no message while another shows up like an appointment — that's the answer. One is background maintenance. The other is scheduled delivery. Housekeeping versus alarms.

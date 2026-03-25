@@ -12,10 +12,24 @@ They're tracking project state, delegated work, recurring checks, and background
 
 The best analogy is paperwork. When a document is finished, you file it in the right folder — not on the front desk just because that's where you happened to be standing when you signed it. Routing is filing work in the right place.
 
-This matters even more for long-running or delegated tasks. A job might begin in one conversation, get handed off, monitored elsewhere, and finish much later. If the final update routes back to the topic where that project belongs, the history stays coherent. If it routes based on conversational accident, the trail breaks.
+---
 
-So yes, agents can look less socially natural than humans in this specific way. That's intentional. The goal isn't conversational mimicry at all costs. The goal is keeping work visible in the correct workspace.
+## Why routing has to be explicit
 
-Once you see it that way, the behavior stops looking robotic and starts looking organized.
+Routing in agentic systems can't rely on conversational context. A job might start in one topic, hand off to a sub-agent running in isolation, run for an hour, and complete with no live conversation in scope. At that point, the only way the completion update reaches the right place is if the destination was recorded when the job started — not inferred at the end.
 
-Project updates go in project topics. Background task completions go where the task belongs. Personal chat stays personal. That discipline is one of the reasons the system scales beyond one-off back-and-forths — the agent isn't just replying, it's maintaining a usable project record that other people, and future conversations, can still make sense of.
+This is why routing information (which topic, which group, which thread) is set up front and carried through the job lifecycle. The alternative — figuring out where to send the update when the work is done — produces the wrong answer often enough to be unreliable.
+
+The same applies to long-running monitoring work. A heartbeat checking on overnight progress needs to send its alert to the same project topic the job belongs to, not to the topic where the heartbeat happens to be running. These are different topics, and the system has to be explicit about which is which.
+
+---
+
+## What breaks when routing is implicit
+
+The symptom is familiar: completion messages landing in the wrong place, alerts appearing in personal chats, project updates going to a general ops thread instead of the relevant project topic. The information is right. The location is wrong.
+
+When this happens consistently, it erodes trust in the system. The history of a project stops being readable in one place. People start wondering which channel to actually watch. The overhead of tracking "where did that update go?" starts eating into the time the system was supposed to save.
+
+Good routing discipline prevents this. Project updates go in project topics. Background task completions go where the task belongs. Personal chat stays personal.
+
+Once you see it that way, the behavior stops looking robotic and starts looking organized. The agent isn't just replying — it's maintaining a usable project record that other conversations, and future agents, can still make sense of.

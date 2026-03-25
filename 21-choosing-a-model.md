@@ -8,18 +8,30 @@ The broad pattern is easy to understand.
 
 For lightweight monitoring and mechanical checks, a smaller model often makes the most sense. If the job is routine and the stakes are low, paying for maximum horsepower is unnecessary. These are the errands — quick, frequent, cheap.
 
-For strategy, writing, planning, and editorial judgment, a stronger general model earns its keep. These are the tasks where nuance, synthesis, and better reasoning matter more than raw speed. A strong response to a messy decision is worth the extra cost.
+For strategy, writing, planning, and editorial judgment, a stronger general model earns its keep. These are the tasks where nuance, synthesis, and better reasoning matter more than raw speed.
 
 For the heaviest analysis and demanding coding work, the team steps up again. Harder jobs justify more capable models because the cost of weak reasoning or brittle implementation is higher than the cost of using the right tool.
 
 The operating principle: use the least expensive model that reliably does the job well, then step up when the complexity or stakes justify it.
 
-The vehicle analogy fits. You don't use the same vehicle for running errands, hauling freight, and precision construction. You pick the tool that matches the load.
+---
 
-A lighter model can be excellent for quiet background checks. A stronger one earns its place when thinking through a messy decision or drafting something that needs sound judgment. The heaviest work — especially coding and long analytical loops — often needs the most capable setup available.
+## How this evolved
 
-Staff don't need to become model shoppers. The point isn't to memorize spec differences or chase benchmarks. The point is to understand that the system's choices are deliberate. If one task gets a lighter touch and another gets the heavyweight setup, that's not inconsistency — it's fit.
+Model selection didn't arrive fully formed. The practical breakdown — lighter model for monitoring, general model for strategy, strongest available for heavy execution — emerged through a process of trial, cost analysis, and reversal.
 
-This also protects the system from a common mistake: defaulting to the most expensive option because it feels safer. Sometimes that's justified. Often it's lazy. Good operations means matching capability to the job, not reflexively reaching for maximum power every time.
+Early on, the most capable model available was used for everything because it felt safer. That turned out to be neither economically sustainable nor operationally necessary. Lightweight checks don't benefit from heavyweight reasoning. The cost was real; the improvement wasn't.
 
-Right tool, right task, right cost. That's not glamour — it's just competent resource allocation at scale.
+The reversal happened incrementally. First, monitoring tasks moved to cheaper models. Then coding loops moved to a dedicated execution environment rather than using general-purpose models. The remaining category — strategy, writing, complex decisions — stayed with the strongest general-purpose model because that's where judgment actually matters.
+
+The lesson: model choice is part of system design, not a personal preference. The right model for a task is the one that reliably does the job at the lowest cost, not the most impressive one available.
+
+---
+
+## One distinction worth making
+
+There's a difference between a *model* and an *execution environment*. A general-purpose AI model can write code. A dedicated coding environment can also execute, verify, and self-correct within a constrained workspace. These aren't interchangeable.
+
+For conversational coding help or small changes, a strong general model is fine. For multi-hour implementation tasks that touch files, run builds, and check their own outputs, a dedicated coding environment does meaningfully different work. Knowing the distinction — and using the right thing for the job — is part of model selection discipline.
+
+Staff don't need to become model shoppers. The point is to understand that the system's choices are deliberate. Right tool, right task, right cost.
