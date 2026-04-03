@@ -1,42 +1,17 @@
 # Coding Agents
 
-Coding work is different from ordinary conversational work. It breaks more easily, takes longer, and is much easier to misreport as "done" when it's only half done.
+Coding work is brittle because small mistakes can look invisible until they hit users.
 
-That's why the system treats coding as a special case. It uses dedicated coding agents, structured briefs, QA loops, and explicit routing — instead of pretending a complex implementation task should behave like a quick chat request.
+A response can sound complete while a route still 404s, a build quietly fails, or an existing page breaks as collateral damage. That is why coding tasks need stricter handling than normal chat tasks.
 
-The reason is practical. Coding work touches files, dependencies, builds, routing, copy, environments, and behavior that often can't be judged from a neat status update. A task can sound finished while still failing in the browser, missing a route, breaking an existing page, or forgetting a deployment step.
+Take a common request: "Fix the landing page CTA and update routing for the new campaign slug." That sounds simple. In practice it touches copy, templates, route config, internal links, and sometimes sitemap behavior. A single missed check can ship a broken URL.
 
----
+The reliable workflow is deliberate. Your agent writes a concrete brief with scope and done criteria. It delegates implementation to a coding-focused execution session. It monitors progress while the work runs. Then it verifies outputs before calling anything finished.
 
-## The orchestration/execution split
+Verification is where quality is won or lost. "Implemented" is not enough. The changed files must exist, checks must pass, updated URLs must respond correctly, and existing pages must still work. If routing changed, related pages and sitemap behavior must be re-checked.
 
-One of the more useful distinctions in coding workflows: the agent that decides what to build and the agent that builds it don't have to be the same agent.
+This is also why orchestration and execution are often split. The orchestrating agent handles planning, tracking, and acceptance criteria. The coding agent handles file edits and iterative fixes in a workspace built for execution. One owns mission quality, the other owns implementation detail.
 
-Orchestration — breaking down a task, writing the brief, tracking progress, verifying output — benefits from strong reasoning and judgment. Execution — writing files, running checks, iterating on failures — benefits from a coding-specific environment designed for that kind of work.
+For staff, the practical takeaway is simple: stricter process on coding tasks is not overkill. It is how you avoid brittle outcomes that look done in chat but fail in reality.
 
-Mixing these roles into one long conversation creates pressure on context limits and produces messier results than keeping them separate. The orchestrating agent stays responsible for the outcome. The executing agent does the implementation inside its own session.
-
-This split matters for cost as well. Orchestration doesn't require the most expensive coding environment. Execution does. Using the right tool for each phase keeps both quality and cost in the right range.
-
----
-
-## What "done" actually means for coding work
-
-The definition of done for coding tasks is stricter than it sounds. A sub-agent can produce a confident, detailed completion message while the actual files are unchanged. Rate limits, context compression, and tool failures can result in an agent that believes it completed the work when it didn't.
-
-The standard verification sequence:
-- Expected files exist and contain the right content
-- Build passes (if applicable)
-- Changed URLs return expected responses
-- Changes are committed and pushed (not just local)
-- Sitemap and routing haven't broken existing pages
-
-"Looks finished from here" isn't sufficient. "Local done" is not done. The completion is only real when the artifacts are real.
-
----
-
-## For staff
-
-You don't need to manage this directly. The point is to understand why coding work gets different treatment — why your agent writes a brief, launches a separate session, monitors it, and checks results before reporting completion. That behavior exists because coding tasks are unforgiving enough that casual handling produces unreliable results.
-
-When the workflow is stricter, the outcomes are more trustworthy. That's the tradeoff, and it's worth it.
+When your agent pauses to brief, delegate, monitor, and verify, it is doing exactly what reliable software work requires.

@@ -1,29 +1,25 @@
 # Core Files
 
-Sooner or later your agent will mention a file with a name like `SOUL.md` or `HEARTBEAT.md`. If you haven't seen the system before, that can sound more technical than it needs to.
+Think of the system like a theater. Telegram is the stage where the audience sees the performance. The files are backstage: role notes, safety rails, cue cards, and continuity logs that keep the show coherent when scenes change.
 
-The useful way to think about these files: they're not homework for you. They're backstage materials your agent uses to stay consistent, remember things, and behave well over time.
+That framing matters because new teams often misread these file names as technical homework. They are not. You are not expected to become a file manager. You work with your agent in conversation, and it keeps the backstage in order.
 
-Telegram is the frontstage. That's where the conversation happens. The file system is backstage — where the cues, rules, and continuity live so the whole thing doesn't fall apart between scenes.
+Here is what each file is actually for:
 
-Here's the plain-English version of the main files.
+`SOUL.md` is the character brief and guardrail contract — how the agent should sound, what lines it does not cross, and how it handles privacy and safety by default.
 
-**`SOUL.md`** is personality and boundaries. It tells your agent how to show up: tone, restraint, safety rules, privacy lines, and what's out of bounds. If your agent knows not to treat a random instruction buried inside an email as legitimate, or knows not to act as your spokesperson in a group chat without being asked — that kind of rule lives here.
+`USER.md` is the human context card — who the agent serves, how that person works, and what preferences should stay stable over time.
 
-**`USER.md`** is the "who am I helping?" file. It gives the agent a grounded picture of the person it serves: preferences, context, working style, and whatever else helps it avoid treating every conversation like it came from a stranger.
+`IDENTITY.md` is the current role badge — what job this agent is playing in this workspace, distinct from its broader personality.
 
-**`IDENTITY.md`** is the role card — narrower than `SOUL.md`. It answers: what specific role is this agent playing in this environment right now?
+`AGENTS.md` is the operating playbook — session startup behavior, memory routines, coordination norms, and recovery steps when context gets thin.
 
-**`AGENTS.md`** is the operating manual for the workspace. It covers how the environment runs, how memory works, what gets checked routinely, how delegated work is tracked, and what the recovery playbook looks like when the agent needs to regain context.
+`TOOLS.md` is the field notebook — environment quirks, tool caveats, and local details too specific to belong in a general handbook.
 
-**`TOOLS.md`** is the practical notes file — environment-specific details, known caveats, and how the agent should use available tools. The kind of thing that matters in practice but doesn't belong in a general personality file.
+`HEARTBEAT.md` is the maintenance rhythm — recurring checks that happen quietly in the background, with escalation only when there is real signal.
 
-**`HEARTBEAT.md`** is the recurring maintenance list. It tells the agent what should be checked in the background, what needs a regular review rhythm, and which kinds of upkeep should happen quietly unless there's actual signal to report.
+When those files are healthy, the agent feels consistent. It remembers how you like things done. It keeps recurring work from slipping. When they go stale, quality drifts in subtle ways first, then obvious ways.
 
-Why should you care if you're not the one touching these files?
+The right behavior for staff is simple: if something changes, tell your agent. If something feels off, tell your agent. If a new preference matters, say so. Your agent translates that into backstage updates so the next conversation starts from the right baseline.
 
-Because they're a big part of why your agent feels coherent instead of random. When they're healthy, the agent behaves more consistently across sessions. It keeps your preferences straight. It handles recurring maintenance without needing the same explanation every time. It's less likely to drift into bad habits or lose the thread after a restart.
-
-And importantly: staff shouldn't feel pressure to manage the system personally. You don't need to maintain a mental map of the backstage. Your agent handles it. The right staff behavior isn't "go edit the file yourself" — it's "tell your agent what changed, what matters, or what feels off." The agent updates its backstage accordingly.
-
-When you hear one of these file names, don't read it as a demand for technical involvement. Read it as a reminder that your agent has a backstage, and that backstage is what makes the frontstage smoother and more durable.
+When a file name comes up, do not read it as "you need to touch the system." Read it as "the system has memory and structure behind the chat window" — which is exactly why it can stay reliable over time.

@@ -1,41 +1,17 @@
 # Inter-Agent Communication
 
-Once a team uses more than one agent, coordination becomes its own problem.
+A multi-agent setup works like a production team: one producer, several specialists.
 
-Without a pattern, multiple capable agents don't create clarity — they create noise.
+The producer owns the mission. Specialists own scoped assignments. If everyone starts producing and executing at the same time, you do not get speed, you get noise.
 
-The model that works: one coordinator, multiple workers.
+This is especially important with agents because they are highly responsive. Without clear boundaries, a status update can be misread as a new assignment, which triggers another response, which triggers another response. Soon the system is busy talking to itself while progress stalls.
 
-The coordinator owns the mission. It decides what the task is, what should happen next, what counts as done, and how blockers get handled. Worker agents take scoped assignments, report status, and don't invent new missions for themselves mid-job.
+So the communication pattern is intentionally strict. Status reports are reports, not task invitations. Specialists report up to the coordinator, not sideways to other specialists. The coordinator opens work, decides next steps, and closes loops. Blockers escalate upward for decisions instead of being improvised in isolation.
 
-That structure exists for the same reason a good producer exists in film or event production. Specialists are valuable, but somebody still has to own the whole. If every specialist starts directing everyone else, the project gets louder without getting better.
+None of this is bureaucracy. It is how you prevent loops, responsibility confusion, and parallel efforts that collide.
 
-This is especially important for agents because they're good at responding. Leave the boundaries vague and they can start responding to each other's updates as if every status note were a new invitation to act. That's how loops start. One agent sends a status check, another treats it as a task, the first answers the answer — suddenly the system is generating activity without producing progress.
+When this pattern is in place, scaling gets easier. One specialist can handle research, another can handle implementation, another can monitor long-running jobs, and the human still has a single place to understand mission state.
 
----
+When the pattern is missing, symptoms show up fast: duplicated work, contradictory actions, and update chatter that sounds active but produces little.
 
-## The anti-loop rules
-
-The most important discipline in multi-agent communication isn't the message format — it's what doesn't get sent.
-
-A few rules that prevent loops from forming:
-
-**Status is not a task.** When a worker agent reports progress or completion, that report goes up the chain. It doesn't trigger a new assignment from the coordinator unless the coordinator explicitly decides to create one.
-
-**One agent opens the loop, one closes it.** The coordinator opens a task by assigning it. The coordinator closes the task by receiving the result and deciding what's next. Workers don't close their own loops by escalating back down.
-
-**Workers report up, not sideways.** A worker agent sends results to the coordinator, not to other worker agents. Agents talking directly to each other without coordinator involvement is where task ownership gets confused.
-
-**Blockers get escalated, not resolved unilaterally.** If a worker hits something it can't handle, it reports the blocker up. It doesn't improvise a workaround that might conflict with what the coordinator intended.
-
----
-
-## For staff
-
-For staff, the benefit is straightforward. Cleaner ownership means fewer crossed wires. If there's a blocker, the coordinator resolves it. If there's a result, the coordinator reports it. If there's parallel work happening, you still have one place to understand what's going on.
-
-This also makes scaling possible. One agent can manage the mission while others take specialized chunks — research here, coding there, monitoring somewhere else. The human doesn't need to manually orchestrate every handoff because the coordination pattern already exists.
-
-The key point: inter-agent communication isn't valuable because agents are chatting with each other. It's valuable because the conversation is structured enough to support real work without chaos. One coordinator. Several specialists. Clear handoffs. No improvising new missions just because a message arrived.
-
-That's what keeps multi-agent work from becoming multi-agent confusion.
+If you remember one line, remember this: specialists execute, coordinators decide. That boundary is what turns many agents from a novelty into a reliable operating system.

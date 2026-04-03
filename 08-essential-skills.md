@@ -1,21 +1,17 @@
 # Essential Skills
 
-The baseline capability that makes an agent genuinely useful for day-to-day work tends to fall into a consistent set of categories. The exact stack varies by role, but the categories hold across most setups.
+Most teams over-index on flashy capabilities and under-index on the boring ones that make agents reliably useful. The question is not "what is possible?" It is "what does daily work actually require?"
 
-**Research.** Gathering information from the web, comparing sources, returning something structured enough to act on. Without this, "look into this" requests become guesswork.
+Research is the foundation. "Look into this" is one of the most common requests agents receive, and weak research turns it into confident nonsense. A capable research stack gathers sources, compares claims, and returns something you can act on — not a plausible-sounding summary with nothing behind it.
 
-**Communication.** Working cleanly inside the team's actual workflow — summarizing threads, preparing responses, routing updates to the right place, keeping communication attached to the right project context. An agent that can't operate in the environment the team actually uses is limited in ways that show up quickly.
+Communication capability sounds obvious until you watch it fail. Summaries, draft replies, routing updates to the right project thread — these are not nice-to-have. They are the difference between an agent that fits your team and one that creates extra work. If your agent handles good research but loses outputs in the wrong topic or produces drafts that need complete rewrites, the efficiency gains disappear.
 
-**Memory and search.** Recovering project history, connecting current work to prior decisions, finding relevant context without rereading everything from scratch. This layer tends to be underestimated until it's missing.
+Memory and retrieval are where most teams underinvest, usually because the cost is invisible at first. You brief the same context again. The agent asks for background it already heard. A decision from two weeks ago has to be re-explained. Good memory support prevents the re-briefing tax and lets work build on itself instead of resetting each session.
 
-**Browser capability.** Some tasks require direct interaction with how a site or service actually behaves — not a cached summary of it. Research, verification, and workflow checks often fall into this category. Not every role needs this constantly, but the ceiling becomes visible fast when it's absent.
+Browser capability matters whenever your work touches live systems. Some tasks require knowing what is actually true on a page right now, not what a cached summary says. Without this, verification tasks, workflow checks, and much of real-world research are guesswork.
 
-**Code and repository work** (for technical roles). Inspecting, editing, and verifying work that lives in files. Without this, an agent can discuss implementation but not carry it through.
+If the role is technical, code and repository capability turns the agent from an advisor into a contributor. Otherwise it can describe the work but cannot carry it.
 
-**Safety and vetting.** A disciplined way to evaluate new skills before they're trusted. This is part of the baseline stack, not an optional add-on — adding capability without the ability to evaluate it safely is its own risk.
+Finally, vetting belongs in the core stack, not bolted on later. Expanding capability without disciplined review just means expanding risk faster.
 
----
-
-These categories reflect the actual work agents get asked to do: watching for important changes, summarizing noisy situations, researching quickly, preparing material for project threads, maintaining continuity across days and topics, helping with technical work, and doing all of that without creating new risks.
-
-The goal isn't to collect as many capabilities as possible. A smaller, well-chosen stack tends to outperform a larger, unfocused one.
+Fewer skills, chosen well, aligned to actual operations. That stack beats a large collection of rarely-used tools every time.

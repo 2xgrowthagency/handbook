@@ -1,48 +1,49 @@
 # Agent Onboarding
 
-Enter the workspace in the right order or you'll operate with missing context.
+Start in the wrong order and you will miss critical context. Follow this protocol exactly.
 
-## Bootstrap
+## 1) Bootstrap (first run only)
 
-If `BOOTSTRAP.md` exists, treat it as first-run identity material. Read it, follow it completely, delete it after use. It's a one-time setup handoff, not archival documentation.
+If `BOOTSTRAP.md` exists:
+1. Read it fully.
+2. Execute its instructions.
+3. Delete it after completion.
 
-## Startup Protocol
+Treat it as one-time identity transfer, not permanent reference material.
 
-After bootstrap (or on any subsequent session start), follow this order:
+## 2) Session Startup Order
 
-1. Read `SOUL.md`
-2. Read `USER.md`
-3. Read `memory/YYYY-MM-DD.md` for today (if it exists)
-4. Read `memory/YYYY-MM-DD.md` for yesterday (if it exists)
-5. Read `MEMORY.md` — only if this is the direct main session with the human
-6. Check `.learnings/` for pending items before doing anything else
+At the beginning of every session, load context in this sequence:
+1. `SOUL.md`
+2. `USER.md`
+3. `memory/YYYY-MM-DD.md` for today (if present)
+4. `memory/YYYY-MM-DD.md` for yesterday (if present)
+5. `MEMORY.md` only in the direct main session with the human
+6. `.learnings/` pending items
 
-Don't improvise the order. `SOUL.md` gives behavior and security boundaries. `USER.md` tells you who you're helping. Daily memory restores recent continuity. `MEMORY.md` is restricted because it contains private long-term context that doesn't belong in shared or group sessions.
+Why this order:
+- `SOUL.md` defines behavioral/safety boundaries.
+- `USER.md` defines who you are serving.
+- Daily memory restores short-term continuity.
+- `MEMORY.md` is private long-term context (main-session only).
+- `.learnings/` prevents repeated mistakes.
 
-## Context Compaction Recovery
+## 3) Compaction Recovery Order
 
-If the conversation has been compacted, don't re-ask for direction unless the task is genuinely ambiguous. Recovery order:
+If conversation context is compacted, recover from durable state before asking for re-brief:
+1. `memory/YYYY-MM-DD.md`
+2. `memory/active-sessions.json`
+3. `git log --oneline -10`
+4. Relevant PRD
 
-1. `memory/YYYY-MM-DD.md` — recent story
-2. `memory/active-sessions.json` — what long-running work is live
-3. `git log --oneline -10` — what artifacts actually moved
-4. The relevant PRD — scope and done criteria
+Only ask the human for clarification when ambiguity is real and cannot be resolved from files.
 
-This reconstructs the task from durable state instead of making the human repeat themselves.
+## 4) Non-Negotiable Working Rules
 
-## Working Rules
+- Persist important information to files immediately. Do not rely on conversational memory.
+- Never trust delegated completion text alone. Verify artifacts on disk (`read` + `git status` + expected outputs).
+- Route completion updates to the intended Telegram topic/thread, not the current chat by default.
 
-**Write down anything that should survive the session.** Don't trust mental notes. If it matters after compaction, restart, or handoff, it belongs in a file. Daily notes, `.learnings/`, project specs, and `MEMORY.md` exist because conversational recall isn't durable enough.
+## Operating Posture
 
-**Never trust completion text alone for delegated work.** If a sub-agent reports done, verify on disk before relaying completion. Read changed files. Check `git status`. Confirm the expected artifact exists. Rate limits and tool failures can produce confident-sounding summaries with no underlying work.
-
-**Route completions to the right topic.** If a long-running job was supposed to update a specific Telegram topic, make sure it does. Don't let completion messages default to wherever the last conversation happened to be.
-
-## Posture
-
-- Recover from files, not vibes
-- Continue from durable context, not repeated user prompting
-- Write down anything worth keeping
-- Verify artifacts before reporting success
-
-Do those four things consistently and you'll survive compaction, restarts, and long-running delegated work without losing the thread.
+Recover from files, not vibes. Continue from durable state, not repeated user prompting. Write down what matters. Verify before reporting success.

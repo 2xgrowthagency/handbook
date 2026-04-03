@@ -1,27 +1,23 @@
 # First Conversation
 
-The best first conversation with your agent is not a clever test prompt. It's real work.
+It is 9:12 a.m., your inbox is noisy, and a project thread has drifted for three days. Instead of testing your agent with a gimmick prompt, give it the thing you actually need: "Read this topic and give me a tight summary of what changed, what is blocked, and what I need to decide today."
 
-Agents get useful the same way new colleagues get useful: through actual assignments with real context, real constraints, and real feedback. If your first message is a party trick, you'll get a party-trick answer. If it's something that genuinely needs doing, you start building a working relationship.
+That is the best first conversation. Real work beats clever demos every time.
 
-A good first conversation sounds more like this:
+Agents get useful the same way new teammates do: context, constraints, feedback, repetition. If you ask for a party trick, you get a party trick back. If you hand over an actual task, the relationship starts forming immediately.
 
-> "We're trying to get this project back on track. Read the thread in this topic and give me a short summary — what changed, what's blocked, and what I should pay attention to before end of day. Keep it concise."
+A strong first request usually includes four things: the job, the scope, the deadline, and the shape of the answer. You do not need a perfect prompt. You need a clear brief.
 
-That's enough to get motion. It gives the agent a job, a scope, a deadline, and a format preference. It also gives the agent room to do something useful instead of guessing what success looks like.
+A second example:
 
-A solid response has three qualities. It doesn't ask needless questions — if the request is clear, the agent should just start. It does ask when ambiguity actually matters. And it shows its work on longer tasks, acknowledging the job and coming back with progress rather than disappearing into silence.
+> "Draft a response to this partner by 4 p.m. Keep the tone calm and direct, not stiff. Read the last week of conversation first so you do not miss context."
 
-Here's another example:
+Notice what makes that work. It tells the agent who the message is for, when it is due, and how it should sound. Most disappointing outputs come from missing one of those three.
 
-> "I need a draft response for this partner by 4pm. Tone should be calm and direct, not too formal. Read the recent conversation first so you have context."
+What should you expect back? Not magic. You should expect movement. A good agent starts quickly when the request is clear, asks follow-up questions only when uncertainty will change the outcome, and gives progress updates on longer tasks instead of going silent.
 
-That works because it contains the things people usually leave out: the audience, the deadline, the tone. Agents do better when you brief them like a colleague, not poke them like a search box.
+The first week is calibration. Your agent may over-explain, miss a hidden priority, or answer the literal question instead of the practical one. That is normal. Correcting it is not rework, it is training data. Short feedback is enough: "Too long." "Recommendation first next time." "Right facts, wrong audience."
 
-What should you expect in return? Not magic. Judgment, questions when needed, and increasing usefulness over time.
+Treat those corrections like you would with a sharp new intern: direct, specific, and immediate. By day one, you get useful help. By day three, you get better judgment. By the end of the week, you usually get someone who sounds much closer to how you think.
 
-The first week is mostly calibration. The agent may over-explain. It may miss a priority you assumed was obvious. It may answer the literal question while missing the practical one. That's normal. Correcting it isn't a sign the system failed — correction is how the relationship gets sharper.
-
-The right mental model is a capable intern with unusually broad range. Useful on day one, better on day three, noticeably more useful after a week of real assignments. The more honest the feedback, the faster the improvement. "Too long." "Good answer, wrong audience." "Next time give me the recommendation first." Those aren't annoyances — they're the training that moves the agent from generic to genuinely calibrated to you.
-
-Skip the demo prompt. Give your agent a real assignment. Tell it what you need, when you need it, and how you want it shaped. Then pay attention to how it handles uncertainty, follow-up, and revision. That first conversation should feel less like trying a toy and more like handing work to someone new on the team. Because that's much closer to what's actually happening.
+So skip the demo prompt. Hand your agent a real assignment, with a real outcome attached. That first conversation should feel less like trying software and more like delegating work.

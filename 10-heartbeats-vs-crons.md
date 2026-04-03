@@ -1,40 +1,17 @@
 # Heartbeats vs Crons
 
-Staff often notice two kinds of agent behavior. Some things happen quietly in the background. Other things arrive at a specific time, like clockwork.
+Use this rule: heartbeats maintain awareness, crons keep time-based promises.
 
-That difference is the difference between heartbeats and crons.
+A heartbeat is your agent quietly checking the environment on a rhythm and speaking only when there is signal. Example: it scans key project topics during the day and alerts you only when something important changed. No change, no message.
 
-The easiest way to understand it is purpose, not mechanics.
+A cron is a scheduled commitment that should happen at a specific time. Example: a daily brief arrives at 9:00 a.m. sharp every weekday. If it is late or missing, that is a failure.
 
-**Heartbeats** are recurring background check-ins. Think housekeeping. The agent looks around at regular intervals, checks whether anything needs attention, and keeps the system healthy — without turning every check into a message. These are the wandering-the-office tasks: look around, see what needs attention, speak up only if there's actual signal.
+That is the distinction most people need. Heartbeats are maintenance loops. Crons are calendar-grade deliveries.
 
-**Crons** are precise scheduled jobs. Think calendar alarms. They exist for tasks that need to happen at a specific time, not just "roughly throughout the day." Exact timing matters, so the system treats them differently.
+Once you see that, behavior that felt odd starts making sense. Silence after a heartbeat pass is often success, not neglect. A missed cron is a real issue, because timing was the point.
 
-That distinction explains a lot of agent behavior. If your agent is quietly monitoring active work, keeping memory tidy, or checking whether something noteworthy changed — that's heartbeat territory. If your agent sends a morning brief at a set hour or fires off a timed reminder — that's cron territory.
+The best systems use both without overlap. Heartbeats watch for changing conditions and keep drift under control. Crons handle exact-time workflows such as reminders, report delivery, or phased handoffs.
 
-Why should staff care? Because it makes the silence make sense.
+A useful pattern is to separate prep from delivery: one scheduled job gathers and stages information earlier, another scheduled job sends the final output at the promised time. Each step stays simple, observable, and recoverable.
 
-A healthy system doesn't narrate every maintenance action. If a heartbeat checks five things and none of them produced anything worth surfacing, the correct behavior is silence. That's not the system forgetting. That's the system doing its job without cluttering your day.
-
-Crons are different. If something is meant to show up at a certain time, you should expect it at that time. Their whole purpose is punctuality.
-
-One way to remember this:
-
-- Heartbeats keep awareness alive.
-- Crons keep promises on a clock.
-
-Both matter, but they solve different problems. Without heartbeats, the system becomes reactive and brittle — it only notices things when someone asks. Without crons, the system becomes fuzzy about timing. Together they create a healthier rhythm: the agent maintains the environment quietly where it can, and surfaces punctual information where it should.
-
----
-
-## How they're designed together
-
-Heartbeats and crons aren't alternatives — they're complementary parts of the same control system. The cleanest setups give each one a distinct job and don't blur the line.
-
-A useful pattern that emerged from practice: separate *prep* from *delivery*. An early-morning cron quietly gathers information and writes it to a file. A later cron reads that file and sends the daily brief. Neither tries to do both. This keeps each job simple, restartable, and easy to debug when something goes wrong.
-
-The same principle applies to long-running delegated work. When an agent launches a background task that might run for an hour or more, a temporary monitor cron can check in every 20 minutes — watching for completion or failure — then cancel itself once the job is confirmed done. That's a cron doing supervision work so the heartbeat doesn't have to carry state it doesn't need.
-
-**Ownership matters.** Each check should have one owner. If the same thing is being watched by both a heartbeat and a cron, you'll eventually get duplicate alerts or, worse, silent gaps when each assumes the other is handling it. Design them together, not independently.
-
-So if you ever wonder why one task produced no message while another shows up like an appointment — that's the answer. One is background maintenance. The other is scheduled delivery. Housekeeping versus alarms.
+When teams blur the roles, they create duplicates, gaps, or noisy alerts. When roles are clean, the rhythm feels natural: quiet upkeep in the background, punctual outputs when they matter.

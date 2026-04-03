@@ -1,57 +1,51 @@
 # Agent Self-Improvement
 
-Self-improvement is not reflection. It's maintenance.
+If it matters, write it down immediately. No exceptions.
 
-If a mistake, correction, failure, or better pattern matters, write it down where future agents will see it.
+Self-improvement is not private reflection. It is durable operational memory for future sessions and future agents.
 
-## The Pipeline
+## Where to Log
 
-**`.learnings/ERRORS.md`** — unexpected command failures, tool failures, API failures, and operational faults that shouldn't vanish after the session ends.
+- `.learnings/ERRORS.md`: unexpected command/tool/API/infrastructure failures
+- `.learnings/LEARNINGS.md`: categorized improvements
 
-**`.learnings/LEARNINGS.md`** — use these categories:
-- `correction` — the human told you you were wrong
-- `best_practice` — you found a cleaner approach
-- `knowledge_gap` — your knowledge was outdated or incorrect
+Use categories in `LEARNINGS.md`:
+- `correction`: human corrected you
+- `best_practice`: better repeatable method discovered
+- `knowledge_gap`: outdated/incorrect knowledge exposed
 
-**Log immediately when the event occurs.** Don't trust end-of-day memory. If the command failed unexpectedly, write it down then. If the human corrected you, write it down then. Delay is how useful lessons die.
+## When to Log
 
-## What Triggers a Log Entry
+Log at event time, not later. Delayed logging loses details and weakens future utility.
 
-- A shell command fails in a way you didn't expect
-- A tool or API behaves differently than assumed
-- The human says you were wrong or redirects your approach
-- You discover a cleaner pattern that should become default behavior
-- Your knowledge was outdated and had to be corrected
+Trigger events include:
+- Unexpected command failure
+- Tool/API behavior mismatch
+- Human correction or redirection
+- Discovery of a cleaner repeatable approach
+- Outdated knowledge requiring correction
 
-## Promotion Targets
+## Promotion Rules
 
-| Learning type | Promote to |
-|---|---|
-| Tool or infra gotchas | `TOOLS.md` |
-| Workflow patterns | `AGENTS.md` |
-| Behavioral or style corrections | `SOUL.md` |
-| Concepts or frameworks | `brain/areas/concepts/` |
-| Project-specific lessons | `brain/areas/projects/<name>/` |
+Promotion targets:
+- Tool/infra lessons -> `TOOLS.md`
+- Workflow patterns -> `AGENTS.md`
+- Behavior/style corrections -> `SOUL.md`
+- Conceptual frameworks -> `brain/areas/concepts/`
+- Project-specific lessons -> `brain/areas/projects/<name>/`
 
-Promote when the lesson is broadly useful, likely to prevent repeated mistakes, or worth any future agent inheriting. Not every log entry deserves promotion — don't inflate the permanent files. Move durable guidance to the files that shape future behavior.
+Promote when lesson is broadly useful, likely to prevent recurrence, or worth inheriting system-wide.
 
-Track status on every entry: `pending`, `promoted`, `resolved`. Once promoted, note the destination file. The audit trail should make it obvious what happened to the lesson.
+Track status per entry: `pending`, `promoted`, or `resolved`. If promoted, record destination file.
 
-## Saturday Review
+## Weekly Maintenance
 
-The formal maintenance pass runs on Saturday:
+Run a scheduled review (Saturday):
+1. Scan pending items.
+2. Decide promote/resolve/keep pending.
+3. Update status and destinations.
+4. Backfill any missed high-impact events.
 
-1. Scan pending items in `.learnings/`
-2. Decide for each: promote, resolve, or keep pending
-3. Update statuses and destinations
-4. Backfill anything important that daily work missed
+## Operating Rule
 
-This keeps the queue from becoming a graveyard of good intentions.
-
-## The Rule
-
-If it matters, write it to the file future agents will actually read.
-
-A lesson trapped in conversation is not a lesson the system learned. A correction remembered vaguely won't survive compaction. A better practice that never gets promoted is just luck waiting to expire.
-
-Capture the event. Classify it. Promote the durable part. Keep the queue clean. That's how mistakes become better defaults instead of recurring personalities.
+A lesson that stays in chat is not learned. A correction not written down will be repeated. Capture, classify, promote, and maintain the queue.

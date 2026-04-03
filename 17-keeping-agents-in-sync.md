@@ -1,19 +1,21 @@
 # Keeping Agents in Sync
 
-One agent drifting out of alignment is annoying. Several agents drifting in different directions is an operational problem.
+One out-of-sync agent is a nuisance. Ten out-of-sync agents is a systems failure.
 
-As the stack evolves, agents can slowly diverge from each other: different base files, different habits, different model defaults, different upgrade states, different skill sets, different assumptions about how the team works. If nobody pays attention, "they should behave roughly the same" quietly becomes false.
+The fleet analogy is exact. If one car has bad alignment, you can still drive. If every car in the fleet has different maintenance history, tire pressure, and steering drift, operations become unpredictable. Agent stacks behave the same way.
 
-The symptoms are familiar. One agent gives cleaner answers than another for no obvious reason. One routes work properly while another drops updates in the wrong place. One knows a newer convention; another still follows an older rule. Suddenly the team is spending attention on inconsistency instead of on the work itself.
+Drift starts quietly: one workspace misses an update, one agent follows an older convention, another has a different default model, another is missing a key skill. None of those looks catastrophic alone. Together, they produce inconsistent behavior that steals team attention.
 
-The fleet-maintenance analogy is the right one here. If one car has a bad setting, that's a nuisance. If ten cars each have slightly different settings, service history, and maintenance timing, that's a fleet problem. Agents work the same way — small differences compound.
+Then the symptoms show up: routing works in one place but not another, response quality varies for no obvious reason, and people start adapting to each agent instead of expecting a stable operating standard.
 
-The fix is disciplined maintenance, not heroics. Shared base files should stay current. Important operating rules should be reviewed and updated visibly. Upgrade routines should be consistent enough that agents don't split into generations without anyone noticing. When something important changes, the change should be legible rather than living in rumor.
+The enemy is not complexity. The enemy is unmanaged divergence.
 
-This isn't glamorous work, but it's some of the highest-leverage work in the system. Consistency reduces weirdness. It makes behavior easier to trust, easier to debug, and easier to explain to new people joining the team. It also protects the staff experience — most people shouldn't have to wonder why two agents that supposedly follow the same operating model act like distant cousins raised in different countries.
+The fix is disciplined sync work. Keep shared base files aligned. Propagate important policy changes across agents, not just in one workspace. Run upgrades on a regular rhythm so the fleet does not split into generations. Document operational changes where everyone can find them.
 
-If the stack is maintained well, the differences between agents feel intentional and role-based, not accidental.
+This is not glamorous, but it has high leverage. Consistency makes behavior easier to trust, debug, and teach. It also protects staff from needless friction, because they should not need a different playbook for each agent in the same system.
 
-There will eventually be more central, self-serve ways to manage this kind of maintenance — check-ins, upgrade flows, and status views all in one place. That tooling will help. But the underlying rule won't change: sync is a discipline before it's a tool.
+Differences should be intentional and role-based, not accidental drift.
 
-When the team invests in consistent files, regular upgrades, and documented standards, it's not bureaucracy. It's how the system stays coherent as it grows. Without that discipline, drift wins quietly. With it, multiple agents feel like parts of one operating system instead of a collection of unrelated personalities.
+As tooling improves, centralized status and update flows will make sync easier. But tools do not replace discipline. A coherent fleet still requires someone to care about alignment.
+
+At scale, sync is not optional maintenance. It is core reliability work.

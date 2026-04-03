@@ -1,27 +1,17 @@
 # Installing Skills Safely
 
-Installing a skill is closer to approving software than toggling a setting. Skills can have real access, real permissions, and real consequences — so the install process is treated accordingly.
+A skill install is not a settings toggle. It is closer to installing software with permissions, and that means one bad choice can create real damage.
 
-The workflow has three steps, in order.
+We learned this the easy way, but it could have been worse: two skills had nearly identical names, one from a trusted source and one from an unknown author. A rushed install picked the wrong one because the name looked right. Nothing catastrophic happened, but it burned time, trust, and focus. That is enough to treat installs seriously forever.
 
-**Start from a filtered source.** A broad marketplace is useful for finding what exists, but it's not a quality signal. Safer starting points — curated lists that have already done some filtering — exist for a reason. Start there before evaluating anything specific.
+The durable habit is simple. Start from a filtered source instead of random discovery. Ask your agent to inspect what the skill actually does, what permissions it requests, and whether those permissions match the job. Then run a dedicated vetting step before anything is installed.
 
-**Ask your agent to inspect the skill.** What does it actually do? What access does it need? Does the author and source make sense? Is it asking for more permission than the job requires? This is the first layer of real evaluation.
+Notice the sequence: discover, inspect, vet, install. Not discover, install, hope.
 
-**Use the dedicated vetting step.** This is a code-level check — inspecting actual permissions before anything gets installed. Not a gut check, a real review.
+Most teams fail here because they use the wrong language under time pressure. "Just install this" invites shortcuts. "Vet and install this" forces the right behavior. That one wording change is small, but it reliably prevents sloppy approval decisions.
 
-After those three steps, installation can proceed.
+You do not need to read source code yourself to be safe. You do need to insist that source, permissions, and behavior are checked every time. Your agent can do that review quickly and consistently when asked to.
 
----
+Yes, this is slower than one-click installs. Good. The extra minute is cheaper than incident response, cleanup, or silent risk in a production workspace.
 
-## A common mistake
-
-Two skills can share nearly the same name while coming from different authors and doing very different things. Picking based on name similarity without checking the source is how the wrong skill gets installed. It doesn't require a malicious actor — a mundane wrong-author install is enough to create problems.
-
-The practical habit: tell your agent "please vet and install this skill" rather than "can you just install this." That framing treats the install as an approval process rather than a quick action, which is what it actually is.
-
-You don't need to review the code yourself. Your role is to insist on the process. Your agent handles the inspection and proceeds only when the result is clean enough to trust.
-
----
-
-The tradeoff is speed. Vetting takes more time than clicking yes. That's intentional — importing risk because something sounds useful in the moment is exactly what the process is designed to prevent.
+Treat skills like capability with blast radius, because that is exactly what they are.

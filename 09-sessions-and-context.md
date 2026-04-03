@@ -1,29 +1,15 @@
 # Sessions and Context
 
-A session is the working memory of a conversation.
+Run your agent like an office, not a crowded hallway.
 
-In this system, each Telegram topic is its own workspace — not just for organizational tidiness, but because it gives the agent a cleaner context for each area of work. Keeping projects in separate topics prevents context from bleeding across unrelated jobs and makes it easier for the agent to stay focused on what's actually relevant.
+Each Telegram topic is a room with a purpose. When project work stays in its room, context stays clean and the agent can think clearly. When everything gets dumped into one giant thread, priorities blur, details collide, and the agent spends more effort sorting noise than moving work.
 
-A useful way to picture it: separate rooms for separate projects. Walking into the hiring room and starting a conversation about the website redesign creates confusion. The same applies here — a topic holds the active context for the work happening there.
+The room metaphor explains why this matters. Imagine walking into the hiring room to continue a website redesign discussion from yesterday. Everyone loses time reconstructing what belongs there. The same thing happens with agents when topic boundaries are loose.
 
----
+As work continues, sessions also get tidied. That is not a failure mode. It is normal maintenance. Think of a project whiteboard that gets rewritten as decisions firm up: the important points remain, stale scribbles disappear, and the team keeps moving. Context compaction does the same thing for long conversations.
 
-## Context compaction
+This is why your agent sometimes pulls from notes or memory when resuming a thread. It is not forgetting the project. It is bridging from durable records so the current room stays usable.
 
-Context is finite. Long conversations don't grow forever in perfect detail. Over time, they get compressed — important points are summarized so work can continue without carrying every line of the conversation indefinitely. This is normal behavior, not a failure.
+The practical habit is straightforward. Give meaningful work its own topic and keep using it. If a conversation drifts into another project, move it to the correct room instead of letting the mix-up grow. Short-term convenience from all-in-one chats turns into long-term confusion.
 
-Think of a whiteboard that gets tidied up as a project progresses. The important points stay. The rest gets cleared to make room. The work continues, just without every past scribble on the wall.
-
-This is why you may occasionally see your agent refer back to notes, memory, or prior project context when picking up a thread. It's using written memory to bridge what the current conversation can't carry — which is what it's supposed to do.
-
----
-
-## Practical habits
-
-A few things that help:
-
-- If a project has its own topic, use it consistently.
-- If a conversation drifts into a different project, move it rather than letting it accumulate in the wrong place.
-- One large all-purpose chat feels convenient until it becomes hard to navigate. Separate topics keep each area of work readable.
-
-You don't need to think about token limits or compaction mechanics to use this well. The main idea is simple: cleaner topic boundaries give the agent better working context, and better context produces more useful results.
+You do not need to think about token math to operate this well. Just protect room boundaries. Cleaner rooms produce clearer context, and clearer context produces better judgment.

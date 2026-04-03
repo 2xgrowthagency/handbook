@@ -1,36 +1,17 @@
 # Safe Practices
 
-The threat model matters, but daily habits matter more. Most safety problems don't begin with a dramatic breach. They begin with ordinary sloppiness.
+Most security failures do not start with a sophisticated attack. They start with someone in a hurry.
 
-So the practical rules should be short enough to remember.
+Keep secrets out of chat. If something is sensitive, reference where it lives — "it's in the credentials file" — instead of repeating the value. Ask for confirmation that a connection works, not an echo of the key that proves it.
 
-**Keep secrets out of chat.** If something is sensitive, don't paste the value into ordinary conversation. Share the secure location or file path instead. "Use the credential saved here" is better than copying the credential into the chat stream. If your agent needs to confirm it has the right credential, the confirmation should be "I have it" — not a repeat of the value.
+Keep work in the right topic. Sloppy context boundaries lead to accidental oversharing, and they make project history harder to trust later. The habit costs almost nothing; the cleanup when it goes wrong costs much more.
 
-**Use the right project topics.** Context belongs where it belongs. The right topic keeps the right history attached to the right work, and reduces the chance of mixing private, operational, and project-specific material in unhelpful ways.
+Verify before acting. Before sending anything, confirm the target, the audience, and the facts. Before calling work complete, confirm that outputs actually exist and behave as expected. Verification is not distrust — it is how professionals avoid expensive surprises.
 
-**Ask the agent to verify before acting.** Verify the target. Verify the audience. Verify the facts. Verify that the file really changed, the link really works, the summary matches the source. Verification isn't distrust — it's professional discipline.
+Treat external communication as a hard line. Drafting is one category. Sending is another. A draft can be revised; a sent message cannot be unsent. Explicit approval at that boundary is not bureaucracy. It is just how responsible communication works.
 
-**Treat external communication as an approval boundary.** A draft is fine. A suggested reply is fine. A prepared post is fine. But sending something outward is a different category of action. If the message leaves the machine, it deserves human approval.
+When something feels high-stakes or ambiguous, slow down. A short pause and a quick check is not friction — it is the judgment call that prevents long cleanup. The scenarios worth escalating are obvious in the moment. Trust that instinct.
 
-The same principle applies when something feels sensitive, ambiguous, or unusually consequential. Slow down. Ask. Escalation isn't friction — it's good judgment.
+Credentials follow a simple cycle: store securely, reference instead of repeating, confirm without disclosing, rotate on a schedule. If a secret is exposed, rotate it immediately. Do not wait to assess impact first — rotation is fast, exposure risk is not.
 
----
-
-## The secret lifecycle
-
-Credentials and API keys deserve their own handling pattern:
-
-1. **Capture securely.** Credentials go directly into a secure config file or environment variable — not into a chat message or a plain text note.
-2. **Reference, don't repeat.** When an agent needs to use a credential, it reads it from where it's stored. It doesn't echo the value into any message or log.
-3. **Confirm without exposing.** If you need to know an agent has the right credential, ask it to confirm it can connect — not to repeat the key. A successful test proves possession without disclosure.
-4. **Rotate on a schedule.** Credentials that never change accumulate risk. Rotation should be tracked and scheduled, not left as something to remember later.
-
-If a credential does end up in chat by accident, treat it as compromised and rotate it immediately. The cost of rotating is low. The cost of leaving an exposed credential in place is not.
-
----
-
-This looks very ordinary in practice.
-
-Share a file path, not a password. Ask for a draft email, not a sent email. Ask the agent to confirm which audience a note is for before it becomes a public post. Request a verification pass before assuming a task is complete.
-
-These aren't dramatic security rituals. They're sane defaults — the normal habits of a team that knows useful systems deserve clear boundaries and steady hands. If you do those things consistently, a lot of risk stays small without anyone needing to make a speech about it every week.
+None of this requires paranoia. It requires the same discipline you would apply to any high-trust working relationship: keep private things private, verify before trusting, and require real approval before things leave the building.

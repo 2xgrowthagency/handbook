@@ -1,23 +1,17 @@
 # Your First Week
 
-The first week with an agent should feel useful, not mystical.
+The first week with an agent should feel like adding a new teammate, not learning a new app.
 
-You're building a working relationship, not unlocking a feature. The fastest way to make progress is to give the agent real work, correct it when it's off, and let the usefulness build from there.
+Start with real work. Ask for the summary you do not have time to compile. Ask for background research before a meeting. Ask for a draft reply you can quickly edit. The point is not to "test the model" — it is to build shared context through work that actually matters.
 
-Three things are worth prioritizing in week one.
+Week one is also the right time to hand over one recurring responsibility. Something small but real: watching a thread that tends to drift, preparing a daily briefing, flagging changes in a project that quietly goes stale. Repetition is where usefulness compounds. One-off requests prove capability; recurring assignments create reliability.
 
-**Have a few real conversations.** Not tests, not prompts designed to see what it can do — actual assignments that save you time or sharpen your thinking. Ask for a thread summary. Ask for first-pass research. Ask for a draft reply. Ask for a rundown of what changed on a project. The point is to expose the agent to work that actually matters.
+Tell your agent early how you like information shaped. Recommendation first or context first? Concise or exhaustive? Formal or direct? These are not cosmetic preferences. They affect whether the output is immediately usable or needs rework. The sooner you say it, the sooner it sticks.
 
-**Give it one recurring responsibility.** Pick something small but real. Maybe it watches a project thread for important changes. Maybe it prepares a daily summary. Maybe it keeps tabs on a workflow that tends to go stale when nobody owns it. Recurring work is where the agent starts to feel like part of the team rather than an on-demand tool.
+Expect some friction in the first week. The agent will ask more questions while it learns your priorities. It will occasionally over-explain, or answer what you asked instead of what you needed. That is normal, and it corrects quickly with direct feedback.
 
-**Share your preferences early.** Tell the agent how you like things shaped — short or detailed, direct or softer, recommendation first or context first, bullets or prose. These aren't cosmetic details. They shape how useful the responses feel, and early clarity saves a lot of back-and-forth later.
+Short corrections work best. "Too long." "Lead with the answer." "Right facts, wrong tone." "You focused on urgency, not impact." That kind of signal teaches judgment, not just formatting. Give it the same directness you would with a sharp new hire: immediate and specific.
 
----
+By the end of the week, you should notice fewer avoidable misses and better alignment with how you think. By week four, if you keep giving it real assignments, it should feel less like a tool you prompt and more like someone who already knows the context.
 
-Expect more questions at the beginning. In week one, the agent doesn't yet know the business deeply. It may not know which deadline matters more, which stakeholder is sensitive about tone, or which project is noisier than it is urgent. So it asks more. Sometimes it over-explains. Sometimes it answers the literal request while missing what would have been most useful.
-
-That's normal for any new working relationship. The calibration period is real, and honest corrections accelerate it. "This was too long." "Good summary, but next time give me the recommendation first." "You focused on the loudest issue, not the most important one." That kind of feedback is how the agent gets calibrated to how you actually work rather than defaulting to something generic.
-
-By the end of week one it should understand your preferences better and ask better questions. By week four, if you've been giving it real work, it should start to feel like a colleague who has genuine context rather than a tool you're constantly re-briefing.
-
-Everything happens through Telegram. Your part is the direction, the context, and the corrections. The rest compounds from there.
+Everything happens in conversation. You provide direction and feedback. Your agent handles the mechanics and learns from the pattern. That is the whole system.

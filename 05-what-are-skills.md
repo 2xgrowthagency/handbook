@@ -1,25 +1,13 @@
 # What Are Skills
 
-Agents can reason, write, summarize, and analyze. That doesn't mean they can do everything.
+If the base model is "I know Kung Fu," a skill is "I can now drive the forklift, access the warehouse, and move the boxes." Knowing is built in. Doing often requires extra capability.
 
-Skills are what extend capability beyond the built-in. A skill gives an agent a new practical capability — connecting to a service, handling a workflow, controlling a tool, or operating in a domain it couldn't reach before. Reasoning is part of the model. Capability often needs to be added.
+That distinction is the whole point of skills. Your agent can usually reason, summarize, draft, and analyze out of the box. But reasoning alone does not grant access to tools, systems, or workflows. A skill adds that missing bridge between understanding a task and executing it.
 
-One way to think about it: there's a difference between understanding what good browser research looks like and actually being able to operate a browser. Or between knowing memory should be organized and being able to search it semantically. Skills close that gap between knowing and doing.
+For example, an agent may understand exactly how to run high-quality browser research, but without browser capability it cannot actually navigate pages. It may know that memory should be structured, but without the right memory tools it cannot query or maintain that structure efficiently. Skills turn "should" into "can."
 
----
+Where do skills come from? Broadly, two places. There is an open marketplace where anyone can publish, which is fast and creative but uneven in quality. And there is a curated layer, where tools have been reviewed and are safer to rely on for real operations. The open layer is useful for discovery. The curated layer is usually where teams should start.
 
-## Where skills come from
+This changes how you diagnose "my agent cannot do X." Sometimes that means the task is genuinely out of scope. Often it means the agent has the reasoning but lacks the installed capability. That is a much better problem, because it is frequently solvable.
 
-At the broadest level, there's a community marketplace where anyone can publish a skill. That's useful because the ecosystem can move faster than any single built-in feature set. But broad marketplaces are noisy — some tools are solid, some are unfinished, and some aren't worth trusting.
-
-There's also a curated layer: a smaller set of skills that have been reviewed for quality and safety. That's the practical starting point for most installs. You don't need to browse the full marketplace — you need to know that there's a difference between "anything someone published" and "things that have been evaluated."
-
----
-
-## What this means in practice
-
-If your agent says it can't do something, that's worth investigating before assuming the system can't. Sometimes the answer is that the right skill isn't installed yet — which is often a solvable problem.
-
-When an agent hits a wall, the question to ask is whether it can reason about the problem but not act on it, or whether there's a genuine capability gap. If it's the latter, there may be a skill that closes it.
-
-That framing changes how you think about the system. It's not a fixed set of features. It's an agent with a starting toolkit that can grow as the work requires it.
+So do not treat your agent like a fixed feature list. Treat it like a capable generalist with an expandable toolkit. The baseline gets you surprisingly far. Skills are how you push past the baseline when your work demands it.
