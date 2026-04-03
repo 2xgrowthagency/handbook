@@ -7,7 +7,15 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'All Chapters', link: '/chapters' },
-      { text: 'For Agents', link: '/23-agent-onboarding' },
+      {
+        text: 'For Agents',
+        items: [
+          { text: 'Agent onboarding', link: '/23-agent-onboarding' },
+          { text: 'Memory protocol', link: '/24-agent-memory-protocol' },
+          { text: 'Self-improvement', link: '/25-agent-self-improvement' },
+          { text: 'Coding strategy', link: '/26-coding-strategy' },
+        ],
+      },
     ],
     sidebar: [
       {
