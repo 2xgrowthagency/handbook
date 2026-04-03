@@ -109,21 +109,20 @@ A strong PRD brief is what makes a Ralph loop recoverable. If the session is int
 - Done criteria (what "finished" looks like exactly)
 - Verification steps
 - Source files and reference material
-- Git identity for commits: `John Chan <john@2xcd.com>` — never the agent's name
+- Git identity for commits: use your owner's name and email (check `USER.md`) — never the agent's name or a placeholder
 
 ---
 
 ## Dual Auth (Codex)
 
-Two auth tokens are available for failover when hitting rate limits:
+Your setup may have multiple Codex auth tokens for failover when hitting rate limits — one for the agent, one for the owner. Check your `TOOLS.md` for the token filenames and swap aliases specific to your workspace.
 
 ```bash
 # Check current auth
 codex login status
 
-# Swap to backup (if available)
-alias codex-use-john='cp ~/.codex/auth.john.json ~/.codex/auth.json'
-alias codex-use-donna='cp ~/.codex/auth.donna.json ~/.codex/auth.json'
+# Swap tokens (alias names and paths will vary — check your TOOLS.md)
+cp ~/.codex/auth.<backup>.json ~/.codex/auth.json
 ```
 
 If auth fails, fix it — don't swap Codex for GPT-5.4 as a workaround.
