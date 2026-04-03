@@ -69,6 +69,7 @@ export default defineConfig({
           { text: 'Agent onboarding', link: '/23-agent-onboarding' },
           { text: 'Agent memory protocol', link: '/24-agent-memory-protocol' },
           { text: 'Agent self-improvement', link: '/25-agent-self-improvement' },
+          { text: 'Coding strategy', link: '/26-coding-strategy' },
         ],
       },
     ],
