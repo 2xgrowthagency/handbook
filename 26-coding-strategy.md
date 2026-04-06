@@ -63,9 +63,11 @@ tmux capture-pane -p -t <label> -S -30
 tmux capture-pane -p -t <label> -S -3 | grep -q "❯"
 ```
 
-### Before launching
+### Before launching — mandatory
 
-Write the job to `memory/active-sessions.json`:
+**This step is on you, not on a cron.** Writing to `memory/active-sessions.json` before launching a sub-agent is mandatory. The monitoring cron only reads it — it will not populate the file for you.
+
+Write the job to `memory/active-sessions.json` before launching:
 
 ```json
 {
