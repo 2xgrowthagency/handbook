@@ -10,7 +10,8 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "lint": "node scripts/lint.mjs",
-    "test": "node --test"
+    "test": "node --test",
+    "validate:donna": "node scripts/validate-donna.mjs"
   },
   "keywords": [],
   "author": "",
