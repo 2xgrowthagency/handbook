@@ -1,0 +1,9 @@
+# How Donna Works
+
+> Five public pages about what Donna does, how to work with her, and where people take over.
+
+- https://handbook.2x.agency/donna/
+- https://handbook.2x.agency/donna/working-with-donna
+- https://handbook.2x.agency/donna/workflows
+- https://handbook.2x.agency/donna/guardrails
+- https://handbook.2x.agency/donna/faq

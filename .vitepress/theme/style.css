@@ -244,3 +244,139 @@
   -webkit-text-fill-color: var(--vp-c-text-1) !important;
   background-clip: unset !important;
 }
+
+/**
+ * How Donna Works
+ */
+.donna-page {
+  --donna-accent: #7c3aed;
+  --donna-accent-soft: #f5f3ff;
+  --donna-border: #ddd6fe;
+}
+
+.dark .donna-page {
+  --donna-accent: #c4b5fd;
+  --donna-accent-soft: #2e2442;
+  --donna-border: #5b477f;
+}
+
+.donna-page .vp-doc h1 {
+  position: relative;
+  padding-left: 1rem !important;
+}
+
+.donna-page .vp-doc h1::before {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  border-radius: 4px;
+  background: var(--donna-accent);
+  content: '';
+}
+
+.donna-page .vp-doc a {
+  color: var(--donna-accent);
+  text-decoration-color: var(--donna-border);
+}
+
+.donna-page .vp-doc a:hover {
+  text-decoration-color: var(--donna-accent);
+}
+
+.donna-kicker,
+.donna-verified {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.donna-kicker {
+  margin: 0 0 0.5rem !important;
+  color: var(--donna-accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.donna-verified {
+  margin: -1rem 0 2rem !important;
+  color: var(--vp-c-text-2);
+  font-size: 0.82rem;
+}
+
+.donna-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.donna-card {
+  min-width: 0;
+  padding: 1.1rem 1.2rem;
+  border: 1px solid var(--donna-border);
+  border-radius: 12px;
+  background: var(--donna-accent-soft);
+}
+
+.donna-card h3 {
+  margin: 0 0 0.4rem;
+  color: var(--vp-c-text-1);
+}
+
+.donna-card p {
+  margin: 0;
+  color: var(--vp-c-text-2);
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.donna-flow {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: donna-step;
+}
+
+.donna-flow li {
+  min-width: 0;
+  padding: 0.75rem 0.5rem;
+  border: 1px solid var(--donna-border);
+  border-radius: 8px;
+  background: var(--donna-accent-soft);
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: center;
+  counter-increment: donna-step;
+}
+
+.donna-flow li::before {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--donna-accent);
+  content: counter(donna-step, decimal-leading-zero);
+  font-size: 0.68rem;
+}
+
+@media (max-width: 640px) {
+  .donna-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .donna-flow {
+    grid-template-columns: 1fr;
+  }
+
+  .donna-flow li {
+    text-align: left;
+  }
+
+  .donna-flow li::before {
+    display: inline;
+    margin-right: 0.5rem;
+  }
+}
