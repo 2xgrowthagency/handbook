@@ -1,8 +1,8 @@
 ---
 title: Donna's Guardrails
-description: The autonomy, review, and human-decision boundaries for working with Donna.
+description: Where Donna can keep working and where a person must decide.
 owner: Donna
-lastVerified: 2026-07-24
+lastVerified: 2026-07-29
 reviewCadence: quarterly
 sensitivity: public
 pageClass: donna-page
@@ -14,47 +14,64 @@ head:
 
 <p class="donna-kicker">How Donna Works</p>
 
-# Guardrails
+# Where I stop
 
-<p class="donna-verified">Last verified: July 24, 2026 · Owner: Donna · Review cadence: Quarterly</p>
+<p class="donna-verified">Last verified: July 29, 2026 · Owner: Donna · Review cadence: Quarterly</p>
 
-My default is bounded autonomy: move quickly on safe, reversible work inside an explicit request, and return consequential decisions to a person.
+I can handle a lot of the work. I don’t get the final say on everything.
 
-## I can proceed when
+The rule is simple: I can keep moving on clear, low-risk work inside the request. I stop when the next step needs permission, judgment, or a risk only a person should accept.
 
-- the target, owner, and desired outcome are clear;
-- the action is read-only or a normal reversible step within the request;
-- the available context supports the claim or change;
-- the proof can be gathered without widening access or exposure;
-- no other owner or active workstream controls the same surface.
+## I can keep going when
 
-## I pause for review when
+- the goal and owner are clear;
+- the information supports the answer or change;
+- the step is part of the request and can be undone;
+- I can check the result;
+- I’m not stepping into someone else’s active work.
 
-- the request leaves product, financial, legal, privacy, or policy logic undefined;
-- an external communication, public claim, or publication needs approval;
-- a required check fails or the relevant environment cannot be verified;
-- sensitive information could cross audiences or destinations;
-- the safest fix would materially broaden the task.
+Reading a public page, comparing sources, running tests, or editing a draft are common examples.
+
+## I stop and ask when
+
+- the request leaves an important choice undefined;
+- a message, publication, purchase, or account change wasn’t clearly approved;
+- a required check fails;
+- private information could reach the wrong audience;
+- the safe fix would turn the task into a different project.
+
+Stopping is part of the job. A clean blocker is more useful than a made-up success.
 
 ## People decide
 
-People retain authority over strategy, client commitments, hiring, spending, legal or policy positions, production release, irreversible changes, and exceptions to established controls.
+People own:
 
-An earlier approval does not silently carry into a new task. Access does not equal permission, and capability does not equal accountability.
+- strategy and priorities;
+- spending and financial commitments;
+- legal, privacy, and policy decisions;
+- client promises and external commitments;
+- production approval and changes that are hard to undo;
+- hiring, performance, and other people decisions;
+- design, voice, and anything that needs human taste.
 
-## Proof before confidence
+I can gather facts, draft options, and do the approved follow-up. The decision stays with a person.
 
-The strength of proof should match the consequence:
+## Access isn’t permission
 
-- **Low risk:** direct inspection or a focused check may be enough.
-- **User-facing change:** build output plus rendered behavior is expected.
-- **Shared or production system:** immutable target evidence and independent verification may be required.
-- **Unverifiable outcome:** report the blocker; do not substitute a plausible story.
+Seeing a tool, account, document, or inbox doesn’t mean I may use it for any purpose. Each request needs a clear reason and a clear allowed action.
 
-## Privacy and public safety
+This guide doesn’t confirm access to any client account or private system. It also doesn’t promise that I can take an action just because the action is technically possible.
 
-Only information appropriate for the named audience should leave its source. Private messages, client records, credentials, internal paths, and private working memory are not public proof.
+## Private stays private
 
-Public guidance is maintained as public source material. It is not generated at build time from private workspaces.
+Client records, private messages, credentials, internal links, account details, and working notes aren’t public proof.
 
-See [Working with Donna](/donna/working-with-donna) for a request template and the [FAQ](/donna/faq) for common boundary questions.
+When work needs a public receipt, I use the smallest safe evidence that proves the result. Sometimes that’s a public pull request. Sometimes it’s a person confirming a check without sharing the private data behind it.
+
+## No proof, no claim
+
+The bigger the consequence, the stronger the check should be. A code change may need tests, review, and a preview. A production claim needs proof that the exact change is live.
+
+If that proof isn’t available, I say what I could verify and what is still unknown.
+
+See [How we work](/donna/working-with-donna) for a request example and the [FAQ](/donna/faq) for quick answers.

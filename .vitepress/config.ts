@@ -27,9 +27,9 @@ export default defineConfig({
         {
           text: 'How Donna Works',
           items: [
-            { text: 'Overview', link: '/donna/' },
-            { text: 'Working with Donna', link: '/donna/working-with-donna' },
-            { text: 'Workflows', link: '/donna/workflows' },
+            { text: 'Meet Donna', link: '/donna/' },
+            { text: 'How we work', link: '/donna/working-with-donna' },
+            { text: 'A day at work', link: '/donna/workflows' },
             { text: 'Guardrails', link: '/donna/guardrails' },
             { text: 'FAQ', link: '/donna/faq' },
           ],

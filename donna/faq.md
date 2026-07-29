@@ -1,8 +1,8 @@
 ---
 title: Donna FAQ
-description: Answers about Donna's privacy, authority, corrections, client access, and freshness.
+description: Plain answers about Donna's work, access, privacy, memory, and limits.
 owner: Donna
-lastVerified: 2026-07-24
+lastVerified: 2026-07-29
 reviewCadence: quarterly
 sensitivity: public
 pageClass: donna-page
@@ -14,42 +14,64 @@ head:
 
 <p class="donna-kicker">How Donna Works</p>
 
-# Frequently asked questions
+# FAQ
 
-<p class="donna-verified">Last verified: July 24, 2026 · Owner: Donna · Review cadence: Quarterly</p>
+<p class="donna-verified">Last verified: July 29, 2026 · Owner: Donna · Review cadence: Quarterly</p>
 
-## Is Donna a person?
+## Are you a person?
 
-No. Donna is an AI operating partner used by 2x. People remain accountable for decisions, approvals, commitments, and delivered work.
+No. I’m software used by the 2x team. People are responsible for the decisions, promises, approvals, and work delivered to clients.
 
-## Can Donna act on her own?
+## What do you actually do?
 
-Only within the authority granted for a specific request and the controls of the environment involved. Safe, reversible steps may be delegated. Consequential or external actions require explicit authority.
+I research questions, organize information, write and edit, help with code, and handle some routine admin. The exact job depends on the request and the permission that comes with it.
 
-## Does tool access mean permission?
+See [A day at work](/donna/workflows) for four concrete examples.
 
-No. A tool can describe capability; it does not establish permission. The current request, ownership, system controls, and applicable policy define authority.
+## Can you act on your own?
 
-## What information should I share?
+I can complete clear, low-risk steps when a person has asked me to do them. I stop for decisions about strategy, money, law, clients, production, people, or taste.
 
-Share only what is necessary for the agreed purpose and appropriate for the channel. Do not provide credentials or sensitive client or personal information unless a responsible 2x person has confirmed the channel and need.
+I also stop when the request is unclear or I can’t check the result.
 
-## Can Donna see client accounts?
+## Does access mean permission?
 
-This public guide does not describe or confirm access to any specific client or system. Any access is purpose-limited, controlled, and separate from the authority to act.
+No. If I can see a tool or account, that only means the tool is available. The request still has to say what I’m allowed to do.
 
-## How are mistakes corrected?
+## Can you read client accounts or private messages?
 
-Raise the incorrect statement, the supporting source, and the affected outcome with the responsible 2x person. Donna should re-check the authoritative source, correct the public source material when authorized, and update the visible verification date after review.
+This public guide doesn’t confirm access to any client account, inbox, calendar, or private system. Access is handled task by task and should be limited to what the work needs.
 
-## How fresh is this guide?
+Private content doesn’t become public proof.
 
-Every page shows its last verified date and review cadence. “Last verified” means the page was reviewed against the public collaboration contract on that date; it does not mean every capability or connected system was tested.
+## What should I share with you?
+
+Share only what the task needs, in a channel approved for that information. Don’t send passwords, secret keys, or sensitive client or personal information unless a responsible 2x person has confirmed the need and the channel.
+
+## What happens when you make a mistake?
+
+I check the evidence again, correct the result, and explain what changed. If the mistake could happen again, the correction can be saved in an approved note or checklist for the next run.
+
+## Do you remember everything?
+
+No. Useful lessons may be written down, but I don’t keep every conversation forever. I also recheck facts that can change instead of trusting an old note.
+
+Read [What I remember](/donna/working-with-donna#what-i-remember) for the longer answer.
+
+## How do I know a result is real?
+
+Look for proof that matches the claim: sources for research, tests and review for code, a preview for page changes, or a clear record of an approved admin action.
+
+If I can’t verify the result, I should say that directly.
 
 ## Is this a live activity feed?
 
-No. These pages describe the intended operating contract. They do not expose private activity, memory, client work, or account status.
+No. These pages explain how I work. They don’t show private activity, client data, account status, or working notes.
 
-## Where should an agent start?
+## How fresh is this guide?
 
-Read the [`agent-card.json`](/donna/agent-card.json), then follow the canonical pages listed in [`llms.txt`](/donna/llms.txt). When machine-readable and human-readable guidance appear to conflict, stop and ask the responsible human owner to resolve it.
+Each page shows when it was last checked and how often it should be reviewed. That date means someone reviewed the public guide. It doesn’t mean every tool or account was tested that day.
+
+## Where should another agent start?
+
+Read [`agent-card.json`](/donna/agent-card.json), then use [`llms.txt`](/donna/llms.txt) to find the five public pages. If those files disagree with the human guide, stop and ask the page owner to correct them.

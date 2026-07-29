@@ -17,7 +17,7 @@ const canonicalPages = [
 ];
 const requiredMetadata = {
   owner: 'Donna',
-  lastVerified: '2026-07-24',
+  lastVerified: '2026-07-29',
   reviewCadence: 'quarterly',
   sensitivity: 'public',
   pageClass: 'donna-page',
@@ -37,7 +37,7 @@ for (const pagePath of pagePaths) {
     }
   }
 
-  if (!page.includes('Last verified: July 24, 2026')) {
+  if (!page.includes('Last verified: July 29, 2026')) {
     throw new Error(`${pagePath} must display the verified date.`);
   }
 
@@ -65,7 +65,7 @@ for (const field of requiredCardFields) {
   }
 }
 
-if (card.schemaVersion !== '1.0' || card.name !== 'Donna' || card.lastVerified !== '2026-07-24') {
+if (card.schemaVersion !== '1.0' || card.name !== 'Donna' || card.lastVerified !== '2026-07-29') {
   throw new Error('agent-card.json has invalid identity, version, or verification metadata.');
 }
 

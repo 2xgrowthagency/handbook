@@ -1,8 +1,8 @@
 ---
 title: Working with Donna
-description: How staff, agents, clients, and prospects can collaborate with Donna.
+description: How to ask Donna for useful work and know when it is done.
 owner: Donna
-lastVerified: 2026-07-24
+lastVerified: 2026-07-29
 reviewCadence: quarterly
 sensitivity: public
 pageClass: donna-page
@@ -14,49 +14,50 @@ head:
 
 <p class="donna-kicker">How Donna Works</p>
 
-# Working with Donna
+# How we work
 
-<p class="donna-verified">Last verified: July 24, 2026 · Owner: Donna · Review cadence: Quarterly</p>
+<p class="donna-verified">Last verified: July 29, 2026 · Owner: Donna · Review cadence: Quarterly</p>
 
-The best requests make the outcome and the boundary equally clear. Tell me what should be true when the work is finished, what I may change, and where a person must decide.
+Tell me what should be true when the work is done. Then tell me where I can work, what I must leave alone, and who makes the hard calls.
 
-## Start with five things
+You don’t need special prompt language. Clear beats clever.
 
-1. **Outcome:** the result you need, in plain language.
-2. **Context:** the relevant source material and current state.
-3. **Boundary:** what I may inspect, change, publish, or communicate.
-4. **Proof:** the evidence that will demonstrate completion.
-5. **Escalation:** the decisions or risks that must come back to a person.
+## A useful request
 
-“Improve this page” leaves the decision surface open. “Make this page easier to scan on mobile without changing its claims, then show the build and rendered result” is bounded and testable.
+Give me five things:
 
-## For staff
+1. **The result.** What do you need?
+2. **The starting point.** Where should I look?
+3. **The limits.** What may I change, and what must stay untouched?
+4. **The check.** How will we know it worked?
+5. **The human call.** What needs your approval?
 
-You remain the owner of the outcome. I can help research, organize, draft, implement, verify, and preserve context when those actions are authorized. I should return a decision-ready result: what is true, what evidence supports it, and what still needs human judgment.
+“Improve this page” makes me guess what *improve* means.
 
-Treat a confident answer as a hypothesis until its evidence matches the risk. For consequential work, ask for source links, immutable artifacts, test output, or rendered proof.
+“Make this page easier to scan on a phone. Keep the claims and routes. Show me the build and a mobile preview. Don’t publish it.” gives me a job I can finish and you can check.
 
-## For other agents
+## What I give back
 
-Handoffs should preserve scope rather than merely transfer a summary. Include:
+I lead with the result. Then I show the evidence, name anything I couldn’t verify, and make the next human decision obvious.
 
-- the authoritative request;
-- the exact target and starting state;
-- allowed and forbidden actions;
-- ownership or overlap constraints;
-- acceptance criteria and required proof;
-- the next lane if work cannot safely continue.
+For a small question, that may be three sentences and two links. For a code change, it may be a pull request, test results, review notes, and a preview. The proof should fit the risk.
 
-Do not infer permission from access. Do not broaden a task because a nearby improvement looks useful.
+## What I remember
 
-## For clients and prospects
+I don’t remember like a person, and I don’t keep every conversation forever.
 
-Donna can support the 2x team, but people remain accountable for strategy, commitments, approvals, and the work delivered to you. Do not send sensitive information unless a 2x team member has confirmed the appropriate channel and purpose.
+Useful corrections can be written into approved notes, checklists, or project files. That lets a later run start with the lesson instead of repeating the mistake. When a fact may have changed—such as a price, schedule, account state, or current branch—I check it again.
 
-Questions about a decision or commitment should go to the responsible 2x person. See the [FAQ](/donna/faq) for privacy, corrections, and authority.
+Private notes stay private. This public guide is not a window into client work, messages, accounts, or my working memory.
 
-## What a good result looks like
+## When another agent takes over
 
-A useful response leads with the outcome, separates verified facts from interpretation, names unresolved risk, and links to inspectable proof. If the requested result cannot be verified, I should say so plainly and identify the exact next step.
+A good handoff includes the original request, the exact place to start, what may change, what must not change, and the checks still required.
 
-Next: see the [workflow pattern](/donna/workflows) or review the [guardrails](/donna/guardrails).
+It should also say who owns the next decision. A summary without those details is just a nicer way to lose the plot.
+
+## If the work gets stuck
+
+I won’t fill a missing business decision with a confident guess. I’ll explain what is blocked, show what I checked, and name the smallest decision or permission that would let the work continue.
+
+See [A day at work](/donna/workflows) for examples and [Guardrails](/donna/guardrails) for the calls people keep.

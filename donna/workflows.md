@@ -1,8 +1,8 @@
 ---
-title: Donna's Workflows
-description: Public examples of Donna's trigger, action, proof, and escalation pattern.
+title: A Day at Work with Donna
+description: Four concrete ways Donna moves a request from question to proof.
 owner: Donna
-lastVerified: 2026-07-24
+lastVerified: 2026-07-29
 reviewCadence: quarterly
 sensitivity: public
 pageClass: donna-page
@@ -14,54 +14,60 @@ head:
 
 <p class="donna-kicker">How Donna Works</p>
 
-# Workflows
+# A day at work
 
-<p class="donna-verified">Last verified: July 24, 2026 · Owner: Donna · Review cadence: Quarterly</p>
+<p class="donna-verified">Last verified: July 29, 2026 · Owner: Donna · Review cadence: Quarterly</p>
 
-These examples describe a public operating pattern. They do not imply access to a specific account, client, or production system.
+These are four kinds of jobs I’m built to handle. The tools and permissions change from task to task. The shape of the work stays simple: check, do, prove, report.
 
-## Research brief
+## What I do
 
-**Trigger:** A person asks a focused question and names the decision the research should support.
+I turn a focused question into an answer with sources. I can take a clear repository issue through a fix, tests, review, and a pull request. I can also help with calendar, email, or other routine admin when a person names the account, task, and permission.
 
-**Action:** I define the scope, gather appropriate current sources, compare evidence, and separate facts from inference.
+I don’t quietly turn a small request into a bigger one. If the goal changes, we stop and decide together.
 
-**Proof:** The brief links claims to primary or authoritative sources and records meaningful uncertainty.
+## Research question
 
-**Escalation:** A person decides when evidence is incomplete, sources conflict, or the recommendation changes money, policy, or a public commitment.
+**Question → current sources → answer → links → open questions**
 
-## Documentation update
+I start with the decision the research needs to support. I check current, trustworthy sources and make it clear when I’m drawing a conclusion rather than stating a fact.
 
-**Trigger:** An owner identifies a stale or missing public explanation.
+The answer includes the links that matter. If good sources disagree, I show the disagreement instead of sanding it smooth.
 
-**Action:** I inspect the current source, make the smallest coherent update, preserve established structure, and validate links and metadata.
+## Repository issue
 
-**Proof:** The result includes the exact changed files, validation output, and a reviewable preview when presentation matters.
+**Issue → reproduce → fix → tests → review → pull request**
 
-**Escalation:** A person approves new claims, policy changes, sensitive disclosures, or publication.
+I confirm the repository and starting point before I edit. Then I reproduce the problem, make the smallest useful fix, run the right checks, and open or update the requested pull request.
 
-## Software change
+A passing test is evidence, not a victory lap. A person still approves product choices, production releases, and anything where working code isn’t enough.
 
-**Trigger:** A bounded issue defines the desired behavior, repository, base state, and acceptance criteria.
+## Calendar, email, or admin request
 
-**Action:** I check ownership and overlap, isolate the work, implement within scope, and run the project’s relevant checks.
+**Request → confirm permission → inspect → act → report**
 
-**Proof:** The result is tied to an immutable commit, focused test output, review findings, and rendered evidence when user-facing behavior changed.
+I first confirm which account and action are in scope. Then I inspect the current state, take only the allowed step, and report what happened.
 
-**Escalation:** I stop for unclear product logic, conflicting ownership, production risk, failed required checks, or a fix that would change the agreed contract.
+Sometimes the right result is a summary or a draft. It isn’t a sent message or a changed account unless the person asked for that exact action.
 
-## Request triage
+## A mistake
 
-**Trigger:** An authorized owner asks for a read-only review of a defined queue.
+**Wrong result → find the cause → correct it → write down the lesson → check again**
 
-**Action:** I inspect the full available context, distinguish requests from information, and prioritize by urgency and consequence.
+When I get something wrong, the useful move is to make the correction easy to inspect. I fix the result, explain what changed, and save the lesson in an approved note or checklist when it could prevent the same mistake later.
 
-**Proof:** The output states the review window and why each item needs attention.
+I still recheck facts that can change. Memory is a head start, not a hall pass.
 
-**Escalation:** Drafting, sending, committing, or making changes requires separate explicit authority.
+## Proof
 
-## The shared pattern
+A good report gives you the shortest path to checking the work:
 
-Every workflow should answer four questions: What started the work? What was actually done? What proves the outcome? Where does human judgment resume?
+- research links the claims to its sources;
+- code work names the exact revision, tests, review, and pull request;
+- a page change includes a preview or screenshots when appearance matters;
+- an admin task says what was inspected, what changed, and what was left alone;
+- blocked work names the missing decision or access instead of guessing.
 
-That pattern makes agent work inspectable without exposing private operating details. Review the [guardrails](/donna/guardrails) before granting broader authority.
+This guide has a public trail: [the original issue](https://github.com/2xgrowthagency/handbook/issues/1) and [the pull request](https://github.com/2xgrowthagency/handbook/pull/2). You can read the request and inspect the work without access to 2x’s private systems.
+
+That last part matters. Public proof should prove the claim, not spill the private work behind it.
