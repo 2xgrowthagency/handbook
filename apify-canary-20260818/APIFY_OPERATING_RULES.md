@@ -33,60 +33,126 @@ During preparation of the 150-lead `Email generated` canary, the normal GitHub b
 
 This was an input-hosting failure, not an Apify Meta-count failure.
 
-## Count-mode `isResultComplete` semantics
+## Actor mode definitions
 
-The corrected 150-lead Pass 1 showed an important distinction between **count completeness** and **returned-ad-list completeness**.
+### Count mode
 
-In count mode, Apify can expose a usable `totalCount` while returning only a subset of the actual ad objects. In the 150-lead run, every row with `isResultComplete = false` had a positive `totalCount` larger than the number of returned ad records; the returned records still matched the intended Page ID, were active, had internally consistent `totalCount` values, and had no CAPTCHA or reported Meta system issue.
+Use:
 
-Therefore:
+- Active status: **ACTIVE**
+- Total Count / `onlyTotal`: **ON**
+- Results Limit: **blank / unset**
+- About-page info: **OFF**
+- Extra/ad details: **OFF**
+- Date/sort/ecommerce: default
 
-- `isResultComplete = false` in **count mode** must **not** automatically invalidate `totalCount`.
-- Treat it as evidence that the **ad-object list was truncated/incomplete**, not necessarily that the count itself failed.
-- A count-mode row can remain usable when Page ID matches, `totalCount` is present, CAPTCHA is false, Meta reports no system issue, and any returned records are internally consistent with the same Page ID/count.
-- Continue to treat missing Page identity, CAPTCHA/system errors, missing count, contradictory Page IDs/counts, or other structural failures as anomalies.
-- Evidence mode has a different purpose and should still be evaluated on whether it can return the expected one active-ad proof record.
+Purpose: return one low-cost summary item per page with `totalCount` rather than scraping individual ad records.
 
-The 150-lead canary specifically produced 65 `isResultComplete = false` rows, all corresponding to truncated positive result lists rather than random technical failures. This rule prevents those rows from being incorrectly escalated en masse.
+### Evidence mode
 
-## Locked pass architecture
+Use:
 
-The finalized 150-lead canary established a hard maximum of **three Apify runs**:
+- Active status: **ACTIVE**
+- Total Count / `onlyTotal`: **OFF**
+- Results Limit: **1**
+- About-page info: **OFF**
+- Extra/ad details: **OFF**
+
+Purpose: retrieve one real ad record as independent evidence that a page is actively advertising.
+
+## Cost model
+
+Apify billing materially affects the preferred architecture:
+
+- Total-count summary check: approximately **$0.01 per page**.
+- Each scraped ad record: approximately **$0.01 per ad**.
+
+Therefore, bulk workflow design should prefer cheap count summaries and reserve ad-record retrieval for exceptions. Never allow a bulk QA pass to scrape many ads per page when one-ad evidence is sufficient.
+
+## Finalized 150-lead canary architecture
+
+The original 150-lead canary used:
 
 ```text
-Run 1: active-ad count
-+
+Run 1: count
 Run 2: one-ad evidence
-→ accept clean positives
-→ Run 3 only for zeros / contradictions / structural failures
-→ still unresolved after Run 3: CODEX_REVIEW_REQUIRED
+Run 3: conditional retry
 ```
 
-### Decision rules
+This architecture successfully demonstrated the value of independent evidence:
 
-- `count > 0` + active-ad evidence found → **accept**.
-- `count = 0` + no evidence → **Run 3 count confirmation**.
-- `count = 0` + evidence found → **Run 3 count confirmation**.
-- `count > 0` + no evidence → **Run 3**.
-- CAPTCHA, Meta system issue, missing/contradictory Page ID, missing count, or comparable structural failure → **Run 3 or review as applicable**.
-- Still contradictory after Run 3 → **`CODEX_REVIEW_REQUIRED`**.
-- **Never perform a fourth Apify run.**
+- Fortress produced a false zero in the first count run; evidence caught the contradiction and Run 3 corrected it to 2 active ads.
+- Peppers Polarized Eyeware was confirmed as a true zero.
+- Underoutfit remained contradictory and was escalated rather than scraped indefinitely.
 
-### Historical counts
-
-Historical count movement is **telemetry only**. It may be logged for QA and used to detect broader systemic patterns, but a large historical count change by itself does **not** trigger another scrape.
-
-Small count drift is acceptable. The workflow is designed to catch false zeros, unsupported positives, identity failures, and materially broken results without turning normal advertiser activity into retry volume.
-
-## Final 150-lead validation result
-
-The first large canary closed with:
+The canary closed with:
 
 - 150 unique Page IDs tested
 - 149 automatically resolved (`99.3%`)
 - 1 escalated to `CODEX_REVIEW_REQUIRED` (`0.7%`)
-- Fortress demonstrated a false Run-1 zero that the evidence pass caught and Run 3 corrected to 2 active ads.
-- Peppers Polarized Eyeware was confirmed as a true zero on Run 3.
-- Underoutfit remained contradictory after Run 3 and was escalated rather than scraped a fourth time.
 
-This is the baseline operating model for subsequent enrichment batches unless a later canary provides stronger evidence for a change.
+## Batch 2 transition rule
+
+The current 101-lead Batch 2 began under the original architecture and also consumed a misconfigured listing run. Finish that batch using its documented three-run ceiling. Do not change methodology again mid-batch.
+
+## Post–Batch 2 production architecture — ADOPTED
+
+Beginning with the next enrichment batch, use a cost-optimized architecture built around two cheap count samples and conditional evidence only.
+
+```text
+Run 1: Total Count ON — all leads
++
+Run 2: Total Count ON — all leads, input order reshuffled
+→ accept clean/stable positives
+→ Run 3: one-ad evidence ONLY for exceptions
+→ still unresolved after Run 3: CODEX_REVIEW_REQUIRED
+```
+
+### Why this supersedes universal evidence
+
+Two count runs cost roughly the same baseline per lead as one count run plus one universal one-ad evidence run, but they avoid paying to scrape an ad record for every clean lead. Evidence retrieval is preserved for the small exception population where it adds the most value.
+
+The second count is intentionally run with the lead order reshuffled to reduce order/rate-limit coupling between the two bulk executions. Repeated count agreement does not prove truth by itself, so structural anomalies and material contradictions still escalate to independent evidence.
+
+### Run 1 and Run 2 acceptance logic
+
+Reconcile by expected Page ID, never company name.
+
+After two count runs:
+
+- Both counts positive, technically clean, and in the **same operational tier** → **accept**. Small numeric drift is irrelevant.
+- One count is zero and the other is positive → **Run 3 evidence**.
+- Both counts are zero → **Run 3 evidence** before assigning T0.
+- Counts fall into different operational tiers → **Run 3 evidence**.
+- Missing Page identity, contradictory Page IDs, CAPTCHA, Meta system issue, missing/malformed count, or comparable structural anomaly in either run → **Run 3 evidence/review**.
+- A positive count with suspicious structural output (for example missing/null page identity where identity should be present) → **Run 3 evidence** even if both count values agree.
+- Historical old-vs-new count movement alone → **telemetry only; no retry**.
+
+### Run 3 evidence logic
+
+Run evidence mode only for the exception list generated above:
+
+- Total Count OFF
+- Results Limit = 1
+- ACTIVE
+
+Interpretation:
+
+- Positive/positive count exception + matching active-ad evidence → accept the most defensible current count/tier from the two count runs, provided the structural issue is resolved.
+- Zero/positive contradiction + active-ad evidence → positive; choose the clean positive count/tier when technically supported.
+- Zero/zero + no active-ad evidence → accept zero/T0.
+- Zero/zero + active-ad evidence → contradiction remains; `CODEX_REVIEW_REQUIRED`.
+- Positive count(s) + no active-ad evidence → `CODEX_REVIEW_REQUIRED` when the contradiction cannot be resolved from clean actor output.
+- Identity/system anomaly still unresolved → `CODEX_REVIEW_REQUIRED`.
+
+### Hard ceiling
+
+- Maximum **three Apify executions per batch/lead path**.
+- **Never perform a fourth Apify run.**
+- Anything still unresolved after Run 3 moves to the Codex enrichment exception resolver.
+
+## Historical counts
+
+Historical count movement is **telemetry only**. It may be logged for QA and used to detect broader systemic patterns, but a large historical count change by itself does **not** trigger another scrape.
+
+Exact count precision is not the business objective. Small count drift is acceptable. The workflow is designed to catch false zeros, tier-changing disagreements, unsupported positives, identity failures, and materially broken results while keeping scrape cost sustainable.
