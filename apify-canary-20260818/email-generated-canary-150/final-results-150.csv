@@ -1,0 +1,151 @@
+sheet_row,company,page_id,historical_count,historical_tier,run1_count,run2_has_active_evidence,run3_count,final_count,final_tier,qa_outcome,resolution_path,qa_reason
+2,Daise,101834441798491,14,T2,13,True,,13,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+3,Meadow,104539349041416,12,T2,12,True,,12,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+4,Kujo Yardwear,1616687735298924,8,T2,7,True,,7,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+5,Axism,108138755531026,12,T2,13,True,,13,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+6,Lucky Honey,786196598170370,8,T2,8,True,,8,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+7,Teren,598063823973027,11,T2,12,True,,12,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+8,Solaro Shades,102376512762448,10,T2,11,True,,11,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+9,Anzie Jewelry,139179284923,12,T2,13,True,,13,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+10,Bluegrass Brothers,106513055158264,6,T2,6,True,,6,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+11,IPATH Footwear,531108000094797,12,T2,11,True,,11,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+12,Road to Nowhere Clothing,104355318540274,8,T2,7,True,,7,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+13,Kitty and Vibe,310947129411968,11,T2,11,True,,11,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+14,MARKET Highland Park Village,191135637891640,11,T2,11,True,,11,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+15,ThriftCon,1621156547931788,13,T2,12,True,,12,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+16,Pladra,116921125014022,13,T2,13,True,,13,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+17,Sash Group Inc.,206383749437659,11,T2,11,True,,11,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+18,Black Optical,307836760124,8,T2,8,True,,8,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+19,Brandon Blackwood New York,474152589291093,11,T2,12,True,,12,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+20,Andy Thornal Co,170504866318963,13,T2,12,True,,12,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+21,Unknown Runner,1032752806586328,13,T2,12,True,,12,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+22,TYDAL Wear,102284062645575,9,T2,8,True,,8,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+23,Design Gold Jewelry,100480889219683,11,T2,11,True,,11,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+24,IRONWILLED,102947678622106,9,T2,9,True,,9,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+25,Alice Walk,399406313561227,9,T2,10,True,,10,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+26,RAT BOI,708737096155760,11,T2,11,True,,11,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+27,LOVESUZE,2409647645775518,9,T2,9,True,,9,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+28,Paradis Sport,102240115431540,7,T2,7,True,,7,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+29,Shoe Mill,103428243309,7,T2,7,True,,7,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+30,Peppers Polarized Eyeware,119412367116,6,T2,0,False,0,0,T0,ACCEPTED,AUTO_RESOLVED,Run1 zero + Run2 no evidence + Run3 confirmed zero
+31,Pink Moon Bay Boutique,161215433890858,7,T2,7,True,,7,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+32,Tattooed & Successful,357383851410849,9,T2,9,True,,9,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+33,Reprise Activewear,1800832283499314,13,T2,12,True,,12,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+34,Fortress,155003627391,10,T2,0,True,2,2,T1,ACCEPTED,AUTO_RESOLVED,Run1 zero contradicted by Run2 active evidence; Run3 confirmed 2 active ads
+35,18 East,598208957213629,10,T2,9,True,,9,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+36,Deco Slides,395034640932464,9,T2,8,True,,8,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+37,Zilker Belts,495815724104338,9,T2,8,True,,8,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+38,Sworn To Us,851248891649123,14,T2,14,True,,14,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+39,NHIM Apparel,1417117785247883,9,T2,10,True,,10,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+40,Cuddle Club,640560419921488,8,T2,8,True,,8,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+41,Leon Footwear,100293142974764,13,T2,13,True,,13,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+42,Notch,189189404509023,7,T2,7,True,,7,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+43,äktiiv,107316640810736,6,T2,6,True,,6,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+44,Min & Mon,299771803548862,10,T2,10,True,,10,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+45,Umber & Ochre,935206773196311,14,T2,14,True,,14,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+46,Shoozas,100100141862772,15,T2,14,True,,14,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+67,PaprDoll Eyewear,102549628780679,20,T3,20,True,,20,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+68,Blumaka,108961858219531,25,T3,9,True,,9,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+69,WODA Bag,127618217112002,16,T3,16,True,,16,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+70,FITScrubs®,859069550826199,23,T3,23,True,,23,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+71,Ball and Buck,26298564065,23,T3,22,True,,22,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+72,Culture Athletics,154392308605040,17,T3,17,True,,17,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+73,SHEATH (SHEATH Underwear),120665457955886,17,T3,17,True,,17,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+74,JIV Athletics,1649086748719579,16,T3,17,True,,17,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+75,NEOCLASSICS,132969575080,24,T3,23,True,,23,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+76,Wild + Rae,1735862650057981,18,T3,17,True,,17,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+77,SwapWear,313742655703753,24,T3,23,True,,23,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+78,SickFit®,100374789146735,23,T3,23,True,,23,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+79,FOXBLOOD,353686715161174,19,T3,20,True,,20,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+80,offe market,371700246946213,24,T3,24,True,,24,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+81,FCTRY LAb,117522637945846,22,T3,21,True,,21,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+82,FORLOH INC.,100487377977290,22,T3,21,True,,21,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+83,Ciao Lucia,348517795574228,16,T3,16,True,,16,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+84,Cry Baby,1600434000004113,23,T3,22,True,,22,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+85,Nicks Handmade Boots,296872533662082,21,T3,20,True,,20,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+86,Xena Workwear,418630832275682,18,T3,17,True,,17,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+87,Phenom Elite,108954323897455,18,T3,18,True,,18,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+88,"Wallaroo Hat Company, LLC",188539206416,18,T3,18,True,,18,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+89,Bloomers Intimates,105717281319099,16,T3,16,True,,16,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+90,Mershy,207366343398432,24,T3,24,True,,24,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+91,The Kingsland Shoe Project,289231012876033,23,T3,23,True,,23,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+92,KADYLUXE,360947873983088,24,T3,50,True,,50,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+93,Labucq,414291035701131,20,T3,7,True,,7,T2,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+94,Katydid.com & KatydidWholesale.com,58720153959,18,T3,18,True,,18,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+95,The Knotty Ones,348871428609440,22,T3,22,True,,22,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+96,Short Par 4,1443212639243379,18,T3,18,True,,18,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+97,Dapplebay,186699854770719,21,T3,21,True,,21,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+98,MTM | WATCH,254185497996790,23,T3,23,True,,23,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+99,Drawlz Brand Co.,1584070268318474,21,T3,21,True,,21,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+100,Girl Tribe Co.,370383059790472,23,T3,161,True,,161,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+101,DONT EAT THE HOMIES,1774136222607360,18,T3,18,True,,18,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+102,Tobacco Motorwear,533695583432538,24,T3,24,True,,24,T3,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+103,Adina-Eden,927850267270996,88,T4,89,True,,89,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+104,"Svaha USA, Inc.",1394951464143492,430,T4,421,True,,421,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+105,sota clothing,468704653162965,29,T4,29,True,,29,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+106,Not Basics,480786132667956,26,T4,26,True,,26,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+107,Sijo,1625767180777537,70,T4,68,True,,68,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+108,Bogey Bros Golf Co.,113492263824346,310,T4,301,True,,301,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+109,NADS Organic Underwear,106758785527906,390,T4,377,True,,377,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+110,Ally Shoes,1822478131396405,38,T4,38,True,,38,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+111,TPJ - creators of the perfect jean,1131411810375596,1200,T4,1184,True,,1184,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+112,Etkie,363505563671087,34,T4,34,True,,34,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+113,The Lauren Ashtyn Collection,418753171622111,110,T4,108,True,,108,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+114,Wear Felicity,1586502444950167,180,T4,181,True,,181,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+115,Lems Shoes,374734639284329,49,T4,49,True,,49,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+116,Cakeworthy,253180041373452,130,T4,129,True,,129,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+117,Shoyoroll,114500381906465,55,T4,55,True,,55,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+118,Alembika USA,1834378726603737,30,T4,30,True,,30,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+119,STOKE Shoes,711072202097673,74,T4,73,True,,73,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+120,VienneMilano Luxury Hosiery,191086700936417,110,T4,110,True,,110,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+121,Epic Fits,469994786178670,61,T4,61,True,,61,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+122,Bleuet,312412999226672,240,T4,49,True,,49,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+123,CODE 118,107763778034327,470,T4,467,True,,467,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+124,RICHWIFE,329227150265002,180,T4,176,True,,176,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+125,Underoutfit Inc,107256577625672,1100,T4,1003,False,1002,,,ESCALATED,CODEX_REVIEW_REQUIRED,Positive count persisted but page identity remained null and no active-ad evidence after three runs
+126,Skre Gear,862361130506441,94,T4,94,True,,94,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+127,Dinner Service,105431401249563,64,T4,63,True,,63,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+128,Neems,317652652254677,43,T4,43,True,,43,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+129,Bonnie Clyde Eyewear,664475013653908,110,T4,109,True,,109,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+130,Northbound Gear,106914077343600,40,T4,40,True,,40,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+131,UNDRGOODS,492995911162339,47,T4,47,True,,47,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+132,STYLEST,104687738771111,140,T4,140,True,,140,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+133,Heading Prints,105910845601710,60,T4,60,True,,60,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+134,"Heat Wave Visual, Inc.",301822893239822,350,T4,350,True,,350,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+135,Alex Crane,588180707954810,94,T4,95,True,,95,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+136,Drift House,935302836542473,47,T4,47,True,,47,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+137,Wool & Oak,531354007018474,260,T4,259,True,,259,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+138,Motel Margarita,1619501218135147,91,T4,91,True,,91,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+139,Abbreviated,110701061982215,68,T4,68,True,,68,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+140,PRO Compression,171450469570274,480,T4,478,True,,478,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+141,Wohven,851088518339536,53,T4,53,True,,53,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+142,OTAKU,389450537585437,31,T4,31,True,,31,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+143,ORAKI,1975663322717954,29,T4,29,True,,29,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+144,Watch Gang,716113918529897,68,T4,68,True,,68,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+145,Cotidié,102632533908341,44,T4,44,True,,44,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+146,keote,113804458493053,30,T4,3,True,,3,T1,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+147,Weatherman,1747789882169610,57,T4,57,True,,57,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+148,Bamboo Ave,378757009340089,270,T4,270,True,,270,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+149,WANDRD,1389455838036871,130,T4,130,True,,130,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+150,Kindred Black,468855029944748,43,T4,43,True,,43,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+151,SLEEFS,250667518302678,88,T4,88,True,,88,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+152,BRANWYN | Performance Innerwear,586468125098330,200,T4,200,True,,200,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+153,Lift Down,409693903173782,520,T4,520,True,,520,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+154,Own Boss Supply Co,107137544510590,170,T4,170,True,,170,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+155,The Custom Captain,108272374815028,130,T4,130,True,,130,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+156,Young Days,105920438965509,30,T4,30,True,,30,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+157,ThisThatPlace,701250319730914,38,T4,38,True,,38,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+158,Contenders Clothing,1530613050532016,130,T4,130,True,,130,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+159,Maison Miru,537859916249158,78,T4,78,True,,78,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+160,Bomber Eyewear,131187000432,91,T4,91,True,,91,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+161,SABAL Swim,105213575388286,40,T4,40,True,,40,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+162,Mentionables,1884253725181408,31,T4,31,True,,31,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+163,Vitamin A,117117841683,52,T4,52,True,,52,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+164,Decade Eyewear,322346737619861,130,T4,130,True,,130,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+165,Freja New York,384196329160725,320,T4,320,True,,320,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+166,Ag-Gear,763972623688934,26,T4,26,True,,26,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+167,Sapahn,109406229122864,62,T4,62,True,,62,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+168,Üni Performance,104455022374230,60,T4,60,True,,60,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+169,KNOWN SUPPLY,1322917231154196,87,T4,87,True,,87,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+170,Waterlust,122766527832439,26,T4,26,True,,26,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
+171,Graf Lantz,102567276451110,68,T4,68,True,,68,T4,ACCEPTED,AUTO_RESOLVED,Run1 positive count + Run2 active-ad evidence
