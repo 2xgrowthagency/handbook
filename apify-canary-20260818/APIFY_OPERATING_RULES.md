@@ -49,16 +49,44 @@ Therefore:
 
 The 150-lead canary specifically produced 65 `isResultComplete = false` rows, all corresponding to truncated positive result lists rather than random technical failures. This rule prevents those rows from being incorrectly escalated en masse.
 
-## Current pass architecture
+## Locked pass architecture
 
-Baseline production direction:
+The finalized 150-lead canary established a hard maximum of **three Apify runs**:
 
 ```text
-Pass 1: active-ad count
+Run 1: active-ad count
 +
-Pass 2: one-ad evidence
+Run 2: one-ad evidence
 → accept clean positives
-→ Pass 3 only for zeros, anomalies, technical failures, or materially suspicious historical changes
+→ Run 3 only for zeros / contradictions / structural failures
+→ still unresolved after Run 3: CODEX_REVIEW_REQUIRED
 ```
 
-Do not add a universal third pass merely to force exact count agreement. Small count drift is acceptable; gross errors and absence/presence contradictions are the primary QA concern.
+### Decision rules
+
+- `count > 0` + active-ad evidence found → **accept**.
+- `count = 0` + no evidence → **Run 3 count confirmation**.
+- `count = 0` + evidence found → **Run 3 count confirmation**.
+- `count > 0` + no evidence → **Run 3**.
+- CAPTCHA, Meta system issue, missing/contradictory Page ID, missing count, or comparable structural failure → **Run 3 or review as applicable**.
+- Still contradictory after Run 3 → **`CODEX_REVIEW_REQUIRED`**.
+- **Never perform a fourth Apify run.**
+
+### Historical counts
+
+Historical count movement is **telemetry only**. It may be logged for QA and used to detect broader systemic patterns, but a large historical count change by itself does **not** trigger another scrape.
+
+Small count drift is acceptable. The workflow is designed to catch false zeros, unsupported positives, identity failures, and materially broken results without turning normal advertiser activity into retry volume.
+
+## Final 150-lead validation result
+
+The first large canary closed with:
+
+- 150 unique Page IDs tested
+- 149 automatically resolved (`99.3%`)
+- 1 escalated to `CODEX_REVIEW_REQUIRED` (`0.7%`)
+- Fortress demonstrated a false Run-1 zero that the evidence pass caught and Run 3 corrected to 2 active ads.
+- Peppers Polarized Eyeware was confirmed as a true zero on Run 3.
+- Underoutfit remained contradictory after Run 3 and was escalated rather than scraped a fourth time.
+
+This is the baseline operating model for subsequent enrichment batches unless a later canary provides stronger evidence for a change.
