@@ -1,0 +1,101 @@
+canary_index,sheet_row,company,website,official_facebook_url,expected_page_id,old_ad_count,old_tier
+1,2,Daise,https://shopdaise.com,https://www.facebook.com/shopdaise/,101834441798491,14,T2
+2,3,Meadow,https://meadowforall.com,https://www.facebook.com/meadowforall/,104539349041416,12,T2
+3,4,Kujo Yardwear,https://kujo.com,https://www.facebook.com/kujoyardwear,1616687735298924,8,T2
+4,5,Axism,https://axism.com,https://www.facebook.com/axism.la,108138755531026,12,T2
+5,6,Lucky Honey,https://luckyhoney.nyc,https://www.facebook.com/luckyhoneystyle/,786196598170370,8,T2
+6,7,Teren,https://terendesigns.com,https://www.facebook.com/terendesigns,598063823973027,11,T2
+7,8,Solaro Shades,https://solaroshades.com,https://www.facebook.com/solaroshades,102376512762448,10,T2
+8,9,Anzie Jewelry,https://anzie.com,https://www.facebook.com/anziejewelry/,139179284923,12,T2
+9,10,Bluegrass Brothers,https://bluegrassbrothers.com,https://www.facebook.com/shopbluegrassbrothers,106513055158264,6,T2
+10,11,IPATH Footwear,https://ipath.com,https://www.facebook.com/people/IPATH/61573828861672,531108000094797,12,T2
+11,12,Road to Nowhere Clothing,https://roadtonowhereclothing.com,https://www.facebook.com/RTNbrand,104355318540274,8,T2
+12,13,Kitty and Vibe,https://kittyandvibe.com,https://www.facebook.com/kittyandvibe,310947129411968,11,T2
+13,14,MARKET Highland Park Village,https://markethighlandpark.com,https://www.facebook.com/MarketHighlandPark,191135637891640,11,T2
+14,15,ThriftCon,https://thriftcon.co,https://www.facebook.com/ThriftCon,1621156547931788,13,T2
+15,16,Pladra,https://pladra.com,https://www.facebook.com/PladraUSA,116921125014022,13,T2
+16,17,Sash Group Inc.,https://thesashlife.com,https://www.facebook.com/sashbag,206383749437659,11,T2
+17,18,Black Optical,https://blackoptical.com,https://www.facebook.com/BlackOptical,307836760124,8,T2
+18,19,Brandon Blackwood New York,https://brandonblackwood.com,https://www.facebook.com/BrandonBlackwoodNYC,474152589291093,11,T2
+19,20,Andy Thornal Co,https://andythornal.com,https://www.facebook.com/AndyThornal,170504866318963,13,T2
+20,21,Unknown Runner,https://unknownrunner.run,https://www.facebook.com/profile.php?id=61585042647098,1032752806586328,13,T2
+21,22,TYDAL Wear,https://tydalwear.com,https://www.facebook.com/profile.php?id=100085626084387,102284062645575,9,T2
+22,23,Design Gold Jewelry,https://designgoldjewelry.com,https://www.facebook.com/people/Designgoldjewelry/100077476940998,100480889219683,11,T2
+23,24,IRONWILLED,https://theironwilled.com,https://www.facebook.com/ironwilledbodybuilding,102947678622106,9,T2
+24,25,Alice Walk,https://alicewalk.com,https://www.facebook.com/alicewalkclothing,399406313561227,9,T2
+25,26,RAT BOI,https://ratboi.com,https://www.facebook.com/ratboimade,708737096155760,11,T2
+26,27,LOVESUZE,https://lovesuze.com,https://www.facebook.com/lovesuzenyc,2409647645775518,9,T2
+27,28,Paradis Sport,https://paradissport.com,https://www.facebook.com/people/Paradis-Sport/100069521173533,102240115431540,7,T2
+28,29,Shoe Mill,https://shoemill.com,https://www.facebook.com/ShoeMillOregon,103428243309,7,T2
+29,30,Peppers Polarized Eyeware,https://peppersusa.com,https://www.facebook.com/pepperseyeware,119412367116,6,T2
+30,31,Pink Moon Bay Boutique,https://thepinkmoonbay.com,https://www.facebook.com/ThePinkMoonBayBoutique,161215433890858,7,T2
+31,67,PaprDoll Eyewear,https://paprdoll.com,https://www.facebook.com/PaprDollEyewear/,102549628780679,20,T3
+32,68,Blumaka,https://blumaka.com,https://www.facebook.com/blumaka1,108961858219531,25,T3
+33,69,WODA Bag,https://wodabag.com,https://www.facebook.com/profile.php?id=61553780222794,127618217112002,16,T3
+34,70,FITScrubs®,https://fitscrubs.com,https://www.facebook.com/fitscrubs,859069550826199,23,T3
+35,71,Ball and Buck,https://ballandbuck.com,https://www.facebook.com/ballandbuck,26298564065,23,T3
+36,72,Culture Athletics,https://cultureathletics.com,https://www.facebook.com/culture.athletics,154392308605040,17,T3
+37,73,SHEATH (SHEATH Underwear),https://sheathunderwear.com,https://www.facebook.com/sheathunderwear/,120665457955886,17,T3
+38,74,JIV Athletics,https://jivathletics.com,https://www.facebook.com/jivathletics,1649086748719579,16,T3
+39,75,NEOCLASSICS,https://neoclassics.org,https://www.facebook.com/Neoclassics,132969575080,24,T3
+40,76,Wild + Rae,https://wildandrae.com,https://www.facebook.com/wildandrae,1735862650057981,18,T3
+41,77,SwapWear,https://swapwear.com,https://www.facebook.com/Swapwear,313742655703753,24,T3
+42,78,SickFit®,https://sickfitofficial.com,https://www.facebook.com/people/SickFit/100075492745479,100374789146735,23,T3
+43,79,FOXBLOOD,https://foxblood.com,https://www.facebook.com/foxbloodshop,353686715161174,19,T3
+44,80,offe market,https://offe.market,https://www.facebook.com/offemarket,371700246946213,24,T3
+45,81,FCTRY LAb,https://fctrylab.com,https://www.facebook.com/FCTRYLAb,117522637945846,22,T3
+46,82,FORLOH INC.,https://forloh.com,https://www.facebook.com/forloh,100487377977290,22,T3
+47,83,Ciao Lucia,https://ciaolucia.com,https://www.facebook.com/ciaoluciaofficial,348517795574228,16,T3
+48,84,Cry Baby,https://crybaby.com,https://www.facebook.com/shopcrybaby,1600434000004113,23,T3
+49,85,Nicks Handmade Boots,https://nicksboots.com,https://www.facebook.com/nickshandmadeboots,296872533662082,21,T3
+50,86,Xena Workwear,https://xenaworkwear.com,https://www.facebook.com/xenaworkwear,418630832275682,18,T3
+51,87,Phenom Elite,https://phenomelitebrand.com,https://www.facebook.com/phenomelitefootball,108954323897455,18,T3
+52,88,"Wallaroo Hat Company, LLC",https://wallaroohats.com,https://www.facebook.com/wallaroohats/,188539206416,18,T3
+53,89,Bloomers Intimates,https://bloomersintimates.com,https://www.facebook.com/bloomersintimates/,105717281319099,16,T3
+54,90,Mershy,https://mershy.com,https://www.facebook.com/mershymode/,207366343398432,24,T3
+55,91,The Kingsland Shoe Project,https://thekingslandshoeproject.com,https://www.facebook.com/thekingslandshoeproject,289231012876033,23,T3
+56,92,KADYLUXE,https://kadyluxe.com,https://www.facebook.com/KadyLuxe/,360947873983088,24,T3
+57,93,Labucq,https://labucq.com,https://www.facebook.com/labucq,414291035701131,20,T3
+58,94,Katydid.com & KatydidWholesale.com,https://katydidwholesale.com,https://www.facebook.com/iLoveKatydid,58720153959,18,T3
+59,95,The Knotty Ones,https://theknottyones.com,https://www.facebook.com/theknottyones,348871428609440,22,T3
+60,96,Short Par 4,https://shortpar4.com,https://www.facebook.com/shortpar4,1443212639243379,18,T3
+61,103,Adina-Eden,https://adinaeden.com,https://www.facebook.com/adinaedenny,927850267270996,88,T4
+62,104,"Svaha USA, Inc.",https://svahausa.com,https://www.facebook.com/svahausa,1394951464143492,430,T4
+63,105,sota clothing,https://sotaclothing.com,https://www.facebook.com/sotaclothing,468704653162965,29,T4
+64,106,Not Basics,https://notbasics.co.uk,https://www.facebook.com/notbasics/,480786132667956,26,T4
+65,107,Sijo,https://sijohome.com,https://www.facebook.com/sijohome/,1625767180777537,70,T4
+66,108,Bogey Bros Golf Co.,https://bogeybros.co,https://www.facebook.com/bogeybrosgolfco/,113492263824346,310,T4
+67,109,NADS Organic Underwear,https://nadsunder.com,https://www.facebook.com/Nadsunder/,106758785527906,390,T4
+68,110,Ally Shoes,https://ally.nyc,https://www.facebook.com/allyshoes,1822478131396405,38,T4
+69,111,TPJ - creators of the perfect jean,https://theperfectjean.nyc,https://www.facebook.com/theperfectjean/,1131411810375596,1200,T4
+70,112,Etkie,https://etkie.com,https://www.facebook.com/etkie.official/,363505563671087,34,T4
+71,113,The Lauren Ashtyn Collection,https://thelaurenashtyncollection.com,https://www.facebook.com/thelaurenashtyncollection/,418753171622111,110,T4
+72,114,Wear Felicity,https://wearfelicity.com,https://www.facebook.com/wearfelicity,1586502444950167,180,T4
+73,115,Lems Shoes,https://lemsshoes.com,https://www.facebook.com/LemsShoes/,374734639284329,49,T4
+74,116,Cakeworthy,https://cakeworthystore.com,https://www.facebook.com/cakeworthy/,253180041373452,130,T4
+75,117,Shoyoroll,https://shoyoroll.com,https://www.facebook.com/shoyorollbrand/,114500381906465,55,T4
+76,118,Alembika USA,https://alembika.com/,https://www.facebook.com/alembikausa/,1834378726603737,30,T4
+77,119,STOKE Shoes,https://stokeshoes.com,https://www.facebook.com/people/Stoke-Shoes/61578942643410/,711072202097673,74,T4
+78,120,VienneMilano Luxury Hosiery,https://viennemilano.com,https://www.facebook.com/viennemilano,191086700936417,110,T4
+79,121,Epic Fits,https://epicfits.com,https://www.facebook.com/epicfitsapparel,469994786178670,61,T4
+80,122,Bleuet,https://bleuetgirl.com,https://www.facebook.com/bleuetgirl,312412999226672,240,T4
+81,123,CODE 118,https://code-wallets.com,https://www.facebook.com/codewallets,107763778034327,470,T4
+82,124,RICHWIFE,https://richwife.com,https://www.facebook.com/profile.php?id=61559236497013,329227150265002,180,T4
+83,125,Underoutfit Inc,https://underoutfit.com,https://www.facebook.com/Underoutfit,107256577625672,1100,T4
+84,126,Skre Gear,https://skregear.com,https://www.facebook.com/skregear/,862361130506441,94,T4
+85,127,Dinner Service,https://dinnerserviceny.com,https://www.facebook.com/dinnerserviceny,105431401249563,64,T4
+86,128,Neems,https://neemsjeans.com,https://www.facebook.com/wearneems,317652652254677,43,T4
+87,129,Bonnie Clyde Eyewear,https://bonnieclyde.la,https://www.facebook.com/bonnieclydela,664475013653908,110,T4
+88,130,Northbound Gear,https://northboundgear.co,https://www.facebook.com/northboundgear,106914077343600,40,T4
+89,131,UNDRGOODS,https://undrgoods.com,https://www.facebook.com/undrgoods,492995911162339,47,T4
+90,132,STYLEST,https://stylest.com,https://www.facebook.com/stylestsystem,104687738771111,140,T4
+91,133,Heading Prints,https://headingprints.com,https://www.facebook.com/p/Heading-Prints-100085961102988,105910845601710,60,T4
+92,134,"Heat Wave Visual, Inc.",https://heatwavevisual.com,https://www.facebook.com/heatwavevisual,301822893239822,350,T4
+93,135,Alex Crane,https://alexcrane.co,https://www.facebook.com/alexcraneco,588180707954810,94,T4
+94,136,Drift House,https://drifthouse.com,https://www.facebook.com/drifthousecocoabeach,935302836542473,47,T4
+95,137,Wool & Oak,https://woolandoak.com,https://www.facebook.com/woolnoak,531354007018474,260,T4
+96,138,Motel Margarita,https://motelmargarita.com,https://www.facebook.com/MotelMargarita,1619501218135147,91,T4
+97,139,Abbreviated,https://abbreviated.shop,https://www.facebook.com/abbreviatedapparel,110701061982215,68,T4
+98,140,PRO Compression,https://procompression.com,https://www.facebook.com/procompression,171450469570274,480,T4
+99,141,Wohven,https://wohven.com,https://www.facebook.com/wohvenpage,851088518339536,53,T4
+100,142,OTAKU,https://otaku.shop,https://www.facebook.com/official.otaku.shop.us,389450537585437,31,T4
