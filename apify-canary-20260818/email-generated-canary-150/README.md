@@ -33,6 +33,38 @@ The sample intentionally retains threshold-sensitive rows, including T2 counts c
 - `manifest-150.csv` — immutable mapping for all 150 leads back to source sheet row, company, vetted Facebook identity, expected Page ID, historical count, and historical tier.
 - Post-run raw exports and normalized QA results should be added only after the Apify runs. Never prefill or infer new counts.
 
+## Hosted-input rule for Apify
+
+When Apify is given a hosted text list through `requestsFromUrl` or an equivalent remote-list input, use the **raw file URL**, not the normal GitHub file page.
+
+Correct pattern:
+
+```text
+https://raw.githubusercontent.com/<owner>/<repo>/<ref>/<path>.txt
+```
+
+Do **not** use:
+
+```text
+https://github.com/<owner>/<repo>/blob/<ref>/<path>.txt
+```
+
+The normal `github.com/.../blob/...` URL is an HTML application page. Apify can crawl the GitHub page itself and discover GitHub JavaScript, CSS, navigation, avatars, documentation links, and other assets instead of importing the intended Facebook URLs.
+
+For this canary, the Apify-facing hosted input is:
+
+```text
+https://raw.githubusercontent.com/2xgrowthagency/handbook/agent/apify-canary-20260817/apify-canary-20260818/email-generated-canary-150/page-scoped-input-150.txt
+```
+
+Operational rule going forward:
+
+- **Human review link:** `github.com/.../blob/...`
+- **Apify machine-input link:** `raw.githubusercontent.com/...`
+- Before a large run, verify the remote input resolves directly to newline-separated Facebook/Meta URLs and does not render GitHub HTML.
+
+A 2026-08-18 failed canary attempt used the blob page and produced GitHub asset URLs instead of the 150 intended Meta URLs. That run is invalid and should not be used for count QA.
+
 ## Production architecture under test
 
 The previous idea of running the same count workflow twice for every lead is superseded by a risk-weighted design:
