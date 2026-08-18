@@ -44,9 +44,9 @@ https://raw.githubusercontent.com/2xgrowthagency/handbook/agent/apify-canary-202
 
 ### Evidence pass — COMPLETE
 
-The uploaded Apify export `dataset_facebook-ads-scraper-task_2026-08-18_14-02-29-867.json` is classified as the **one-ad evidence pass**, not the count pass.
+The uploaded Apify export `dataset_facebook-ads-scraper-task_2026-08-18_14-02-29-867.json` is the **one-ad evidence pass**.
 
-Validation of that export:
+Validation:
 
 - 101 output rows
 - 101 unique input Page IDs
@@ -55,43 +55,73 @@ Validation of that export:
 - 101/101 returned an active ad record
 - 0 CAPTCHA events
 - 0 reported Meta Ad Library system issues
-- no `totalCount` field was present, so it cannot serve as the count pass
+- no `totalCount` field was present
 
-Two records (`The Mitten State`, Page ID `108881112460`, and `Sunday Swagger`, Page ID `552047315321061`) had `pageInfo.page = null`, but each still returned a real active ad whose Page ID exactly matched the intended input. They therefore count as valid positive evidence and are not Underoutfit-style failures.
+Two records (`The Mitten State`, Page ID `108881112460`, and `Sunday Swagger`, Page ID `552047315321061`) had `pageInfo.page = null`, but each still returned a real active ad whose Page ID exactly matched the intended input. They count as valid positive evidence.
 
-The actor output indicates a one-result/evidence-style limit was effectively in force. This run is preserved as useful evidence rather than discarded.
+### Misconfigured listing run — NOT A COUNT PASS
 
-## Remaining run architecture
+The uploaded export `dataset_facebook-ads-scraper-task_2026-08-18_14-12-37-190.json` was run with Total Count OFF and Results Limit not set to the evidence value. It did **not** produce count summaries.
 
-The order is now effectively reversed for Batch 2:
+Observed result:
+
+- 420 individual ad rows
+- only 45 of 101 intended input Page IDs represented
+- up to 10 ad rows per represented Page ID
+- no `totalCount` field anywhere
+- therefore unusable as the batch count pass
+
+This run is preserved as a configuration lesson, not used for count QA.
+
+## Correct actor-mode distinction
+
+Current Apify documentation for `apify/facebook-ads-scraper` defines `onlyTotal` / **Total Count** as the actual count-mode switch: when enabled, the Actor returns one dataset item per page with the total number of matching ads instead of scraping individual ads.
+
+The previous project note that count mode should use Total Count OFF was incorrect and has been superseded.
 
 ### Count pass — NEXT
 
-Run the same 101 URLs using the proven count-mode configuration from the finalized canary.
+Use:
 
-Critical setting distinction:
-
-- Active status: ACTIVE
-- Total Count: OFF
-- **Results Limit: blank / unset — do not leave `1` in this field**
-- About-page info: OFF
-- Extra/ad details: OFF
+- Active status: **ACTIVE**
+- Total Count / `onlyTotal`: **ON**
+- Results Limit: **blank / unset**
+- About-page info: **OFF**
+- Extra/ad details: **OFF**
 - Date/sort/ecommerce: default
 
-The count export must expose `totalCount` values. If the export again produces exactly one ad object per Page ID with no `totalCount`, treat it as evidence mode and inspect the Results Limit field before another attempt.
+Acceptance check for this run:
 
-### Third run — conditional only
+- one summary-style dataset item per intended Page ID
+- `totalCount` present for each page/result
+- Page ID reconciliation still performed by expected Page ID
+- CAPTCHA/system failures remain anomalies
 
-After joining count + evidence, generate a third-run list only for:
+### Evidence mode
 
-- `count = 0` + no evidence
-- `count = 0` + evidence found
-- `count > 0` + no evidence
-- CAPTCHA/system/identity structural failures
+Use:
 
-No historical-count-delta-only retries.
+- Active status: **ACTIVE**
+- Total Count / `onlyTotal`: **OFF**
+- Results Limit: **1**
+- About-page info: **OFF**
+- Extra/ad details: **OFF**
 
-After the third Apify run, unresolved rows become `CODEX_REVIEW_REQUIRED`; do not run Apify a fourth time.
+Purpose: retrieve one real active-ad proof record, not magnitude.
+
+## Three-run ceiling for this batch
+
+Because Batch 2 has already consumed two Actor executions (the valid evidence pass plus the misconfigured listing run), the next correct count pass is the **third and final Apify execution for this batch**.
+
+After joining the final count pass with the already-completed evidence pass:
+
+- `count > 0` + evidence found → accept
+- `count = 0` + evidence found → send directly to `CODEX_REVIEW_REQUIRED`
+- missing/contradictory count or identity/system failure → send directly to `CODEX_REVIEW_REQUIRED`
+
+Do **not** perform a fourth Apify run for this batch.
+
+Historical count movement remains telemetry only and does not trigger another scrape.
 
 ## Guardrails
 
