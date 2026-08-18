@@ -8,16 +8,12 @@
 
 ## Scope
 
-This package contains **every populated lead not included in the finalized 150-lead canary**.
+This package contains every populated lead not included in the finalized 150-lead canary.
 
 Included source rows:
 
 - `47–66` — 20 remaining T2 leads
 - `172–252` — 81 remaining T4 leads
-
-There are **no remaining T3 leads** because the first 150-lead canary intentionally included every T3 row.
-
-The live tab's last populated lead is row `252`; rows `253–297` are not part of the remaining population.
 
 Validation:
 
@@ -30,102 +26,99 @@ Validation:
 
 - `page-scoped-input-101.txt` — exact 101 Page-ID-scoped Meta Ad Library URLs.
 - `manifest-101.csv` — source mapping, historical count and tier.
-- This README.
+- `final-results-101.csv` — finalized current ad counts and refreshed tiers.
 
-## Apify machine-input URL
+## Batch 2 final status — CLOSED
 
-Use the raw GitHub file URL, never the normal GitHub blob page:
+Batch 2 is complete. No fourth Apify run is required.
 
-```text
-https://raw.githubusercontent.com/2xgrowthagency/handbook/agent/apify-canary-20260817/apify-canary-20260818/email-generated-batch-2-101/page-scoped-input-101.txt
-```
+Final reconciliation:
 
-## Current progress
-
-### Evidence pass — COMPLETE
-
-The uploaded Apify export `dataset_facebook-ads-scraper-task_2026-08-18_14-02-29-867.json` is the **one-ad evidence pass**.
-
-Validation:
-
-- 101 output rows
-- 101 unique input Page IDs
-- 101 unique returned Page IDs
+- 101/101 expected Page IDs present in the final count-capable export
+- 101/101 returned a positive `totalCount`
+- 101/101 already had a matching active-ad evidence record from the earlier evidence pass
 - 0 Page-ID mismatches
-- 101/101 returned an active ad record
 - 0 CAPTCHA events
 - 0 reported Meta Ad Library system issues
-- no `totalCount` field was present
+- 0 unresolved rows
+- 0 `CODEX_REVIEW_REQUIRED` rows from this batch
 
-Two records (`The Mitten State`, Page ID `108881112460`, and `Sunday Swagger`, Page ID `552047315321061`) had `pageInfo.page = null`, but each still returned a real active ad whose Page ID exactly matched the intended input. They count as valid positive evidence.
+Two evidence records (`The Mitten State`, Page ID `108881112460`, and `Sunday Swagger`, Page ID `552047315321061`) had `pageInfo.page = null`, but their returned ad records exactly matched the expected Page IDs. Their final count results were also positive (`313` and `217` respectively), so these records are accepted.
 
-### Misconfigured listing run — NOT A COUNT PASS
+## Tier refresh
 
-The uploaded export `dataset_facebook-ads-scraper-task_2026-08-18_14-12-37-190.json` was run with Total Count OFF and Results Limit not set to the evidence value. It did **not** produce count summaries.
+Current count-derived tier distribution:
 
-Observed result:
+- T1: 4
+- T2: 11
+- T3: 7
+- T4: 79
 
-- 420 individual ad rows
-- only 45 of 101 intended input Page IDs represented
-- up to 10 ad rows per represented Page ID
-- no `totalCount` field anywhere
-- therefore unusable as the batch count pass
+12 of the 101 leads changed operational tier from the historical sheet tier:
 
-This run is preserved as a configuration lesson, not used for count QA.
+- Matuse, Inc.: T4 → T3 (25)
+- Robin Piccone: T2 → T4 (32)
+- Laura of Pembroke: T2 → T1 (1)
+- Alyth Active: T2 → T1 (3)
+- Double B Boot Company: T4 → T3 (25)
+- DeadSoxy: T2 → T1 (4)
+- True Fashionistas Designer Resale: T2 → T1 (4)
+- The Bra Lab: T2 → T3 (18)
+- Surfside Supply Co.: T2 → T3 (17)
+- Sweetfeet.: T4 → T3 (21)
+- Underwater Weaving Studio: T4 → T3 (20)
+- Little Poppy Co: T2 → T3 (17)
 
-## Correct actor-mode distinction
+Historical count movement by itself remains telemetry only; these tier changes are accepted because the final count is positive and matching active evidence exists.
 
-Current Apify documentation for `apify/facebook-ads-scraper` defines `onlyTotal` / **Total Count** as the actual count-mode switch: when enabled, the Actor returns one dataset item per page with the total number of matching ads instead of scraping individual ads.
+## Run history
 
-The previous project note that count mode should use Total Count OFF was incorrect and has been superseded.
+### Evidence pass — VALID
 
-### Count pass — NEXT
+Export: `dataset_facebook-ads-scraper-task_2026-08-18_14-02-29-867.json`
 
-Use:
+- 101 output rows
+- 101 unique intended Page IDs
+- 101/101 returned a matching active ad record
+- no CAPTCHA/system issues
 
-- Active status: **ACTIVE**
-- Total Count / `onlyTotal`: **ON**
-- Results Limit: **blank / unset**
-- About-page info: **OFF**
-- Extra/ad details: **OFF**
-- Date/sort/ecommerce: default
+### Listing run — MISCONFIGURED / NOT USED FOR COUNTS
 
-Acceptance check for this run:
+Export: `dataset_facebook-ads-scraper-task_2026-08-18_14-12-37-190.json`
 
-- one summary-style dataset item per intended Page ID
-- `totalCount` present for each page/result
-- Page ID reconciliation still performed by expected Page ID
-- CAPTCHA/system failures remain anomalies
+- returned individual ads rather than usable count summaries
+- only 45 of 101 intended Page IDs represented
+- excluded from final count QA
 
-### Evidence mode
+### Final count-capable run — VALID FOR THIS BATCH
 
-Use:
+Export: `dataset_facebook-ads-scraper-task_2026-08-18_14-20-04-783(1).json`
 
-- Active status: **ACTIVE**
-- Total Count / `onlyTotal`: **OFF**
-- Results Limit: **1**
-- About-page info: **OFF**
-- Extra/ad details: **OFF**
+- 101 rows
+- 101 unique intended Page IDs
+- `totalCount` present on every row
+- all counts positive
+- nested `totalCount` values, where present, agree with the top-level value
+- returned records, where present, are active and reconcile to the intended Page ID
 
-Purpose: retrieve one real active-ad proof record, not magnitude.
+Important cost note: although this export is count-capable, it still contains large nested ad-record arrays for many pages. It should **not** be used as the target output shape for the post–Batch 2 cost-optimized production workflow. Future total-count passes should use the Actor's true `onlyTotal` behavior and should be validated to return the cheapest summary-style output rather than bulk ad records.
 
-## Three-run ceiling for this batch
+## Post–Batch 2 workflow
 
-Because Batch 2 has already consumed two Actor executions (the valid evidence pass plus the misconfigured listing run), the next correct count pass is the **third and final Apify execution for this batch**.
+Beginning with the next batch, use the adopted cost-optimized architecture documented in `APIFY_OPERATING_RULES.md`:
 
-After joining the final count pass with the already-completed evidence pass:
+```text
+Run 1: Total Count ON — all leads
+Run 2: Total Count ON — all leads, reshuffled
+Run 3: Total Count OFF + Results Limit 1 — exceptions only
+Still unresolved → CODEX_REVIEW_REQUIRED
+```
 
-- `count > 0` + evidence found → accept
-- `count = 0` + evidence found → send directly to `CODEX_REVIEW_REQUIRED`
-- missing/contradictory count or identity/system failure → send directly to `CODEX_REVIEW_REQUIRED`
-
-Do **not** perform a fourth Apify run for this batch.
-
-Historical count movement remains telemetry only and does not trigger another scrape.
+Before scaling that architecture, verify on a small canary that Total Count ON is truly producing one cheap summary result per Page ID rather than nested/bulk ad records.
 
 ## Guardrails
 
 - Reconcile by Page ID, never company name.
 - Preserve raw exports.
-- Do not write back to the production Sheet during QA.
-- Do not regenerate email copy until refreshed tiering is accepted.
+- No production Sheet writes were made during Batch 2 QA.
+- Do not regenerate email copy until refreshed tiering is accepted for downstream use.
