@@ -30,8 +30,7 @@ The sample intentionally retains threshold-sensitive rows, including T2 counts c
 ## Files
 
 - `page-scoped-input-150.txt` — the exact 150 page-scoped Meta Ad Library URLs. Reuse the same URL set for Pass 1 and Pass 2; the actor settings change between passes.
-- `manifest-base-100.csv` — copy of the original 100-lead manifest.
-- `manifest-additions-50.csv` — the 50 newly added leads. Together the two manifests define the full 150-row canary.
+- `manifest-150.csv` — immutable mapping for all 150 leads back to source sheet row, company, vetted Facebook identity, expected Page ID, historical count, and historical tier.
 - Post-run raw exports and normalized QA results should be added only after the Apify runs. Never prefill or infer new counts.
 
 ## Production architecture under test
