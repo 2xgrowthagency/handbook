@@ -1,0 +1,10 @@
+page_id,company,old_ad_count,pass1_count,pass2_evidence,retry_type,retry_reason
+119412367116,Peppers Polarized Eyeware,6,0,no,count,"Zero + empty evidence requires zero confirmation"
+155003627391,Fortress,10,0,yes,count,"Run 1 false-zero contradiction: count 0 but Run 2 returned an active ad"
+108961858219531,Blumaka,25,9,yes,count,"Material historical drop: 25 -> 9"
+360947873983088,KADYLUXE,24,50,yes,count,"Material historical jump: 24 -> 50"
+414291035701131,Labucq,20,7,yes,count,"Material historical drop: 20 -> 7"
+370383059790472,Girl Tribe Co.,23,161,yes,count,"Material historical jump: 23 -> 161"
+312412999226672,Bleuet,240,49,yes,count,"Material historical drop: 240 -> 49"
+113804458493053,keote,30,3,yes,count,"Material historical drop: 30 -> 3"
+107256577625672,Underoutfit Inc,1100,1003,no,evidence,"Positive count but no page identity/ad evidence in either pass"
