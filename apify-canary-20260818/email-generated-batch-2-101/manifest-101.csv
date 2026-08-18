@@ -1,0 +1,102 @@
+batch_index,sheet_row,company,website,official_facebook_url,expected_page_id,old_ad_count,old_tier
+1,47,Laura of Pembroke,https://lauraofpembroke.com,https://www.facebook.com/lauraofpembroke,323650388691,13,T2
+2,48,Freyja,https://freyjaworld.com,https://www.facebook.com/people/Freyja/61554838912461,180961471771055,15,T2
+3,49,DeadSoxy,https://deadsoxy.com,https://www.facebook.com/DeadSoxy,132772940231680,13,T2
+4,50,Little Poppy Co,https://littlepoppyco.com,https://www.facebook.com/littlepoppyco/,846769448703626,10,T2
+5,51,Surfside Supply Co.,https://surfsidesupply.com,https://www.facebook.com/surfsidesupplyco,561314267256552,9,T2
+6,52,Robin Piccone,https://robinpiccone.com,https://www.facebook.com/RobinPiccone,142251481984,10,T2
+7,53,alyth active,https://alythactive.com,https://www.facebook.com/alythactive,102058028907486,10,T2
+8,54,Sardine,https://sardine.net,https://www.facebook.com/sardineeyewear,104078899038536,15,T2
+9,55,Mod Ref,https://modrefstores.com,https://www.facebook.com/modrefclothing,503734616339578,11,T2
+10,56,"Top Knot, Inc.",https://topknotinc.com,https://www.facebook.com/topknotinc,823009471220792,6,T2
+11,57,Deer Stags Inc,https://deerstags.com,https://www.facebook.com/DeerStagsShoes,162729421015,14,T2
+12,58,Milk Teeth,https://shopmilkteeth.com,https://www.facebook.com/ShopMilkTeeth,108142838274348,14,T2
+13,59,LDMA,https://ldmabrand.com,https://www.facebook.com/ldmabrand/,112053681248098,13,T2
+14,60,Hauteline,https://hauteline.com,https://www.facebook.com/profile.php?id=100092609865631,103334856101796,12,T2
+15,61,True Fashionistas,https://truefashionistas.com,https://www.facebook.com/truefashionistasresale/,297848966902863,6,T2
+16,62,BRALISSE,https://bralisse.com,https://www.facebook.com/bralisse,107640981874021,8,T2
+17,63,The Bra Lab,https://thebralab.com,https://www.facebook.com/thebralab/,484043858373888,9,T2
+18,64,Alma Mater,https://almamaterfootwear.com,https://www.facebook.com/almamaterfootwear/,553791961783742,11,T2
+19,65,Le Lion,https://lelion.com,https://www.facebook.com/LeLionCollection/,1274746369267915,12,T2
+20,66,AMO DENIM,https://amodenim.com,https://www.facebook.com/amodenim/,234807956715520,13,T2
+21,172,BinkyBro,https://binkybro.com,https://www.facebook.com/binkybro,1594338524191854,590,T4
+22,173,Good Luck Sock,https://goodlucksock.com,https://www.facebook.com/GoodLuckSock,438605386257085,46,T4
+23,174,HYPLAND,https://hypland.com,https://www.facebook.com/hypland,229812673783917,69,T4
+24,175,beek leathergoods,https://beekshop.com,https://www.facebook.com/thebeeknest,969678243061791,88,T4
+25,176,Double B Boot Company,https://doublebboots.com,https://www.facebook.com/doublebboots,104992667785358,40,T4
+26,177,Aion,https://aiongear.com,https://www.facebook.com/profile.php?id=61552130268007,136783572858515,60,T4
+27,178,FattyPack,https://fattypack.com,https://www.facebook.com/fattypackco,112719335096788,100,T4
+28,179,Imperfects,https://imperfects.com,https://www.facebook.com/Imprfcts,1314341851913797,54,T4
+29,180,Tiny Turnip LLC,https://tinyturnip.com,https://www.facebook.com/tinyturnip,1587114271324111,31,T4
+30,181,Public Rec,https://publicrec.com,https://www.facebook.com/JustTheHorns,580940575262186,260,T4
+31,182,SOAR Sports LLC,https://soarbb.com,https://www.facebook.com/people/Soarbbhoops/61578008101841,660671900471012,91,T4
+32,183,Flux Footwear,https://fluxfootwear.com,https://www.facebook.com/fluxfootwear,246451686051824,880,T4
+33,184,Mediclo,https://mediclo.com,https://www.facebook.com/shopmedicloscrubs,274797732374282,28,T4
+34,185,BLUESMITHS,https://bluesmiths.com,https://www.facebook.com/bluesmiths,110539198972460,30,T4
+35,186,Susan Alexandra,https://susanalexandra.com,https://www.facebook.com/susanalexandrajewelry/,529648757066544,51,T4
+36,187,Millie Savage Jewellery Pty Ltd,https://milliesavage.com,https://www.facebook.com/officialMilliesavage/,100573939137259,99,T4
+37,188,The Mitten State,https://themittenstate.com,https://www.facebook.com/themittenstate,108881112460,310,T4
+38,189,Joy Dravecky Jewelry,https://joydraveckyjewelry.com,https://www.facebook.com/joydraveckyjewelry,134569399941595,32,T4
+39,190,Pilabarre Grip Socks,https://pila-barre.com,https://www.facebook.com/pilabarre/,352788721240428,93,T4
+40,191,Elegatto,https://elegatto.com,https://www.facebook.com/elegatto.shop,667199517129704,56,T4
+41,192,A.SHIMUS,https://a-shimus.com,https://www.facebook.com/profile.php?id=61576281892152,621995781002559,36,T4
+42,193,Mantra Golf,https://mantragolf.com,https://www.facebook.com/madebymantra.co/,2152301634859449,130,T4
+43,194,Baja Llama,https://bajallama.com,https://www.facebook.com/Bajallamabrand,1066001313542577,27,T4
+44,195,UNDERWATER WEAVING STUDIO,https://underwaterweaving.com,https://www.facebook.com/p/Underwater-Weaving-Studio-61581295476038/,825334597333758,29,T4
+45,196,Snaps Clothing Inc.,https://snapsclothing.com,https://www.facebook.com/snapsclothingco/,108167862056135,35,T4
+46,197,OLIVER CHARLES,https://oliver-charles.com,https://www.facebook.com/oliver.charles.clothing/,112241746980486,160,T4
+47,198,Mama Coco,https://buymamacoco.com,https://www.facebook.com/buymamacoco/,104606590980191,80,T4
+48,199,Path Projects,https://pathprojects.com,https://www.facebook.com/pathprojectsco/,1294200717356535,180,T4
+49,200,seree,https://seree.co,https://www.facebook.com/seree.co/,104858618346565,77,T4
+50,201,No Reception Club,https://noreceptionclub.com,https://www.facebook.com/noreceptionclub/,104981101564145,36,T4
+51,202,Bearbottom Clothing,https://bearbottomclothing.com,https://www.facebook.com/bearbottomclothing/,255889597873377,620,T4
+52,203,Golftini,https://golftiniwear.com,https://www.facebook.com/Golftini/,302402588711,100,T4
+53,204,La Coochie,https://lacoochie.com,https://www.facebook.com/lacoochie,105193314747295,180,T4
+54,205,SwimZip,https://swimzip.com,https://www.facebook.com/SwimZip/,106618109384557,45,T4
+55,206,Shop Priceless,https://shoppriceless.com,https://facebook.com/shoppriceless,368061849895,45,T4
+56,207,Iron Oak Apparel Co.,https://ironoaktx.com,https://www.facebook.com/ironoakapparel/,108006000882968,45,T4
+57,208,DEL CAMPO GOLF,https://delcampogolf.com,https://www.facebook.com/delcampogolf/,154802257718335,40,T4
+58,209,Thank God,https://thankgod.com,https://www.facebook.com/thankgodapparel,226958432601793,170,T4
+59,210,Katie Waltman Boutique,https://katiewaltman.com,https://www.facebook.com/katiewaltmanjewelry,584548031712695,27,T4
+60,211,Beringia,https://beringia.world,https://www.facebook.com/beringiaworld,216841502169122,28,T4
+61,212,Kilte,https://kiltecollection.com,https://www.facebook.com/100063647454174,103027734919244,130,T4
+62,213,The Hero Company,https://theherocompany.co,https://www.facebook.com/TheHeroCo,105068278426504,600,T4
+63,214,Peluva,https://peluva.com,https://www.facebook.com/wearpeluva,109827308635732,120,T4
+64,215,Thirty Years,https://thirtyyears.com,https://www.facebook.com/ThirtyYearsApparel,104775668063027,220,T4
+65,216,Burgeon Outdoor,https://burgeonoutdoor.com,https://www.facebook.com/burgeonoutdoor,324744821779231,26,T4
+66,217,Hikerkind,https://hikerkind.com,https://www.facebook.com/Hikerkind-103782115094037,103782115094037,39,T4
+67,218,ForgeLine Fieldwear,https://forgelinesolutions.com,https://www.facebook.com/forgelinefieldwear,631961560008126,50,T4
+68,219,Bailey's Blossoms,https://baileysblossoms.com,https://www.facebook.com/baileysblossoms,548463448527422,50,T4
+69,220,Merlette,https://merlettenyc.com,https://www.facebook.com/merlettenyc,1701687666756206,46,T4
+70,221,Piper & Scoot,https://piperandscoot.com,https://www.facebook.com/piperandscoot,1442020236019074,61,T4
+71,222,Mountain Moverz,https://mtnmoverz.com,https://www.facebook.com/mtnmoverz,655834334518181,110,T4
+72,223,"Pacas™, Inc.",https://pacas.us,https://www.facebook.com/pacasocks,231275634427473,43,T4
+73,224,Ocean and San,https://oceanandsan.com,https://www.facebook.com/oceanandsan,109543984521109,96,T4
+74,225,Oso & Me,https://osoandme.com,https://www.facebook.com/osoandme,577675335745644,28,T4
+75,226,Gratia Pearl,https://gratiapearl.com,https://www.facebook.com/gratiapearl,226377804064612,88,T4
+76,227,WILLBO,https://willbousa.com,https://www.facebook.com/WILLBOUSA,104443821388301,72,T4
+77,228,Sebastian Cruz Couture,https://sebastiancruzcouture.com,https://www.facebook.com/SebastianCruzCouture,392396014220071,230,T4
+78,229,KYNAH,https://shopkynah.com,https://www.facebook.com/shopkynah,320569485038164,47,T4
+79,230,&Collar,https://andcollar.com,https://www.facebook.com/andcollar,389493694755751,56,T4
+80,231,HUUG,https://huug.com,https://www.facebook.com/shophuug,106394662372864,180,T4
+81,232,Oliver Logan,https://oliverlogan.com,https://www.facebook.com/OliverLoganLa,688287628222834,64,T4
+82,233,Ash & Erie,https://ashanderie.com,https://www.facebook.com/ashanderie,340499879480724,160,T4
+83,234,Wildcoat,https://wildcoat.com,https://www.facebook.com/Wildcoat,101048028163045,38,T4
+84,235,Lucyd,https://lucyd.co,https://www.facebook.com/LucydEyewear/,100697502758829,130,T4
+85,236,"Matuse, Inc.",https://matuse.com,https://www.facebook.com/matuse.inc,66438236345,27,T4
+86,237,Condor Outdoor Products,https://condoroutdoor.com,https://www.facebook.com/CondorOutdoorProducts,140788899323187,42,T4
+87,238,SAOLA,https://saola.com,https://www.facebook.com/saolashoes/,1658702764451806,68,T4
+88,239,Holden,https://hiholden.com,https://www.facebook.com/holdenrings/,673316809535757,82,T4
+89,240,SheBird,https://shebirdshop.com,https://www.facebook.com/SheBirdShop/,120272415218506,170,T4
+90,241,Walker & Wade,https://walkerandwade.com,https://www.facebook.com/walkerandwade,911937375504219,40,T4
+91,242,Ashworth Golf,https://ashworth-golf.com,https://www.facebook.com/ashworthgolfofficial,263844526803260,34,T4
+92,243,Strawberry Western,https://strawberrywestern.com,https://www.facebook.com/strawberrywestern/,101185468525945,35,T4
+93,244,Sweetfeet.,https://sweetfeetnyc.com,https://www.facebook.com/61577025916250/,662460490288592,27,T4
+94,245,"Boardroom Socks, Inc.",https://boardroomsocks.com,https://www.facebook.com/BoardroomSocks/,1677579465856335,62,T4
+95,246,BTB Los Angeles,https://btblosangeles.com,https://www.facebook.com/p/BTB-Los-Angeles-100059976045524/,437714517054816,86,T4
+96,247,Free the Sheep,https://freethesheep.com,https://www.facebook.com/freethesheepco/,108549705437950,65,T4
+97,248,Coyote Jocks,https://coyotejocks.com,https://www.facebook.com/coyotejocks/,576836482768460,200,T4
+98,249,Sierra Madre Golf,https://sierramadregolf.com,https://www.facebook.com/sierramadregolf/,104225308094038,28,T4
+99,250,Sunday Swagger,https://sundayswagger.com,https://www.facebook.com/sundayswagger,552047315321061,220,T4
+100,251,Colored Organics,https://coloredorganics.com,https://www.facebook.com/coloredorganics,115332275150235,45,T4
+101,252,Arrowhead Tactical Apparel LLC,https://arrowheadtacticalapparel.com,https://www.facebook.com/arrowheadtacticalapparel,100225594892994,240,T4
