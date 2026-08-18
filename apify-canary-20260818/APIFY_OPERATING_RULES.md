@@ -33,6 +33,22 @@ During preparation of the 150-lead `Email generated` canary, the normal GitHub b
 
 This was an input-hosting failure, not an Apify Meta-count failure.
 
+## Count-mode `isResultComplete` semantics
+
+The corrected 150-lead Pass 1 showed an important distinction between **count completeness** and **returned-ad-list completeness**.
+
+In count mode, Apify can expose a usable `totalCount` while returning only a subset of the actual ad objects. In the 150-lead run, every row with `isResultComplete = false` had a positive `totalCount` larger than the number of returned ad records; the returned records still matched the intended Page ID, were active, had internally consistent `totalCount` values, and had no CAPTCHA or reported Meta system issue.
+
+Therefore:
+
+- `isResultComplete = false` in **count mode** must **not** automatically invalidate `totalCount`.
+- Treat it as evidence that the **ad-object list was truncated/incomplete**, not necessarily that the count itself failed.
+- A count-mode row can remain usable when Page ID matches, `totalCount` is present, CAPTCHA is false, Meta reports no system issue, and any returned records are internally consistent with the same Page ID/count.
+- Continue to treat missing Page identity, CAPTCHA/system errors, missing count, contradictory Page IDs/counts, or other structural failures as anomalies.
+- Evidence mode has a different purpose and should still be evaluated on whether it can return the expected one active-ad proof record.
+
+The 150-lead canary specifically produced 65 `isResultComplete = false` rows, all corresponding to truncated positive result lists rather than random technical failures. This rule prevents those rows from being incorrectly escalated en masse.
+
 ## Current pass architecture
 
 Baseline production direction:
