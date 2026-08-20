@@ -1,0 +1,615 @@
+pass3_group,pass3_group_index,input_url,pass2_index,source_sheet_rows,source_company_names,pass1_state,pass1_page_id,pass1_total_count,pass2_state,pass2_page_id,pass2_total_count,pass2_results_count,pass2_system_status,pass2_captcha_required,pass3_reason
+count,1,https://www.facebook.com/simplebabying,1,780,Lalabu,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,2,https://www.facebook.com/nichesnowboards,2,381,Niche Snowboards,zero,197407323029,0,zero_empty,197407323029,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,3,https://www.facebook.com/authenticallyamericanco,3,1019,Authentically American,zero,655273004649847,0,zero_empty,655273004649847,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,4,https://www.facebook.com/StrutThis,5,124,Strut-This,zero,207634745924780,0,zero_empty,207634745924780,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,5,https://www.facebook.com/bruceglen,6,994,BRUCEGLEN,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,6,https://www.facebook.com/pimalubaby,7,280,Pimalu,zero,124790864042236,0,zero_empty,124790864042236,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,7,https://www.facebook.com/ArmTheAnimals,8,683,Arm the Animals,zero,128220823877343,0,zero_empty,128220823877343,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,8,https://www.facebook.com/uplandbespoke,9,66,Upland Bespoke,zero,1319478651417513,0,zero_empty,1319478651417513,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,9,https://www.facebook.com/PackinNeat,10,319,Packin'​ Neat,zero,344593715650538,0,zero_empty,344593715650538,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,10,https://www.facebook.com/ringbandits,13,212,RING BANDITS,zero,1852531444988446,0,zero_empty,1852531444988446,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,11,https://www.facebook.com/bromeliaswimwear,14,638,Bromelia Swimwear,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,12,https://www.facebook.com/druthersnyc,15,578,Druthers NYC,zero,286088048241753,0,zero_empty,286088048241753,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,13,https://www.facebook.com/pages/Jared-Lang-Shirts/166875206706028,16,836,Jared Lang,zero,166875206706028,0,zero_empty,166875206706028,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,14,https://www.facebook.com/Petit-Moments-399187594231801,17,286,Petit Moments LLC,zero,399187594231801,0,zero_empty,399187594231801,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,15,https://www.facebook.com/savannahchildren,19,796,Strasburg Children,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,16,https://www.facebook.com/BenarioConsulting,20,660,Benario Consulting,zero,586408331534959,0,zero_empty,586408331534959,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,17,https://www.facebook.com/melasworld,22,409,Mela,zero,103800925186044,0,zero_empty,103800925186044,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,18,https://www.facebook.com/apnyapparel,23,1023,APNY Apparel,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,19,https://www.facebook.com/hightrast,24,499,Hightrast,zero,101660475082568,0,zero_empty,101660475082568,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,20,https://www.facebook.com/careandwear,28,1047,Care+Wear,zero,637664689603278,0,zero_empty,637664689603278,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,21,https://www.facebook.com/people/Raskana/100086298788784,29,294,RASKANA,zero,105007102376099,0,zero_empty,105007102376099,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,22,https://www.facebook.com/p/Always-Coco-Fine-61572214962150,31,353,The Always Coco Collection,zero,476423085564682,0,zero_empty,476423085564682,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,23,https://www.facebook.com/leahkirschbrand,32,909,Leah Kirsch,zero,406000809500459,0,zero_empty,406000809500459,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,24,https://www.facebook.com/effybee,33,960,fyb jewelry,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,25,https://www.facebook.com/61578093577199,34,709,Magnifique Couleur,zero,655204741018521,0,zero_empty,655204741018521,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,26,https://www.facebook.com/whoshirtcompany,37,23,Who Shirt Company,zero,454496934988943,0,zero_empty,454496934988943,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,27,https://www.facebook.com/beurdshop,39,655,Beurd,zero,722000101197625,0,zero_empty,722000101197625,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,28,https://www.facebook.com/mspdesigngroup,40,391,MSP Design Group,zero,1677785369159175,0,zero_empty,1677785369159175,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,29,https://www.facebook.com/boholifestyleca,42,1000,Boho Lifestyle,zero,508437219240512,0,zero_empty,508437219240512,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,30,https://www.facebook.com/RepresentPAbrand,43,219,RepresentPA,zero,122331341739724,0,zero_empty,122331341739724,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,31,https://www.facebook.com/ChoppaheadKustoms,46,624,Choppahead Kustom Cycles,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,32,https://www.facebook.com/pondlosangeles,47,274,POND Los Angeles,zero,155576901785066,0,zero_empty,155576901785066,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,33,https://www.facebook.com/humansandland,49,490,Humans & Land,zero,101947062595156,0,zero_empty,101947062595156,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,34,https://www.facebook.com/majorleaguesocks,50,417,Major League Socks,zero,496252257243494,0,zero_empty,496252257243494,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,35,https://www.facebook.com/populartwentyone,51,273,Popular 21,zero,216034705517328,0,zero_empty,216034705517328,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,36,https://www.facebook.com/people/A4S-Sportswear/61577906201061,52,308,A4S Sportswear,zero,724404774085589,0,zero_empty,724404774085589,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,37,https://www.facebook.com/WOLACOinc,53,19,WOLACO,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,38,https://www.facebook.com/yliana.yepez.5,57,721,YLIANA YEPEZ,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,39,https://www.facebook.com/SWAE.US,58,119,SWAE,zero,110249554703957,0,zero_empty,110249554703957,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,40,https://www.facebook.com/maisonblacknewyork,59,418,Maison Black New York,zero,107485965066551,0,zero_empty,107485965066551,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,41,https://www.facebook.com/wrightsockusa,60,726,"Wrightsock - Wrightenberry Mills, Inc",error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,42,https://www.facebook.com/HBarCRanchwear,61,504,H Bar C Ranchwear,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,43,https://www.facebook.com/pages/FW-Style/107956949223191,62,841,F&W Style,zero,107956949223191,0,zero_empty,107956949223191,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,44,https://www.facebook.com/thorsunswim,64,1049,Thorsun,zero,995026980552148,0,zero_empty,995026980552148,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,45,https://www.facebook.com/nimblemade,65,379,Nimble Made,zero,223454095002324,0,zero_empty,223454095002324,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,46,https://www.facebook.com/jeffrey.bartlett.18,67,925,Jeffrey Bartlett Clothiers,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,47,https://www.facebook.com/people/BluBlonc/100083412557213,70,304,Blublonc Handcrafted Footwear,zero,101844572566721,0,zero_empty,101844572566721,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,48,https://www.facebook.com/Haute24,71,939,Haute24.com,zero,1988867808042213,0,zero_empty,1988867808042213,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,49,https://www.facebook.com/weballsports.,75,31,We Ball Sports,zero,131562157510312,0,zero_empty,131562157510312,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,50,https://www.facebook.com/BobbiToads,76,645,Bobbi-Toads,zero,461118040583002,0,zero_empty,461118040583002,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,51,https://www.facebook.com/twin.thatswhatineed,77,75,T.W.I.N. (That's What I Need),zero,100361565507701,0,zero_empty,100361565507701,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,52,https://www.facebook.com/hutchdesignNYC,79,489,Hutch,zero,180092338738880,0,zero_empty,180092338738880,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,53,https://www.facebook.com/alldayrunningco,80,693,All Day Running Co.,zero,103737755565773,0,zero_empty,103737755565773,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,54,https://www.facebook.com/blackonblackbk,81,1004,BLACK ON BLACK,zero,503527879820003,0,zero_empty,503527879820003,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,55,https://www.facebook.com/capricebespoke,82,629,CAPRICE BESPOKE®,zero,103956421596255,0,zero_empty,103956421596255,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,56,https://www.facebook.com/pages/Haute-Rebellious/114687235257283,86,837,Haute & Rebellious,zero,114687235257283,0,zero_empty,114687235257283,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,57,https://www.facebook.com/Bloomlala-235465517286631,88,648,Bloomlala,zero,235465517286631,0,zero_empty,235465517286631,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,58,https://www.facebook.com/SimplySoles,90,779,SimplySoles Inc.,zero,12657403989,0,zero_empty,12657403989,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,59,https://www.facebook.com/ebenezerhats,92,961,Ebenezer Hats,zero,105842952601954,0,zero_empty,105842952601954,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,60,https://www.facebook.com/ewoolwearables,94,557,ewool,zero,192173834757064,0,zero_empty,192173834757064,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,61,https://www.facebook.com/shopyandi,95,158,y&i clothing boutique,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,62,https://www.facebook.com/oddliclothing,96,870,Oddli,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,63,https://www.facebook.com/cavitycolorsaaron,97,984,CavityColors,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,64,https://www.facebook.com/zenazioraofficial,98,6,Zena Ziora,zero,103808591501120,0,zero_empty,103808591501120,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,65,https://www.facebook.com/4T2DVT,99,710,4T2D [Fourtitude],zero,103171242040553,0,zero_empty,103171242040553,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,66,https://www.facebook.com/howlandhide,100,491,Howl + Hide Supply,zero,1531778367091264,0,zero_empty,1531778367091264,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,67,https://www.facebook.com/unfinishedlegacy,101,69,Unfinished Legacy,zero,151758224976640,0,zero_empty,151758224976640,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,68,https://www.facebook.com/faintrevival,102,555,Faint Revival,zero,364613770661292,0,zero_empty,364613770661292,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,69,https://www.facebook.com/Mourenne,103,393,MOURÈNNE,zero,103023148904940,0,zero_empty,103023148904940,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,70,https://www.facebook.com/therubymint,104,756,Ruby Mint®,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,71,https://www.facebook.com/hashke.ee,107,505,Hashké,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,72,https://www.facebook.com/hijulez,109,498,hijulez,zero,1718112161834854,0,zero_empty,1718112161834854,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,73,https://www.facebook.com/zaadressupstudio,110,8,z•aa dress up studio,zero,256219154890134,0,zero_empty,256219154890134,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,74,https://www.facebook.com/fashom,112,1045,Fashom,zero,196258767206429,0,zero_empty,196258767206429,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,75,https://www.facebook.com/eastxeastnewyork,114,572,EAST x EAST,zero,104381889043188,0,zero_empty,104381889043188,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,76,https://www.facebook.com/MOMMALABEL,116,395,MOMMA,zero,108558234335038,0,zero_empty,108558234335038,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,77,https://www.facebook.com/Terracea,117,111,TERRACEA,zero,1628937044088778,0,zero_empty,1628937044088778,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,78,https://www.facebook.com/corvojewelry,118,609,Corvo Jewelry,zero,107225447299885,0,zero_empty,107225447299885,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,79,https://www.facebook.com/jbrds.kids,120,926,jbrds,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,80,https://www.facebook.com/TeamLinville,121,113,Team Linville LLC,zero,1813368822259721,0,zero_empty,1813368822259721,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,81,https://www.facebook.com/p/Ian-Design-Company-61554576957653,122,344,Ian Design Co,zero,172136389324090,0,zero_empty,172136389324090,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,82,https://www.facebook.com/skntones,124,151,Skntones™,zero,113145797271373,0,zero_empty,113145797271373,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,83,https://www.facebook.com/optimistmade,125,360,Optimist Made,zero,160412258112120,0,zero_empty,160412258112120,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,84,https://www.facebook.com/WaldenAthletic,126,52,Walden Outdoor Athletic LLC,zero,275812672947398,0,zero_empty,275812672947398,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,85,https://www.facebook.com/nukuswim,127,370,Nuku Swim,zero,215517948931382,0,zero_empty,215517948931382,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,86,https://www.facebook.com/thesoulproject,128,755,SOUL Project,zero,209610409063143,0,zero_empty,209610409063143,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,87,https://www.facebook.com/kadenandkai,129,464,KADEN & KAI,zero,547301515448142,0,zero_empty,547301515448142,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,88,https://www.facebook.com/Tronusofficialshoes,130,79,"TRONUS FOOTWEAR, LLC",zero,109269724142778,0,zero_empty,109269724142778,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,89,https://www.facebook.com/NGEL.Kelowna,131,382,Naughty Girl Essentials Lingerie,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,90,https://www.facebook.com/bffsandbabes,132,654,BFFS & BABES,zero,350093782362088,0,zero_empty,350093782362088,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,91,https://www.facebook.com/OSAYthelabelnew,140,357,OSAY THE LABEL,zero,171654016293462,0,zero_empty,171654016293462,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,92,https://www.facebook.com/p/Scandal-Italy-100066904429031,141,326,Scandal Italy,zero,100860198823345,0,zero_empty,100860198823345,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,93,https://www.facebook.com/bootybrabants,144,997,Booty by Brabants,zero,234964886681950,0,zero_empty,234964886681950,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,94,https://www.facebook.com/soundoffdesign,145,772,SOUNDOFF,zero,1705005353118059,0,zero_empty,1705005353118059,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,95,https://www.facebook.com/southernlure,146,139,Southern Lure,zero,534604439947883,0,zero_empty,534604439947883,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,96,https://www.facebook.com/arvingoods,148,682,Arvin Goods,zero,1503926879896868,0,zero_empty,1503926879896868,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,97,https://www.facebook.com/mariemurusa,149,895,MARIEMUR,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,98,https://www.facebook.com/solios,150,143,SOLIOS Watches,zero,732949113724386,0,zero_empty,732949113724386,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,99,https://www.facebook.com/p/REVI-GEAR-61579167747775,151,329,Revi,zero,695950050277077,0,zero_empty,695950050277077,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,100,https://www.facebook.com/milonicki,152,888,milo+nicki,zero,161943784223741,0,zero_empty,161943784223741,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,101,https://www.facebook.com/AlexanderDaas,153,696,Alexander Daas Eyewear & Opticians,zero,109437282423006,0,zero_empty,109437282423006,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,102,https://www.facebook.com/MachApparelTri,154,420,Mach Apparel,zero,300851254087437,0,zero_empty,300851254087437,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,103,https://www.facebook.com/westpathsupply,158,28,West Path,zero,1193125114087408,0,zero_empty,1193125114087408,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,104,https://www.facebook.com/gofizzy,161,946,Wear Fizzy,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,105,https://www.facebook.com/theebwrap,162,104,The EveryBody Wrap®,zero,997943856915483,0,zero_empty,997943856915483,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,106,https://www.facebook.com/people/Ruby-Jones/61584621642475,163,291,Ruby Jones,zero,936378322885391,0,zero_empty,936378322885391,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,107,https://www.facebook.com/slumbersleepwearbrand,164,149,Slumber Sleepwear,zero,165941209928585,0,zero_empty,165941209928585,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,108,https://www.facebook.com/dondolo.official,165,583,Dondolo,zero,391242787579261,0,zero_empty,391242787579261,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,109,https://www.facebook.com/delfinasport123,166,593,Delfina Sport,zero,244532352390209,0,zero_empty,244532352390209,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,110,https://www.facebook.com/cockpitusa,167,620,"CPT USA LLC, DBA Cockpit USA",zero,52433295208,0,zero_empty,52433295208,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,111,https://www.facebook.com/p/ZIBOO-61558586803700,168,320,ZIBOO,zero,242996218908022,0,zero_empty,242996218908022,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,112,https://www.facebook.com/Tara-Grinna-Swimwear-Page/138098452909658,170,762,Tara Grinna Swimwear,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,113,https://www.facebook.com/glittertrunk,171,1055,Glitter Trunk Jewelry,zero,983678864979982,0,zero_empty,983678864979982,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,114,https://www.facebook.com/oyceeclothing,174,355,OYCEE,zero,311142516288427,0,zero_empty,311142516288427,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,115,https://www.facebook.com/lahangatelier,176,444,Atelier de La Hang,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,116,https://www.facebook.com/partslabour,177,313,Parts + Labour,zero,110119569008593,0,zero_empty,110119569008593,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,117,https://www.facebook.com/hipandbone,179,497,HIP AND BONE,zero,140925182609183,0,zero_empty,140925182609183,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,118,https://www.facebook.com/shopblackable,180,180,Blackable,zero,705861792603564,0,zero_empty,705861792603564,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,119,https://www.facebook.com/felonycase,182,550,Felony Case,zero,303115736430782,0,zero_empty,303115736430782,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,120,https://www.facebook.com/shopdailybloom,184,176,Daily Bloom,zero,467155176470859,0,zero_empty,467155176470859,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,121,https://www.facebook.com/gruffandtumbleunderwear,187,513,Gruff + Tumble,zero,1397206147171004,0,zero_empty,1397206147171004,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,122,https://www.facebook.com/Veezhallc,188,62,Veezha,zero,113617076661411,0,zero_empty,113617076661411,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,123,https://www.facebook.com/rockwelltime,191,802,Rockwell Time,zero,265977303438013,0,zero_empty,265977303438013,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,124,https://www.facebook.com/Bonnbonnbaby,192,998,BonnBonn Baby Antimicrobial Moisture Wicking Performance Baby wear and Essentials,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,125,https://www.facebook.com/pages/Foxgloves/275087281197,194,844,higarden,zero,275087281197,0,zero_empty,275087281197,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,126,https://www.facebook.com/2downbaseball,195,711,2 Down Baseball,zero,102203495594085,0,zero_empty,102203495594085,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,127,https://www.facebook.com/colettemalouf,196,618,"Colette Malouf, Inc.",zero,97134808508,0,zero_empty,97134808508,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,128,https://www.facebook.com/authoredadaptiveapparel,199,673,Authored.®,zero,673025199478716,0,zero_empty,673025199478716,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,129,https://www.facebook.com/GolfAnythingCanada,200,519,Golf Anything,zero,464661617032453,0,zero_empty,464661617032453,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,130,https://www.facebook.com/pages/KOA-swim/514382091939014,201,835,KYA swim,zero,514382091939014,0,zero_empty,514382091939014,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,131,https://www.facebook.com/GrenekerMannequins,202,518,GRENEKER Mannequins,zero,166146293468848,0,zero_empty,166146293468848,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,132,https://www.facebook.com/KeithAndJames,203,458,Keith James,zero,1451673551721731,0,zero_empty,1451673551721731,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,133,https://www.facebook.com/hadleighsbespoke,206,510,Hadleighs,zero,79034708038,0,zero_empty,79034708038,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,134,https://www.facebook.com/sermonetaglovesoriginal,207,193,Sermoneta Gloves,zero,112685563895400,0,zero_empty,112685563895400,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,135,https://www.facebook.com/shoprivir,213,163,RIVIR,zero,114987380220010,0,zero_empty,114987380220010,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,136,https://www.facebook.com/EzraArthurUSA,214,556,Ezra Arthur,zero,455565137796511,0,zero_empty,455565137796511,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,137,https://www.facebook.com/alixnyc,216,1031,ALIX NYC,zero,570157503071069,0,zero_empty,570157503071069,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,138,https://www.facebook.com/SoldierSports7312,220,774,Soldier Sports,zero,658560780890070,0,zero_empty,658560780890070,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,139,https://www.facebook.com/TheKettlery,222,101,The Kettlery,zero,1563082673974083,0,zero_empty,1563082673974083,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,140,https://www.facebook.com/viviennehubeauty,223,57,Vivienne Hu LLC,zero,111332637242963,0,zero_empty,111332637242963,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,141,https://www.facebook.com/soellyny,226,147,So Elly,zero,100674062070326,0,zero_empty,100674062070326,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,142,https://www.facebook.com/bouswari,227,1057,Bouswari,zero,1250006875040083,0,zero_empty,1250006875040083,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,143,https://www.facebook.com/DLStraps,229,970,DaLuca Straps,zero,153466388046458,0,zero_empty,153466388046458,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,144,https://www.facebook.com/identitystronghold,230,934,Identity Stronghold,zero,74192605766,0,zero_empty,74192605766,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,145,https://www.facebook.com/nicepipesapparel,232,875,nicepipes apparel,zero,1484045661876726,0,zero_empty,1484045661876726,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,146,https://www.facebook.com/halfasleep.co,233,509,Half Asleep,zero,1109165349266372,0,zero_empty,1109165349266372,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,147,https://www.facebook.com/ColoradoCoolApparel,235,617,ColoradoCool Apparel,zero,1690240284533227,0,zero_empty,1690240284533227,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,148,https://www.facebook.com/StateCashmereUSA,236,133,State Cashmere,zero,302555166904303,0,zero_empty,302555166904303,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,149,https://www.facebook.com/bangclothes,237,1011,"Bang Clothes, Corp",error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,150,https://www.facebook.com/feelgoodz.flipflops,238,953,Feelgoodz,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,151,https://www.facebook.com/miomarinofans,240,886,Mio Marino,zero,1527923134191257,0,zero_empty,1527923134191257,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,152,https://www.facebook.com/wearyalla,242,32,YallaWear,zero,579241625279311,0,zero_empty,579241625279311,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,153,https://www.facebook.com/@gooseitcompany,245,717|718,Goose It Company™|Goose It Company™,zero,100296656296851,0,zero_empty,100296656296851,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,154,https://www.facebook.com/pages/MPatmos/104452379612501,246,831,M.PATMOS,zero,104452379612501,0,zero_empty,104452379612501,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,155,https://www.facebook.com/eringraydesign,247,559,erin gray design,zero,601862979977873,0,zero_empty,601862979977873,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,156,https://www.facebook.com/shopmajaarnold,248,167,Maja Arnold Design,zero,1507307146150093,0,zero_empty,1507307146150093,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,157,https://www.facebook.com/people/Kiko-Golf/61573843810474,252,296,Kiko Golf,zero,606868785840454,0,zero_empty,606868785840454,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,158,https://www.facebook.com/dalyanyc,253,602,DALYA NYC,zero,100582478741789,0,zero_empty,100582478741789,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,159,https://www.facebook.com/FlipSandal,254,544,FlipSandal,zero,107520442282296,0,zero_empty,107520442282296,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,160,https://www.facebook.com/singer22,255,154,SINGER22.com,zero,14352455542,0,zero_empty,14352455542,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,161,https://www.facebook.com/p/Closet-Club-61560079730358,256,349,The Closet Club,zero,302772472922910,0,zero_empty,302772472922910,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,162,https://www.facebook.com/arystiintimatefashion,258,681,Arysti Intimate Fashion,zero,111142098752585,0,zero_empty,111142098752585,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,163,https://www.facebook.com/twobill.co,259,73,TwoBill,zero,192561107284164,0,zero_empty,192561107284164,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,164,https://www.facebook.com/SpinUltimate,260,138,Spin Ultimate,zero,38398088935,0,zero_empty,38398088935,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,165,https://www.facebook.com/GemorieJewelry,261,527,GEMORIE™,zero,280008648699408,0,zero_empty,280008648699408,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,166,https://www.facebook.com/northernclassicscollection,263,374,Northern Classics,zero,100534528925951,0,zero_empty,100534528925951,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,167,https://www.facebook.com/fanjoyco,264,552,Fanjoy,zero,317590381732958,0,zero_empty,317590381732958,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,168,https://www.facebook.com/aliandariel,265,694,Ali & Ariel,zero,607378439421212,0,zero_empty,607378439421212,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,169,https://www.facebook.com/giapenta,267,947,GIAPENTA,zero,471823596306569,0,zero_empty,471823596306569,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,170,https://www.facebook.com/psherrodbags,269,227,P. Sherrod & Co.,zero,329033525104,0,zero_empty,329033525104,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,171,https://www.facebook.com/vktori.co,270,56,VKTORI,zero,1218386261582874,0,zero_empty,1218386261582874,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,172,https://www.facebook.com/skyfootwearsocks,271,777,Sky Manufacturing,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,173,https://www.facebook.com/twinroads,272,74,Twin Roads,zero,392356484301601,0,zero_empty,392356484301601,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,174,https://www.facebook.com/NoelAsmarGroup,273,378,Noel Asmar Group of Companies,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,175,https://www.facebook.com/bellabellaboutique,275,1009,Bella Bella Boutique,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,176,https://www.facebook.com/YesAthleticsUSA,276,722,Yes! Athletics,zero,106656607585601,0,zero_empty,106656607585601,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,177,https://www.facebook.com/iolanihawaii,277,931,IOLANI,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,178,https://www.facebook.com/CatesConcepts,279,627,Cate's Concepts LLC,zero,496433647421468,0,zero_empty,496433647421468,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,179,https://www.facebook.com/calclothfoundry,281,991,California Cloth Foundry® Inc.,zero,544548532328700,0,zero_empty,544548532328700,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,180,https://www.facebook.com/YILDIZAYLINofficial,284,11,Styling Room,zero,1525975270862074,0,zero_empty,1525975270862074,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,181,https://www.facebook.com/lanoaiofficial,285,442,Lanoai,zero,105026715941305,0,zero_empty,105026715941305,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,182,https://www.facebook.com/ThePhoebeJon,287,96,Phoebe Jon,zero,111035947222074,0,zero_empty,111035947222074,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,183,https://www.facebook.com/unveiledbridalsanfrancisco,288,68,Unveiled Bridal SF,zero,118941359818858,0,zero_empty,118941359818858,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,184,https://www.facebook.com/adessoman,289,703,Adesso Man,zero,177896495892486,0,zero_empty,177896495892486,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,185,https://www.facebook.com/pages/Tiny-Turnip/126115125533,290,818,Tiny Turnip LLC,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,186,https://www.facebook.com/Halzband,291,508,Halzband,zero,255040018372404,0,zero_empty,255040018372404,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,187,https://www.facebook.com/wearetowel,298,43,TOWEL,zero,104129585963511,0,zero_empty,104129585963511,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,188,https://www.facebook.com/Troubadour-144876045394,300,77,Troubadour,zero,144876045394,0,zero_empty,144876045394,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,189,https://www.facebook.com/pages/SHRIMP-SAUCE/324065643078,302,822,Shrimp Sauce,zero,324065643078,0,zero_empty,324065643078,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,190,https://www.facebook.com/palomospain,303,815,Palomo Spain,zero,499088220258845,0,zero_empty,499088220258845,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,191,https://www.facebook.com/Bravo-Shoes-1531874450439592,305,641,Bravo Shoes,zero,1531874450439592,0,zero_empty,1531874450439592,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,192,https://www.facebook.com/pappyco,307,314,Pappy & Company,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,193,https://www.facebook.com/wringerwear,308,15,Wringer Wear,zero,124311040756598,0,zero_empty,124311040756598,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,194,https://www.facebook.com/luxebythesea,311,422,Luxe By The Sea,zero,106375605368497,0,zero_empty,106375605368497,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,195,https://www.facebook.com/pages/Somerville-MA/Diaper-Lab/52569396050,312,821,Diaper Lab,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,196,https://www.facebook.com/marissawebbnyc,314,415,Marissa Webb,zero,297301646999602,0,zero_empty,297301646999602,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,197,https://www.facebook.com/catchindeers,315,985,CATCHIN' DEERS,zero,100114050468172,0,zero_empty,100114050468172,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,198,https://www.facebook.com/lecurieparis,317,440,L'Écurie Paris,zero,199915450800202,0,zero_empty,199915450800202,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,199,https://www.facebook.com/weefarers,319,730,WeeFarers® by WeeStyle Co.,zero,520550921690150,0,zero_empty,520550921690150,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,200,https://www.facebook.com/planetcowboyllc,321,809,Planet Cowboy,zero,334488543553736,0,zero_empty,334488543553736,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,201,https://www.facebook.com/blendzapparel,322,1058,Blendz Apparel,zero,1149995318433889,0,zero_empty,1149995318433889,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,202,https://www.facebook.com/p/Closr-61551824420053,323,348,Closr.,zero,582385722123317,0,zero_empty,582385722123317,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,203,https://www.facebook.com/SHAUNScalifornia,324,791,SHAUNS,zero,114825828553573,0,zero_empty,114825828553573,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,204,https://www.facebook.com/shopmunki,325,787,Shop Munki,zero,1610894002572404,0,zero_empty,1610894002572404,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,205,https://www.facebook.com/sleekattire,332,150,Sleek Attire,zero,977284835707486,0,zero_empty,977284835707486,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,206,https://www.facebook.com/pinkpewter,333,810,Pink Pewter,zero,218804514796298,0,zero_empty,218804514796298,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,207,https://www.facebook.com/Activintimates,335,705,Activ Intimates,zero,251467085279975,0,zero_empty,251467085279975,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,208,https://www.facebook.com/people/Anycdote/61566147239567,337,306,"""anycdote",zero,408966588972790,0,zero_empty,408966588972790,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,209,https://www.facebook.com/wethepeopleholsters,339,728,WeThePeopleHolsters,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,210,https://www.facebook.com/h3lmsupplies,340,511,HELM Supplies,zero,111839925136808,0,zero_empty,111839925136808,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,211,https://www.facebook.com/sackville.and.co,345,205,Sackville & co,zero,389694071461783,0,zero_empty,389694071461783,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,212,https://www.facebook.com/theflomo,348,758,FLOMOTION,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,213,https://www.facebook.com/soulflower,349,142,Soul Flower Clothing and Gifts,zero,11970753433,0,zero_empty,11970753433,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,214,https://www.facebook.com/earthbabyoutfitters,350,574,Earth Baby Outfitters,zero,295815663924355,0,zero_empty,295815663924355,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,215,https://www.facebook.com/siamcirclemc,352,156,Siam Circle,zero,299889477345770,0,zero_empty,299889477345770,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,216,https://www.facebook.com/HartsandPearls,353,506,Harts & Pearls,zero,465295723512567,0,zero_empty,465295723512567,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,217,https://www.facebook.com/pages/GreenTreeJewelrycom/130019117045158,354,839,Green Tree Jewelry,zero,130019117045158,0,zero_empty,130019117045158,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,218,https://www.facebook.com/theperfectprovenance,358,97,The Perfect Provenance,zero,409714962533184,0,zero_empty,409714962533184,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,219,https://www.facebook.com/johnnyflyCo,359,922,Johnny Fly,zero,228101017259354,0,zero_empty,228101017259354,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,220,https://www.facebook.com/dapperboiclothing,360,598|599,Dapper Boi|Dapper Boi,zero,578367748942253,0,zero_empty,578367748942253,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,221,https://www.facebook.com/pupsewofficial,361,225,Pup Sew,zero,106588421561006,0,zero_empty,106588421561006,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,222,https://www.facebook.com/soulku,362,141,SoulKu,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,223,https://www.facebook.com/shopoventure,363,785,Oventure,zero,506820392680309,0,zero_empty,506820392680309,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,224,https://www.facebook.com/thecomfy,364,759,The Comfy,zero,1468246619929710,0,zero_empty,1468246619929710,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,225,https://www.facebook.com/luxsecondchance,367,421,Lux Second Chance,zero,772581042851727,0,zero_empty,772581042851727,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,226,https://www.facebook.com/plentyhumanwear.ca,369,276,Plenty Humanwear,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,227,https://www.facebook.com/fenogliobootco,373,549,Fenoglio Boot Company,zero,454947327955473,0,zero_empty,454947327955473,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,228,https://www.facebook.com/bondiband,374,999,Bondi Band,zero,150788588853,0,zero_empty,150788588853,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,229,https://www.facebook.com/chloekristyn,377,983,Chloe Kristyn,zero,162599637468737,0,zero_empty,162599637468737,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,230,https://www.facebook.com/hosscompany,378,492|493,Hoss Co.|Hoss Co.,zero,113066797271569,0,zero_empty,113066797271569,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,231,https://www.facebook.com/profile.php?id=61558445906125,379,238,Mad Trapper,zero,267518733117464,0,zero_empty,267518733117464,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,232,https://www.facebook.com/WeWearAustralian,380,26,WeWearAustralian,zero,110603905356354,0,zero_empty,110603905356354,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,233,https://www.facebook.com/rubiawear,384,209,RubiaWear,zero,301692336705042,0,zero_empty,301692336705042,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,234,https://www.facebook.com/people/Dire-Design-Haus/61573647270874,385,298,DIRE DESIGN HAUS,zero,602374502951955,0,zero_empty,602374502951955,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,235,https://www.facebook.com/shopLUSCA,386,168,LUSCA,zero,104060295430470,0,zero_empty,104060295430470,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,236,https://www.facebook.com/tally.taylor.14,389,763,TALLY TAYLOR INC,zero,716151828252483,0,zero_empty,716151828252483,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,237,https://www.facebook.com/dauphinesofny,390,597,Dauphines of New York,zero,154404434570235,0,zero_empty,154404434570235,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,238,https://www.facebook.com/GretchenScottDesigns,393,517,Gretchen Scott Designs,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,239,https://www.facebook.com/shopbaybala,395,182,Baybala,zero,736357713375291,0,zero_empty,736357713375291,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,240,https://www.facebook.com/gaffosofficial,396,948,Gaffos.com,zero,30513932705,0,zero_empty,30513932705,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,241,https://www.facebook.com/Kahindonyc,397,463,KAHINDO,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,242,https://www.facebook.com/yemacalif,400,723,"YEMA, LLC",zero,149027565539731,0,zero_empty,149027565539731,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,243,https://www.facebook.com/whimsyandrow,402,24,Whimsy and Row,zero,545445125468834,0,zero_empty,545445125468834,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,244,https://www.facebook.com/p/Visibly-Toxic-100087939172190,404,321,Visibly Toxic,zero,105367929077331,0,zero_empty,105367929077331,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,245,https://www.facebook.com/petidouxnyc,405,287,Petidoux,zero,1402843026636959,0,zero_empty,1402843026636959,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,246,https://www.facebook.com/pages/Caycee-Black/129223240441128,411,854,Caycee Black Collection,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,247,https://www.facebook.com/EnvyWigsHairAddOns,412,957,ENVY by Alan Eaton,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,248,https://www.facebook.com/emberhurst,413,563,Emberhurst,zero,978820422327466,0,zero_empty,978820422327466,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,249,https://www.facebook.com/jessakae,415,924,JessaKae,zero,1744362402474877,0,zero_empty,1744362402474877,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,250,https://www.facebook.com/Shreddylyfe,416,157,Shreddy Lyfe,zero,114910522419712,0,zero_empty,114910522419712,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,251,https://www.facebook.com/romaboots,417,801,Roma Boots,zero,120791584601399,0,zero_empty,120791584601399,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,252,https://www.facebook.com/MalanskiBoutique,418,898,Malanski,zero,201972776513016,0,zero_empty,201972776513016,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,253,https://www.facebook.com/pages/Saint-Paul-MN/Donalds-Uniforms/94275392794,421,823,Donald's Uniform,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,254,https://www.facebook.com/p/Jorja-100093538502028,422,343,Jorja,zero,102098479583627,0,zero_empty,102098479583627,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,255,https://www.facebook.com/people/CK-Bradley/100063733912116,423,302,Ck Bradley,zero,7959038807,0,zero_empty,7959038807,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,256,https://www.facebook.com/emiliageorgeofficial,425,958,Emilia George®️,zero,332657621014628,0,zero_empty,332657621014628,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,257,https://www.facebook.com/MoonAndLola,426,881,Moon and Lola,zero,48983963689,0,zero_empty,48983963689,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,258,https://www.facebook.com/cleansed.clo,427,621,Cleansed | Fashion for the Faithful,zero,243020082225516,0,zero_empty,243020082225516,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,259,https://www.facebook.com/aleadingrole,428,1033,A Leading Role,zero,185959988728493,0,zero_empty,185959988728493,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,260,https://www.facebook.com/pages/Olsenhaus-Pure-Vegan/56800612585,430,316,OlsenHaus,zero,56800612585,0,zero_empty,56800612585,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,261,https://www.facebook.com/payntrgolf,431,310,PAYNTR Golf,zero,333579497975739,0,zero_empty,333579497975739,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,262,https://www.facebook.com/freedsofwindsor,437,949,FREEDS is Fashion,zero,197796983584620,0,zero_empty,197796983584620,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,263,https://www.facebook.com/LoweryBrands,438,902,Lowery Brands,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,264,https://www.facebook.com/mesbobettes,439,408,MesBobettes,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,265,https://www.facebook.com/zootsports,440,3,Zoot Sports,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,266,https://www.facebook.com/FreyjaKootenayBoutique,441,538,Freyja | Kootenay Boutique,zero,204341807297,0,zero_empty,204341807297,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,267,https://www.facebook.com/OOSHIELUVS,442,867,Ooshie Resortwear LLC,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,268,https://www.facebook.com/NicHylClothing,443,380,Nic Hyl Clothing,zero,196696420435629,0,zero_empty,196696420435629,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,269,https://www.facebook.com/rubiesclothing,444,208,RUBIES,zero,101476751300330,0,zero_empty,101476751300330,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,270,https://www.facebook.com/shopislandoptics,445,170,Island Optics,zero,105091521708461,0,zero_empty,105091521708461,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,271,https://www.facebook.com/MILA-Los-Angeles-105264881565646,447,404,MILA,zero,105264881565646,0,zero_empty,105264881565646,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,272,https://www.facebook.com/pages/Deborah-Marquit/36839144818,452,850,DEBORAH MARQUIT ®,zero,36839144818,0,zero_empty,36839144818,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,273,https://www.facebook.com/hypsole,454,488,HYPSOLE®,zero,1171515019582566,0,zero_empty,1171515019582566,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,274,https://www.facebook.com/DraperJamesGirl,456,967,Draper James,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,275,https://www.facebook.com/Ecosysla,459,571,Ecosys LA,zero,475738836167237,0,zero_empty,475738836167237,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,276,https://www.facebook.com/people/Rookline/100088519731912,460,292,Rookline,zero,109328545362984,0,zero_empty,109328545362984,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,277,https://www.facebook.com/MeisterElite,462,410,Meister,zero,217084068325443,0,zero_empty,217084068325443,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,278,https://www.facebook.com/zanneft,463,7,Zanneft,zero,592091081169920,0,zero_empty,592091081169920,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,279,https://www.facebook.com/shopmerier,464,166,Merier,zero,114662238154411,0,zero_empty,114662238154411,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,280,https://www.facebook.com/pages/Modatrova/1431975317066566,466,833,Modatrova,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,281,https://www.facebook.com/HamiltonShirts,467,943,Hamilton Shirts,zero,85920177007,0,zero_empty,85920177007,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,282,https://www.facebook.com/people/Ritual-Velvet/61578060878865,468,293,Ritual Velvet,zero,721951371002297,0,zero_empty,721951371002297,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,283,https://www.facebook.com/boutiqueunicorn,469,643,Boutique Unicorn,zero,18489276630,0,zero_empty,18489276630,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,284,https://www.facebook.com/equipeathletics,470,560,"Equipe, Inc.",zero,1709859939245760,0,zero_empty,1709859939245760,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,285,https://www.facebook.com/vonHolzhausen,472,54,von Holzhausen,zero,187598654633670,0,zero_empty,187598654633670,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,286,https://www.facebook.com/osagafootwear,474,358,Osaga,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,287,https://www.facebook.com/worldofomika,475,16,Omika,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,288,https://www.facebook.com/azulsieteofficial,476,1016,azul Siete,zero,545617532184250,0,zero_empty,545617532184250,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,289,https://www.facebook.com/Adagio.Apparel,477,704,Adagio Apparel,zero,128756433903564,0,zero_empty,128756433903564,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,290,https://www.facebook.com/giairl,478,523,GIA/irl,zero,103299641997669,0,zero_empty,103299641997669,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,291,https://www.facebook.com/thegroundedpeople,480,102,Grounded People Apparel,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,292,https://www.facebook.com/classiccoco,481,980,CLASSIC COCO,zero,306552042691591,0,zero_empty,306552042691591,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,293,https://www.facebook.com/vivigzco,482,734,Vivi G'z LLC,zero,988780971226245,0,zero_empty,988780971226245,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,294,https://www.facebook.com/thedresscode.co,484,105,<dresscode/>,zero,106209554181132,0,zero_empty,106209554181132,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,295,https://www.facebook.com/SungaLifeSwim,486,121,Sunga Life,zero,945601685528717,0,zero_empty,945601685528717,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,296,https://www.facebook.com/buldano,487,635,Buldano,zero,1534564813463337,0,zero_empty,1534564813463337,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,297,https://www.facebook.com/exclusivedeliveryco1,488,954,Exclusive Delivery Co.,zero,1134777726655332,0,zero_empty,1134777726655332,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,298,https://www.facebook.com/LinotoLinens,489,905,Linoto,zero,20612203852,0,zero_empty,20612203852,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,299,https://www.facebook.com/sunshineprojectusa,490,120,Sunshine Project,zero,1022306117640850,0,zero_empty,1022306117640850,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,300,https://www.facebook.com/p/LK-BLUE-61575502809116,491,339,LK BLUE,zero,592296643974563,0,zero_empty,592296643974563,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,301,https://www.facebook.com/modernpicnic,493,398,Modern Picnic,zero,1569861913080754,0,zero_empty,1569861913080754,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,302,https://www.facebook.com/fallonandava,494,553,Fallon & Ava,zero,108391275247447,0,zero_empty,108391275247447,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,303,https://www.facebook.com/p/Team-Avoli-100094212397516,496,324,Avoli,zero,109346052209663,0,zero_empty,109346052209663,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,304,https://www.facebook.com/adaptadvancers,498,1035,"Adapt Clothing, Inc.",zero,113958748711414,0,zero_empty,113958748711414,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,305,https://www.facebook.com/swingjuice,499,117,SwingJuice,zero,44812626278,0,zero_empty,44812626278,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,306,https://www.facebook.com/ChurchofJesusChrist,502,981,The Church of Jesus Christ of Latter-day Saints,zero,18523396549,0,zero_empty,18523396549,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,307,https://www.facebook.com/PhatBuddhaWear,503,282,Phat Buddha,zero,1440459646235679,0,zero_empty,1440459646235679,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,308,https://www.facebook.com/shophouseoflulu,504,174,House of Lulu,zero,603485516347916,0,zero_empty,603485516347916,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,309,https://www.facebook.com/eoptimized,505,956,eOptimized,zero,1419042938314133,0,zero_empty,1419042938314133,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,310,https://www.facebook.com/LosanoOfficial,508,427,Losano,zero,111483878349736,0,zero_empty,111483878349736,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,311,https://www.facebook.com/abelhonornewyork,510,706,Abel Honor New York,zero,104278350950182,0,zero_empty,104278350950182,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,312,https://www.facebook.com/ahbloknitwear,511,701,AHBLO Luxury Knitwear,zero,106741275399293,0,zero_empty,106741275399293,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,313,https://www.facebook.com/BridgenBoro,512,639,Bridge & Boro,zero,248944698482852,0,zero_empty,248944698482852,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,314,https://www.facebook.com/sockprints,514,775,Sockprints,zero,114256582134,0,zero_empty,114256582134,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,315,https://www.facebook.com/pg/viacavourtoronto,515,283,Via Cavour,zero,174418229280173,0,zero_empty,174418229280173,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,316,https://www.facebook.com/shopannmarie,516,183,Annmarie D'Ercole Jewelry & Apparel,zero,523558784325974,0,zero_empty,523558784325974,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,317,https://www.facebook.com/breatheindetroit,517,640,Breathe in Detroit,zero,751878784907601,0,zero_empty,751878784907601,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,318,https://www.facebook.com/malamantra,518,899,Mala and Mantra,zero,1966612293391158,0,zero_empty,1966612293391158,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,319,https://www.facebook.com/storyspark,520,127,STORY SPARK,zero,366752383480001,0,zero_empty,366752383480001,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,320,https://www.facebook.com/partyshirtinternational,522,312,Party Shirt International,zero,223395338283806,0,zero_empty,223395338283806,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,321,https://www.facebook.com/wearminus273,525,38,-273,zero,1581435445473120,0,zero_empty,1581435445473120,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,322,https://www.facebook.com/izzyandliv,527,930,Izzy & Liv,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,323,https://www.facebook.com/ivycoastcollection,530,474,Ivy Coast,zero,286270611245751,0,zero_empty,286270611245751,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,324,https://www.facebook.com/dropxvault,531,579,Drop Vault,zero,388760367648830,0,zero_empty,388760367648830,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,325,https://www.facebook.com/campingwithdogsofficial,532,989,Camping With Dogs,zero,889288781083125,0,zero_empty,889288781083125,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,326,https://www.facebook.com/shhhowercap,534,1050,SHHHOWERCAP,zero,267212220112751,0,zero_empty,267212220112751,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,327,https://www.facebook.com/wearjoyproject,535,40,Wear Joy Project,zero,115022793225252,0,zero_empty,115022793225252,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,328,https://www.facebook.com/pages/Arlenes-Costumes/120199338902,538,859,Arlene's Costumes,zero,120199338902,0,zero_empty,120199338902,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,329,https://www.facebook.com/westcoastblendsapparel,541,30,West Coast Blends,zero,100982058867770,0,zero_empty,100982058867770,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,330,https://www.facebook.com/PLAE,543,277,PLAE (plae.co),zero,229075190571048,0,zero_empty,229075190571048,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,331,https://www.facebook.com/distantlocal,544,588,Distant Local,zero,110190271796471,0,zero_empty,110190271796471,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,332,https://www.facebook.com/people/Dark-Femme/61560859526559,545,301,DARK Femme,zero,350979504759776,0,zero_empty,350979504759776,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,333,https://www.facebook.com/profile.php?id=61570926656779,547,236,H.H. Golden,zero,524126884114067,0,zero_empty,524126884114067,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,334,https://www.facebook.com/thesweatstorelv,548,753,The Sweat Store,zero,393845110710723,0,zero_empty,393845110710723,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,335,https://www.facebook.com/thisisveda,550,751,VEDA NYC,zero,34663962876,0,zero_empty,34663962876,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,336,https://www.facebook.com/betreelyfe,551,657,Tree Lyfe,zero,394780034049011,0,zero_empty,394780034049011,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,337,https://www.facebook.com/pages/Yellowberry/557685267602446,552,315,Yellowberry,zero,557685267602446,0,zero_empty,557685267602446,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,338,https://www.facebook.com/Airblaster.O.F.P,553,1034,Airblaster,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,339,https://www.facebook.com/in2designjewelry,557,932,in2 design,zero,111646765529044,0,zero_empty,111646765529044,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,340,https://www.facebook.com/GRIPANDCO,559,516,GRIP & CO.,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,341,https://www.facebook.com/gamersoutreach,560,531,Gamers Outreach,zero,168876631116,0,zero_empty,168876631116,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,342,https://www.facebook.com/pages/TailorByrd/104284812964051,563,819,TAILORBYRD,zero,104284812964051,0,zero_empty,104284812964051,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,343,https://www.facebook.com/inclusivejewelry,565,485,Inclusive Jewelry,zero,428218737978093,0,zero_empty,428218737978093,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,344,https://www.facebook.com/NorthShoreExchange,567,373,North Shore Exchange,zero,134487760044439,0,zero_empty,134487760044439,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,345,https://www.facebook.com/CAMIANDJAX,568,990,CAMI AND JAX,zero,189192307954794,0,zero_empty,189192307954794,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,346,https://www.facebook.com/noragardnerapparel,571,872,Nora Gardner,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,347,https://www.facebook.com/voffhaus,573,733,Voff Haus,zero,603592779514619,0,zero_empty,603592779514619,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,348,https://www.facebook.com/pages/61573508854581,574,317,INFLOW Swimwear,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,349,https://www.facebook.com/evewearsleepwear,575,558,Evewear,zero,141632466473341,0,zero_empty,141632466473341,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,350,https://www.facebook.com/modernenvyapparel,576,884,Modern Envy Apparel,zero,708603375878797,0,zero_empty,708603375878797,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,351,https://www.facebook.com/likewear,578,906,LikeWear,zero,31121603280,0,zero_empty,31121603280,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,352,https://www.facebook.com/a.lynndesign,579,1037,A.Lynn,zero,445255868973859,0,zero_empty,445255868973859,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,353,https://www.facebook.com/teamcocktail,580,114,Team Cocktail,zero,135800189785054,0,zero_empty,135800189785054,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,354,https://www.facebook.com/jennabeehandmade,585,468,Jenna Bee Handmade,zero,917396128367458,0,zero_empty,917396128367458,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,355,https://www.facebook.com/mycloudstate,586,389,Cloudstate,zero,592947830567384,0,zero_empty,592947830567384,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,356,https://www.facebook.com/10156059209583669,587,1039,Product of the North,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,357,https://www.facebook.com/Japangelesbrand,588,471,Japangeles,zero,207387449287409,0,zero_empty,207387449287409,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,358,https://www.facebook.com/avivawholesale,589,1017,AVIVA WHOLESALE INC,zero,583425405097121,0,zero_empty,583425405097121,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,359,https://www.facebook.com/uniwigsonline/info,590,742,uniwigs,zero,582604325124459,0,zero_empty,582604325124459,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,360,https://www.facebook.com/Yesaet,595,12,YESAET,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,361,https://www.facebook.com/BETTERWITHAGE.CO,596,656,*Better With Age,zero,229038410846978,0,zero_empty,229038410846978,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,362,https://www.facebook.com/pinkolive,599,811,Pink Olive,zero,48622272808,0,zero_empty,48622272808,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,363,https://www.facebook.com/earnestsewnyc,600,575,Earnest Sewn,zero,259017756437,0,zero_empty,259017756437,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,364,https://www.facebook.com/OtteNY,601,864,OTTE NEW YORK,zero,91863537504,0,zero_empty,91863537504,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,365,https://www.facebook.com/domandbomb,603,584,dom+bomb,zero,103775568899510,0,zero_empty,103775568899510,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,366,https://www.facebook.com/comeauxcaps,605,976,Comeaux Caps,zero,494785290655220,0,zero_empty,494785290655220,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,367,https://www.facebook.com/babynoomie,608,669,Baby Noomie,zero,730482580358002,0,zero_empty,730482580358002,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,368,https://www.facebook.com/wearenonetheless,609,44,NONE•THELESS,zero,104203892383838,0,zero_empty,104203892383838,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,369,https://www.facebook.com/jumpsuitstyle,610,919,Ripley Rader,zero,311795315897994,0,zero_empty,311795315897994,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,370,https://www.facebook.com/jeaniusjackets,613,469,Jeanius Jackets,zero,104500495732717,0,zero_empty,104500495732717,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,371,https://www.facebook.com/people/Go-Outdoor-Nation/100089781911045,615,297,Outdoor Nation Unlimited,zero,113366298322386,0,zero_empty,113366298322386,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,372,https://www.facebook.com/moanaluuofficial,616,399,MoAnA Luu,zero,101680535138102,0,zero_empty,101680535138102,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,373,https://www.facebook.com/marinamoscone,618,894,Marina Moscone,zero,1507546886213733,0,zero_empty,1507546886213733,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,374,https://www.facebook.com/Islandtribe2012,619,476,IslandTribe,zero,284673354946653,0,zero_empty,284673354946653,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,375,https://www.facebook.com/AlignOrthoticsClinic,622,1032,Align Custom Fit,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,376,https://www.facebook.com/Miguelina-391551560102,624,405,Miguelina Inc,zero,391551560102,0,zero_empty,391551560102,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,377,https://www.facebook.com/yathletics,630,14,Y Athletics Inc.,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,378,https://www.facebook.com/wearebraave.co,631,46,braave,zero,1695528794020171,0,zero_empty,1695528794020171,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,379,https://www.facebook.com/la.vie.apres.lamour,632,447,la vie après l'amour,zero,164928120801762,0,zero_empty,164928120801762,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,380,https://www.facebook.com/nycsaddlery,633,367,Manhattan Saddlery,zero,134914913224026,0,zero_empty,134914913224026,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,381,https://www.facebook.com/sahroo.official,636,204,sahroo,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,382,https://www.facebook.com/aquaallureco,637,684,Aqua Allure®,zero,873426543049991,0,zero_empty,873426543049991,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,383,https://www.facebook.com/NEXIdentityInMotion,638,383,NEX,zero,369540800085762,0,zero_empty,369540800085762,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,384,https://www.facebook.com/GymGirlApparel,639,512,"Gym Girl, Inc.",zero,117498695005458,0,zero_empty,117498695005458,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,385,https://www.facebook.com/alhayafashionbazar,641,695,Alhaya Fashion,zero,110695265160235,0,zero_empty,110695265160235,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,386,https://www.facebook.com/doublewoodus,644,582,Doublewood Denim,zero,184867271677678,0,zero_empty,184867271677678,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,387,https://www.facebook.com/happinessisinc,645,942,Happiness Is Inc.,zero,1843712419184929,0,zero_empty,1843712419184929,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,388,https://www.facebook.com/TheBatikLibrary,647,107,The Batik Library,zero,103275585061855,0,zero_empty,103275585061855,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,389,https://www.facebook.com/LegacyKnittingLK,648,438,Legacy Knitting,zero,108058884667125,0,zero_empty,108058884667125,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,390,https://www.facebook.com/perrycoshoes,651,288,PerryCo Shoes,zero,1903725623200634,0,zero_empty,1903725623200634,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,391,https://www.facebook.com/vertetvogue,652,740,Vert & Vogue,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,392,https://www.facebook.com/bodygraffitishop,653,644,Body Graffiti USA,zero,640785619418778,0,zero_empty,640785619418778,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,393,https://www.facebook.com/pages/Boutique-TAG/337623726258006,655,855,BOUTIQUE TAG,zero,337623726258006,0,zero_empty,337623726258006,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,394,https://www.facebook.com/shirtstoputah,656,189,The Shirt Stop | Screen Printing & Embroidery,zero,128110560606979,0,zero_empty,128110560606979,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,395,https://www.facebook.com/piecesassembled,659,812,pieces assembled inc.,zero,519918914546472,0,zero_empty,519918914546472,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,396,https://www.facebook.com/CALIStrongUSA,660,632,CALI Strong Inc - The California Sports Company,zero,267853866706329,0,zero_empty,267853866706329,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,397,https://www.facebook.com/heavenly.essentials.us,661,502,Heavenly Essentials,zero,523106430881106,0,zero_empty,523106430881106,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,398,https://www.facebook.com/attickoncept,662,1020,Attic Koncept,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,399,https://www.facebook.com/EnvyByAlanEaton,664,561,ENVY by Alan Eaton,zero,294669487332150,0,zero_empty,294669487332150,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,400,https://www.facebook.com/crushboutique,667,604,Crush Boutique,zero,11694488413,0,zero_empty,11694488413,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,401,https://www.facebook.com/getpatchmarks,668,525,Patchmarks,zero,1031819573571846,0,zero_empty,1031819573571846,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,402,https://www.facebook.com/allmadeapparel,669,692,Allmade Apparel,zero,725481377599490,0,zero_empty,725481377599490,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,403,https://www.facebook.com/wanderruffsupplyco,670,50,Wanderruff,zero,109090007647565,0,zero_empty,109090007647565,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,404,https://www.facebook.com/vincentpeachofficial,673,736,Vincent Peach,zero,359895257372243,0,zero_empty,359895257372243,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,405,https://www.facebook.com/SteadyClothing,674,132,Steady Clothing,zero,75311592477,0,zero_empty,75311592477,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,406,https://www.facebook.com/livekolibri,676,430,Kolibri,zero,177957012057738,0,zero_empty,177957012057738,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,407,https://www.facebook.com/dogjoylove,677,585,DogJoy.Love,zero,101695576121000,0,zero_empty,101695576121000,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,408,https://www.facebook.com/sentaler,678,793,SENTALER,zero,141635105859784,0,zero_empty,141635105859784,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,409,https://www.facebook.com/groverrad,679,514,Grover Rad,zero,100415855952944,0,zero_empty,100415855952944,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,410,https://www.facebook.com/WildflowerCases,680,727,Wildflower Cases,zero,215599945220481,0,zero_empty,215599945220481,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,411,https://www.facebook.com/azusasafety,683,1015,Azusa Safety,zero,214724985288935,0,zero_empty,214724985288935,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,412,https://www.facebook.com/businessnotbullets,684,992,Combat Flip Flops,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,413,https://www.facebook.com/nosolobrand,686,372,NOSOLO,zero,104892625094482,0,zero_empty,104892625094482,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,414,https://www.facebook.com/TheCloseoutConnection,688,760,Closeout Connection,zero,269461123172211,0,zero_empty,269461123172211,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,415,https://www.facebook.com/hopeandmaybyron,689,937,HOPE AND MAY,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,416,https://www.facebook.com/shopocio,690,786,Ocio Leisurewear,zero,464551220322014,0,zero_empty,464551220322014,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,417,https://www.facebook.com/partoem,694,1042,Partoem,zero,962814267172170,0,zero_empty,962814267172170,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,418,https://www.facebook.com/1800tshirts,696,714,1-800-TShirts,zero,101578931672006,0,zero_empty,101578931672006,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,419,https://www.facebook.com/shred.dog.gear,699,781,AKOVA,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,420,https://www.facebook.com/ISEASUNGLASSES,703,479,I-SEA SUNGLASSES,zero,453630218359983,0,zero_empty,453630218359983,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,421,https://www.facebook.com/comunitymade,704,614,"COMUNITYmade, INC",zero,907158992760258,0,zero_empty,907158992760258,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,422,https://www.facebook.com/wearform,705,41,WearForm,zero,134603296592147,0,zero_empty,134603296592147,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,423,https://www.facebook.com/thefinerthings1920,706,103,The Finer Things 1920®️,zero,493491934369119,0,zero_empty,493491934369119,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,424,https://www.facebook.com/MargaretRoweCouture,708,416,Margaret Rowe Vintage Couture,zero,260208718801,0,zero_empty,260208718801,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,425,https://www.facebook.com/HKARMYCLOTHING,709,496,HK Army Inc,zero,87649165037,0,zero_empty,87649165037,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,426,https://www.facebook.com/shopstitchyfish,712,161,Stitchy Fish,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,427,https://www.facebook.com/pages/Pipiripau/116657355065729,713,829,Pipiripau,zero,116657355065729,0,zero_empty,116657355065729,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,428,https://www.facebook.com/lowcountrygrit,714,424,Low Country Grit,zero,550449384821547,0,zero_empty,550449384821547,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,429,https://www.facebook.com/teamltdeu,715,761,TEAMLTD,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,430,https://www.facebook.com/showerspass,716,782,Showers Pass,zero,206898826873,0,zero_empty,206898826873,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,431,https://www.facebook.com/lanamarkspb,719,443,LANA MARKS,zero,132424235297,0,zero_empty,132424235297,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,432,https://www.facebook.com/JustDeuceIt,720,917,Deuce Shirts,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,433,https://www.facebook.com/ShineTheLightOn,722,190,Shine The Light On,zero,994062373960878,0,zero_empty,994062373960878,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,434,https://www.facebook.com/wearshepherds,725,36,Shepherd’s,zero,115578634776242,0,zero_empty,115578634776242,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,435,https://www.facebook.com/gogentlynationofficial,728,520,Go Gently Nation,zero,176801874701,0,zero_empty,176801874701,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,436,https://www.facebook.com/bubblebags.freshheadies,731,636,Fresh Headies,zero,101993363182979,0,zero_empty,101993363182979,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,437,https://www.facebook.com/pages/Spectrum-Of-Life/358746560955328,733,820,Savette,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,438,https://www.facebook.com/Oax-Design-100991991564611,735,365,Oax Design,zero,100991991564611,0,zero_empty,100991991564611,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,439,https://www.facebook.com/people/Zephan-Parker/61576175744350,736,1060,Zephan Parker | Parker Boot Company,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,440,https://www.facebook.com/CharlotteMaxDesigns,737,625,Charlotte Max Designs,zero,658446570837478,0,zero_empty,658446570837478,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,441,https://www.facebook.com/timroongroup,738,87,The Timroon Group,zero,1393385614312298,0,zero_empty,1393385614312298,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,442,https://www.facebook.com/ParkProvince,739,813,Park & Province,zero,404315009677262,0,zero_empty,404315009677262,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,443,https://www.facebook.com/FoodiePages.ca,741,543,&OR Collective,zero,142574245753507,0,zero_empty,142574245753507,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,444,https://www.facebook.com/jessleaboutique,743,923,JESS LEA,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,445,https://www.facebook.com/shop.west.main,744,185,Shop West Main,zero,104211737636951,0,zero_empty,104211737636951,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,446,https://www.facebook.com/profile.php?id=100089762379713,745,239,The Custom Shop Clothiers,zero,153119844703441,0,zero_empty,153119844703441,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,447,https://www.facebook.com/WalkaboutCo,746,51,Walkabout.com,zero,149161545254700,0,zero_empty,149161545254700,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,448,https://www.facebook.com/p/Lemonade-Shoes-61557517741379,749,340,Lemonade Shoes,zero,261281417069297,0,zero_empty,261281417069297,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,449,https://www.facebook.com/HERTreasuresboutique,750,501,HER Treasures Boutique,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,450,https://www.facebook.com/p/Bluetross-Golf-61553959965129,751,351,Bluetross,zero,201124706406563,0,zero_empty,201124706406563,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,451,https://www.facebook.com/StriaSport2020,753,125,Stria Sport,zero,215931185971870,0,zero_empty,215931185971870,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,452,https://www.facebook.com/people/Amoy-New-York/100082991419435,755,307,AMOY NEW YORK,zero,116036524434576,0,zero_empty,116036524434576,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,453,https://www.facebook.com/royalandreese,756,210,Royal and Reese,zero,756668221115630,0,zero_empty,756668221115630,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,454,https://www.facebook.com/KatherineWayCollections,757,460,Katherine Way,zero,428138760565088,0,zero_empty,428138760565088,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,455,https://www.facebook.com/westcomb,758,729,Westcomb Outerwear Inc.,zero,91927326232,0,zero_empty,91927326232,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,456,https://www.facebook.com/shopbittylove,759,181,BITTY LOVE LLC,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,457,https://www.facebook.com/twelvelittle,760,76,TWELVElittle,zero,501999749846424,0,zero_empty,501999749846424,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,458,https://www.facebook.com/quinnnyc,761,806,Quinn Apparel Inc.,zero,126676120697117,0,zero_empty,126676120697117,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,459,https://www.facebook.com/alwrld.sport,763,689,ALWRLD,zero,106844144849816,0,zero_empty,106844144849816,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,460,https://www.facebook.com/overeasy.co,764,862,Overeasy Apparel,zero,2124011557877651,0,zero_empty,2124011557877651,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,461,https://www.facebook.com/wearloveyourself,765,39,Love Yourself Clothing,zero,113153990470350,0,zero_empty,113153990470350,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,462,https://www.facebook.com/OscarNewmanLLC,766,865,Oscar Newman LLC,zero,68580466998,0,zero_empty,68580466998,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,463,https://www.facebook.com/MojoSportswearCompany,767,396,Mojo Sportswear Company,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,464,https://www.facebook.com/shopoyemwen,769,164,Oyemwen,zero,214275128698953,0,zero_empty,214275128698953,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,465,https://www.facebook.com/p/Arrivo-Athletic-Wear-61559949224601,770,352,ARRIVO Athletic Wear,zero,334312473095228,0,zero_empty,334312473095228,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,466,https://www.facebook.com/bmaesboutique,771,646,Bmaes Boutique,zero,298448914201295,0,zero_empty,298448914201295,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,467,https://www.facebook.com/weisswatchcompany,772,1040,Weiss Watch Company,zero,119206971486382,0,zero_empty,119206971486382,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,468,https://www.facebook.com/variouskeytags,773,741,Various Keytags,zero,669757219708996,0,zero_empty,669757219708996,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,469,https://www.facebook.com/frankmarzetti15,774,539,"Frank Marzetti, LLC",error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,470,https://www.facebook.com/nastypiginc,775,878,Nasty Pig,zero,18560068537,0,zero_empty,18560068537,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,471,https://www.facebook.com/soulsistersforacause,777,140,Soul Sisters for a CAUSE,zero,160060381015155,0,zero_empty,160060381015155,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,472,https://www.facebook.com/profile.php?id=61580818112563,780,234,Crowned Legacy Suits,zero,856305527556821,0,zero_empty,856305527556821,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,473,https://www.facebook.com/veerahofficial,782,63,VEERAH,zero,127867100909572,0,zero_empty,127867100909572,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,474,https://www.facebook.com/cleverhoodri,783,979,Cleverhood,zero,161159730588094,0,zero_empty,161159730588094,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,475,https://www.facebook.com/andrewstevensny,784,1025,Andrew Stevens Collection Inc.,zero,366479726710534,0,zero_empty,366479726710534,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,476,https://www.facebook.com/WearPlayground,785,37,Playground,zero,118459621939803,0,zero_empty,118459621939803,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,477,https://www.facebook.com/K9WEAR,786,916,K9 Wear,zero,101135498048786,0,zero_empty,101135498048786,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,478,https://www.facebook.com/TheTShirtSpot104,788,90,The T-Shirt Spot LA,zero,102131966535167,0,zero_empty,102131966535167,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,479,https://www.facebook.com/1peopletogether,789,713,1 People,zero,165626343584002,0,zero_empty,165626343584002,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,480,https://www.facebook.com/matteoperin23,794,414,Matteo Perin Inc.,zero,2179669928943348,0,zero_empty,2179669928943348,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,481,https://www.facebook.com/tenfed,796,112,Tenfed,zero,1653121978253004,0,zero_empty,1653121978253004,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,482,https://www.facebook.com/foreplaygolfwear,799,541,Foreplay Golf,zero,710400798814272,0,zero_empty,710400798814272,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,483,https://www.facebook.com/louiedecotonseattle,801,904,LOUIE DE COTON LLC,zero,490547011062177,0,zero_empty,490547011062177,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,484,https://www.facebook.com/DifferentRegard,803,590,DIFFERENTREGARD,zero,194796270574227,0,zero_empty,194796270574227,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,485,https://www.facebook.com/pages/Emmelle-Design/288419401002,809,848,Emmelle Design | Mi Jong Lee,zero,288419401002,0,zero_empty,288419401002,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,486,https://www.facebook.com/thimblecollection,810,89,Thimble Collection,zero,620952231340575,0,zero_empty,620952231340575,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,487,https://www.facebook.com/domrebel,811,969,DOMREBEL Montréal,zero,55034103285,0,zero_empty,55034103285,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,488,https://www.facebook.com/dallanonna,813,1046,dalla nonna llc,zero,143575990383,0,zero_empty,143575990383,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,489,https://www.facebook.com/FosterieShop,814,540,FOSTERIE,zero,222507374515622,0,zero_empty,222507374515622,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,490,https://www.facebook.com/tr,815,745|746|747,Neely & Chloe|Southern Scholar Socks|Abacus Sportswear US,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,491,https://www.facebook.com/neoncowboys,816,384,Neon Cowboys ®,zero,1474495736102757,0,zero_empty,1474495736102757,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,492,https://www.facebook.com/pages/Hang-Accessories-Inc/171385165102,817,838,Hang Accessories,zero,171385165102,0,zero_empty,171385165102,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,493,https://www.facebook.com/mylifeonthelake,818,388,Lake Life Brand,zero,293680984410215,0,zero_empty,293680984410215,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,494,https://www.facebook.com/bennettjamesllc,819,659,Bennett James,zero,265845790942615,0,zero_empty,265845790942615,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,495,https://www.facebook.com/jacquelinecityapparel,820,473,Jacqueline City Apparel,zero,495861687485432,0,zero_empty,495861687485432,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,496,https://www.facebook.com/mohops,822,397,Mohop Inc,zero,40759354390,0,zero_empty,40759354390,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,497,https://www.facebook.com/pages/Vital-Outdoors/291909645856,823,817,Vital Outdoors,zero,291909645856,0,zero_empty,291909645856,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,498,https://www.facebook.com/kabacchaShoes,824,465,Kabaccha Shoes,zero,160382487333821,0,zero_empty,160382487333821,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,499,https://www.facebook.com/askscandinavia,826,680,ASK Scandinavia,zero,180912412627858,0,zero_empty,180912412627858,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,500,https://www.facebook.com/GeneralTag,827,526,General Tag,zero,106030700768664,0,zero_empty,106030700768664,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,501,https://www.facebook.com/p/Riviera-Creek-Couture-61575963781030,828,328,Riviera Creek Couture,zero,643781618818585,0,zero_empty,643781618818585,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,502,https://www.facebook.com/Savannah7sWesternChic,829,797,Savannah Sevens Western Life & Style,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,503,https://www.facebook.com/uptownsox,832,65,Uptown Sox ltd.,zero,637453693069349,0,zero_empty,637453693069349,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,504,https://www.facebook.com/YearOfOurs,833,13,Year of Ours,zero,541000719423238,0,zero_empty,541000719423238,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,505,https://www.facebook.com/p/Bonzer-Athletics-61576183284822,834,350,Bonzer Athletics,zero,690516160800584,0,zero_empty,690516160800584,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,506,https://www.facebook.com/cocoandbreezyeyewear,835,619,Coco and Breezy,zero,129103417121274,0,zero_empty,129103417121274,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,507,https://www.facebook.com/rileyversa,836,213,Riley Versa,zero,1272651216085610,0,zero_empty,1272651216085610,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,508,https://www.facebook.com/profile.php?id=61583762634354,837,233,Merchdrop,zero,1067450556442166,0,zero_empty,1067450556442166,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,509,https://www.facebook.com/zenziiwholesale,840,5,ZENZII,zero,223457751475261,0,zero_empty,223457751475261,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,510,https://www.facebook.com/tyler.boe.clothing,841,1041,tyler böe,zero,127920280553537,0,zero_empty,127920280553537,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,511,https://www.facebook.com/MINEbySandy,842,402,MINE by sandy,zero,159101180822436,0,zero_empty,159101180822436,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,512,https://www.facebook.com/BabyVisionInc,848,1014,"BabyVision, Inc.",zero,311837195493052,0,zero_empty,311837195493052,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,513,https://www.facebook.com/pages/refname/314349728613814,849,824,"Urban Classics, Inc.",zero,314349728613814,0,zero_empty,314349728613814,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,514,https://www.facebook.com/tracynicoleclothing,851,83,Tracy Nicole Clothing,zero,585150048217278,0,zero_empty,585150048217278,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,515,https://www.facebook.com/uomosanfrancisco,855,67,Uomo European Menswear,zero,368993196052,0,zero_empty,368993196052,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,516,https://www.facebook.com/myflufie,856,879,Flufié,zero,258418472728406,0,zero_empty,258418472728406,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,517,https://www.facebook.com/wildflowervalley,858,22,Wildflower Valley,zero,1247681435283090,0,zero_empty,1247681435283090,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,518,https://www.facebook.com/SAAKAsport,859,206,SAAKA Sportswear,zero,722708097768635,0,zero_empty,722708097768635,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,519,https://www.facebook.com/gelarehmizrahicollection,860,529,"Gelareh Mizrahi, LLC",zero,186360048072154,0,zero_empty,186360048072154,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,520,https://www.facebook.com/p/Loup-100038428164572,862,338,Loup,zero,108291563519,0,zero_empty,108291563519,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,521,https://www.facebook.com/paddleandpin,864,318,"Paddle + Pin, LLC",error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,522,https://www.facebook.com/undernysky,866,743,UNDER NY SKY,zero,1422001568074310,0,zero_empty,1422001568074310,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,523,https://www.facebook.com/RhodesBoutique,867,214,Rhodes Boutique,zero,429795270392006,0,zero_empty,429795270392006,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,524,https://www.facebook.com/ptmarkMN,868,226,"Personal Touch Marketing & Manufacturing, Inc.",zero,157125447645586,0,zero_empty,157125447645586,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,525,https://www.facebook.com/ghoutfitters,869,524,GreenHouse Outfitters,zero,65501958161,0,zero_empty,65501958161,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,526,https://www.facebook.com/JuneBeeBaby,870,918,"JuneBee Baby, Inc.",zero,207534279274264,0,zero_empty,207534279274264,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,527,https://www.facebook.com/profile.php?id=61592350385751,872,231,Curete,zero,1204332859430805,0,zero_empty,1204332859430805,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,528,https://www.facebook.com/maroonbells,876,892,Maroon Bell Outdoor LLC.,zero,102785145145868,0,zero_empty,102785145145868,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,529,https://www.facebook.com/pages/Oakland-CA/Mannequin-Madness-sales-rentals-and-recycling-of-mannequins/177449619003,877,830,Mannequin Madness all things mannequin,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,530,https://www.facebook.com/177450288957257,878,715,Lisa Marie Fernandez,zero,177450288957257,0,zero_empty,177450288957257,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,531,https://www.facebook.com/pages/Austin-Linen/353087948129402,880,858,Austin Linen,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,532,https://www.facebook.com/OutstandingNow,881,863,Outstanding Now,zero,1556693397885571,0,zero_empty,1556693397885571,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,533,https://www.facebook.com/thesuitdepot,882,754,The Suit Depot,zero,577564122300775,0,zero_empty,577564122300775,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,534,https://www.facebook.com/shopclette,886,789,Clétte,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,535,https://www.facebook.com/PIXIEMARKET,887,278,Pixie Market,zero,131423866879291,0,zero_empty,131423866879291,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,536,https://www.facebook.com/cucharajewelry,888,973,CUCHARAJEWELRY,zero,143247735807435,0,zero_empty,143247735807435,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,537,https://www.facebook.com/campocollection,890,631,Campo Collection,zero,2316229491952149,0,zero_empty,2316229491952149,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,538,https://www.facebook.com/TriarchyBrand,891,82,TRIARCHY,zero,224891337555759,0,zero_empty,224891337555759,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,539,https://www.facebook.com/BerkleyClothing,892,658,Berkley Clothing,zero,115015339907714,0,zero_empty,115015339907714,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,540,https://www.facebook.com/mavibandz,893,1043,Mavi Bandz,zero,431286376950502,0,zero_empty,431286376950502,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,541,https://www.facebook.com/BrynnCapellaInc,894,993,"Brynn Capella, Inc.",error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,542,https://www.facebook.com/Definition-You-Apparel-101117315262061,895,594,Definition: You,zero,101117315262061,0,zero_empty,101117315262061,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,543,https://www.facebook.com/p/Rec-League-61565291317505,898,331,Rec League,zero,454386481083593,0,zero_empty,454386481083593,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,544,https://www.facebook.com/gbny123,901,530,GBNY,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,545,https://www.facebook.com/solefolks,902,145,Sole Folks,zero,103558861047744,0,zero_empty,103558861047744,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,546,https://www.facebook.com/thebarfashion,903,108|109,The Bar|The Bar,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,547,https://www.facebook.com/flamaeyewear,904,545,Flama Eyewear,zero,1393741177535235,0,zero_empty,1393741177535235,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,548,https://www.facebook.com/IslandtoEastSide,905,477,Island to East Side,zero,2081162765446475,0,zero_empty,2081162765446475,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,549,https://www.facebook.com/p/Corts-61568963979974,906,347,Corts,zero,492855743908378,0,zero_empty,492855743908378,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,550,https://www.facebook.com/hudsonsutler,908,936,Hudson Sutler,zero,109068622539185,0,zero_empty,109068622539185,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,551,https://www.facebook.com/p/Merch-Pier-100090598793788,910,337,Merch Pier,zero,116240274739024,0,zero_empty,116240274739024,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,552,https://www.facebook.com/dudebenice,911,966,dude. be nice,zero,151333231590685,0,zero_empty,151333231590685,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,553,https://www.facebook.com/OMSutralifestyle,912,868,OMSutra,zero,1619052268412157,0,zero_empty,1619052268412157,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,554,https://www.facebook.com/azzaik_official,913,670,Azzaik,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,555,https://www.facebook.com/RetrokidTO,914,217,Retrokid,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,556,https://www.facebook.com/kush.handmade.carpets,915,914,Kush Rugs,zero,540365892708014,0,zero_empty,540365892708014,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,557,https://www.facebook.com/currentairclothing,916,603,Current Air,zero,294991554232242,0,zero_empty,294991554232242,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,558,https://www.facebook.com/katherinehomesbrand,917,461,Katherine Homes,zero,506981193158485,0,zero_empty,506981193158485,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,559,https://www.facebook.com/momzelle,921,883,Momzelle Breastfeeding Apparel,zero,21498303631,0,zero_empty,21498303631,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,560,https://www.facebook.com/NordicSari,922,375,NorSari,zero,1444586109145431,0,zero_empty,1444586109145431,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,561,https://www.facebook.com/bluecutaprons,926,1001,BlueCut,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,562,https://www.facebook.com/pages/Adicora/191295732543,928,861,Adicora,zero,191295732543,0,zero_empty,191295732543,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,563,https://www.facebook.com/basicobranco,929,666,Basico Branco,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,564,https://www.facebook.com/resolunawear,930,218,Resoluna,zero,973903262650308,0,zero_empty,973903262650308,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,565,https://www.facebook.com/shahidaparides,932,792,Shahida Parides,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,566,https://www.facebook.com/MidnightOilCollection,934,406,Midnight Oil,zero,102565975404436,0,zero_empty,102565975404436,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,567,https://www.facebook.com/threadlogic,935,750,Thread Logic,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,568,https://www.facebook.com/BindyaNY,936,652,Bindya New York,zero,158021910878418,0,zero_empty,158021910878418,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,569,https://www.facebook.com/KlubNico,937,453,Klub Nico,zero,222869295970,0,zero_empty,222869295970,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,570,https://www.facebook.com/tjsportusa,938,86,TJ Sport,zero,1863140643909899,0,zero_empty,1863140643909899,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,571,https://www.facebook.com/coastalfemme,939,1056,Coastal Femme,zero,101880115234475,0,zero_empty,101880115234475,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,572,https://www.facebook.com/shopluminora,940,169,luminora,zero,1785483985005514,0,zero_empty,1785483985005514,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,573,https://www.facebook.com/letoile.sport,941,907,L'ETOILE SPORT,zero,291737197603692,0,zero_empty,291737197603692,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,574,https://www.facebook.com/smithandquinn,943,148,Smith & Quinn,zero,164703233554645,0,zero_empty,164703233554645,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,575,https://www.facebook.com/katiejaneco,948,459,Katie Jane Co,zero,100823968203343,0,zero_empty,100823968203343,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,576,https://www.facebook.com/carakasi,949,986,Stella Carakasi,zero,198153773576700,0,zero_empty,198153773576700,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,577,https://www.facebook.com/jackandmulligan,951,929,Jack + Mulligan,zero,471429296269174,0,zero_empty,471429296269174,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,578,https://www.facebook.com/rarecut,953,803,RARE CUT,zero,1782265748702445,0,zero_empty,1782265748702445,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,579,https://www.facebook.com/pages/Fish-Hippie,954,845,Fish Hippie,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,580,https://www.facebook.com/vidamoulin,957,737,Vida | Moulin,zero,940938432648220,0,zero_empty,940938432648220,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,581,https://www.facebook.com/minkeeblue,959,887,MinkeeBlue Travel & Work Bags,zero,104836916348790,0,zero_empty,104836916348790,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,582,https://www.facebook.com/kinthelabel,960,456,KIN THE LABEL,zero,310726148957415,0,zero_empty,310726148957415,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,583,https://www.facebook.com/elkheadclothing,962,1061,Elk Head Clothing,zero,1596642957268650,0,zero_empty,1596642957268650,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,584,https://www.facebook.com/bubbleandbead,963,637,Bubble & Bead,zero,485547411636275,0,zero_empty,485547411636275,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,585,https://www.facebook.com/dusterlosangeles,964,576,Duster,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,586,https://www.facebook.com/Galsonandoffthegreen,968,533,Gals on and off the Green,zero,158806314412,0,zero_empty,158806314412,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,587,https://www.facebook.com/portolanoproducts,971,272,Portolano Products Inc.,zero,191965547570845,0,zero_empty,191965547570845,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,588,https://www.facebook.com/CapoCycling,972,987,Capo Cycling Apparel,zero,200666829961564,0,zero_empty,200666829961564,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,589,https://www.facebook.com/Madison-Creek-Outfitters-158021237549255,973,419,Madison Creek Outfitters,zero,158021237549255,0,zero_empty,158021237549255,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,590,https://www.facebook.com/christinagreenejewelry,974,623,Christina Greene LLC,zero,189284447783041,0,zero_empty,189284447783041,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,591,https://www.facebook.com/shopcurveture,975,177,Curveture Plus-Size Thrift,zero,423397130850282,0,zero_empty,423397130850282,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,592,https://www.facebook.com/turtlesandtees,977,744,Turtles and Tees Co.,zero,569953746458644,0,zero_empty,569953746458644,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,593,https://www.facebook.com/CoreHemp,979,610,Core Hemp,zero,151215275418093,0,zero_empty,151215275418093,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,594,https://www.facebook.com/cluburban,980,978,CLUBURBAN,zero,267712351119,0,zero_empty,267712351119,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,595,https://www.facebook.com/ellislittles,982,564,ellis littles,zero,103262085494278,0,zero_empty,103262085494278,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,596,https://www.facebook.com/DrinkingDresses,984,580,Drinking Dresses,zero,100404565494179,0,zero_empty,100404565494179,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,597,https://www.facebook.com/thembags,989,99,The M Bag,zero,1688655271365985,0,zero_empty,1688655271365985,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,598,https://www.facebook.com/sandlotgoods,992,1051,Sandlot Goods,zero,258284117608059,0,zero_empty,258284117608059,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,599,https://www.facebook.com/Mintage.io,993,401,MNTGE,zero,101159786045045,0,zero_empty,101159786045045,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,600,https://www.facebook.com/ferraramanufacturing,995,952,Ferrara Manufacturing,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+count,601,https://www.facebook.com/happytears.ca,996,941,Happy Tears,zero,493022871450712,0,zero_empty,493022871450712,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,602,https://www.facebook.com/MIRVIKGROUP,997,400,MIRVIK Uniforms & Merch,zero,207550999342506,0,zero_empty,207550999342506,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,603,https://www.facebook.com/diniwigs,999,589,Dini Wigs,zero,204621029557954,0,zero_empty,204621029557954,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,604,https://www.facebook.com/zippyjamz,1002,4,ZippyJamz,zero,463631717161008,0,zero_empty,463631717161008,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,605,https://www.facebook.com/ateliumjewelry,1004,676,Atelium Jewelry,zero,107721907802433,0,zero_empty,107721907802433,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,606,https://www.facebook.com/people/Blauw-Shorts/61552015830950,1007,305,Blauw,zero,128652380337208,0,zero_empty,128652380337208,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,607,https://www.facebook.com/hollyzhangpearlgallery,1009,938,Holly Zhang Pearl Gallery,zero,210480055690861,0,zero_empty,210480055690861,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,608,https://www.facebook.com/Hewouldlovefirst,1010,500,He Would Love First,zero,326322811055310,0,zero_empty,326322811055310,0,0,NO_KNOWN_ISSUES,false,zero_confirmation
+count,609,https://www.facebook.com/dudleystephensclothing,1011,965,Dudley Stephens,error,,,error,,,0,,,count_or_zero_unresolved_after_pass2_error
+evidence,1,https://www.facebook.com/people/Scarlett-Gasque-Ltd/61582121787822,282,289,Scarlett Gasque,positive,844331202095172,8,active_record,844331202095172,,1,,false,technical_evidence_retry:system_status_not_clean
+evidence,2,https://www.facebook.com/BigBoyBamboo,537,653,"Big Boy Bamboo (Smart Bamboo Technologies, Inc.)",positive_empty,711134469023550,13,positive_count_empty,711134469023550,13,0,NO_KNOWN_ISSUES,false,positive_count_empty_axell_anomaly
+evidence,3,https://www.facebook.com/norainuofficial,583,376,NORA INU,positive_empty,379130075806614,2,positive_count_empty,379130075806614,2,0,NO_KNOWN_ISSUES,false,positive_count_empty_axell_anomaly
+evidence,4,https://www.facebook.com/profile.php?id=61565049963546,800,237,Axell,positive_empty,386501527886175,8,positive_count_empty,386501527886175,8,0,NO_KNOWN_ISSUES,false,positive_count_empty_axell_anomaly
+evidence,5,https://www.facebook.com/pikalayers,985,281,Pika Layers,positive,134940304092938,1,zero_empty,134940304092938,0,0,NO_KNOWN_ISSUES,false,positive_count_without_active_evidence

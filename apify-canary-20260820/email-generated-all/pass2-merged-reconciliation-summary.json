@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "prepared_date": "2026-08-20",
+  "source_runs": {
+    "pass2_partial": {
+      "run_id": "PBfJg0HeMZaxyygZy",
+      "items": 801,
+      "sha256": "feec619c736bc87559e9be19ce340a99f50b3d6ac583c1fecd50d767754565fd"
+    },
+    "pass2_continuation": {
+      "run_id": "GrvJqgy4sYmxak7EG",
+      "items": 211,
+      "sha256": "4fee852d68eda1f9beb29e080e3864057bdd2d8107d42419ccd96fb614c3350e"
+    }
+  },
+  "reconciliation": {
+    "source_hashes": {
+      "partial_801": "feec619c736bc87559e9be19ce340a99f50b3d6ac583c1fecd50d767754565fd",
+      "continuation_211": "4fee852d68eda1f9beb29e080e3864057bdd2d8107d42419ccd96fb614c3350e"
+    },
+    "continuation_verification": {
+      "dataset_items": 211,
+      "unique_inputs": 211,
+      "exact_expected_set": true,
+      "overlap_with_partial": 0
+    },
+    "merged_coverage": 1012,
+    "duplicate_manifest_urls": 0,
+    "pass2_states": {
+      "active_record": 399,
+      "error": 95,
+      "positive_count_empty": 3,
+      "zero_empty": 515
+    },
+    "transition_matrix": {
+      "error -> error": 95,
+      "positive -> active_record": 398,
+      "positive -> zero_empty": 1,
+      "positive_empty -> active_record": 1,
+      "positive_empty -> positive_count_empty": 3,
+      "zero -> zero_empty": 514
+    },
+    "page_id_mismatches": 0,
+    "captcha_required": 0,
+    "non_clean_system_status": 1,
+    "decisions": {
+      "accepted_actor_qa": 398,
+      "pass3_count_mode": 609,
+      "pass3_evidence_mode": 5
+    },
+    "pass3_reasons": {
+      "count_or_zero_unresolved_after_pass2_error": 95,
+      "positive_count_empty_axell_anomaly": 3,
+      "positive_count_with_active_evidence": 398,
+      "positive_count_without_active_evidence": 1,
+      "technical_evidence_retry:system_status_not_clean": 1,
+      "zero_confirmation": 514
+    }
+  },
+  "pass3_groups": {
+    "count": {
+      "file": "facebook-pages-pass3-count-609.txt",
+      "inputs": 609,
+      "settings": {
+        "activeStatus": "active",
+        "onlyTotal": true,
+        "resultsLimit": 1,
+        "includeAboutPage": false,
+        "isDetailsPerAd": false
+      },
+      "purpose": "zero confirmation and count recovery for two-pass errors"
+    },
+    "evidence": {
+      "file": "facebook-pages-pass3-evidence-5.txt",
+      "inputs": 5,
+      "settings": {
+        "activeStatus": "active",
+        "onlyTotal": false,
+        "resultsLimit": 1,
+        "includeAboutPage": false,
+        "isDetailsPerAd": false
+      },
+      "purpose": "final active-ad evidence retry for unsupported positives and one technical evidence anomaly"
+    }
+  },
+  "hard_ceiling": "No fourth Apify execution for the same lead path; unresolved inputs become CODEX_REVIEW_REQUIRED."
+}
