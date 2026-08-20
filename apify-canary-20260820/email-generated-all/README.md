@@ -1,4 +1,4 @@
-# Email generated — Pass 1 and Pass 2 Facebook Page handoff
+# Email generated — Pass 1 count and Pass 2 one-ad evidence handoff
 
 Status: Pass 1 captured; Pass 2 prepared  
 Source workbook: `2x Growth Agency (2x) // Shopify Cold Outreach - July 2026`  
@@ -42,11 +42,11 @@ SHA-256:
 - Pass 2 input: `136521675010d783e153a74e1882afc1fee03e66fe9bd0f8c76994f606c5f192`
 - Pass 2 manifest: `6a62ace366bb99b510856c4a165b8ef94fd9b94fd7d7c3b6b6c81cafb1107c12`
 
-## Count-mode actor settings
+## Pass 1 count-mode actor settings
 
 Actor: `apify/facebook-ads-scraper`
 
-- `requestsFromUrl`: the applicable direct raw Pass 1 or Pass 2 URL
+- `requestsFromUrl`: the direct raw Pass 1 URL above
 - Active status / `activeStatus`: `ACTIVE`
 - Total Count / `onlyTotal`: ON / `true`
 - Results Limit / `resultsLimit`: `1`
@@ -68,7 +68,7 @@ Pass 1 was completed as one split logical pass after the first physical Actor ru
 - Normal count records: 917.
 - `no_items` errors: 95. These are unresolved technical/Page-resolution outcomes, never zeros.
 - Positive counts: 403, including four positive-count-empty anomalies.
-- Returned zeros: 514. These remain untrusted until the adopted Pass 2 and exception gates are applied.
+- Returned zeros: 514. These remain untrusted until Pass 2 evidence and the conditional Pass 3 gate are applied.
 
 The continuation saved the intended `onlyTotal=true`, `resultsLimit=1`, active-only settings. Its 91 request failures were recorded by the Actor as Facebook blocking/page-unavailable responses plus one internal Actor error, not as a handoff-list or saved-setting mismatch.
 
@@ -93,19 +93,34 @@ Actor: `apify/facebook-ads-scraper`
 
 - `requestsFromUrl`: Pass 2 raw URL above
 - Active status / `activeStatus`: `ACTIVE`
-- Total Count / `onlyTotal`: ON / `true`
+- Total Count / `onlyTotal`: **OFF / `false`**
 - Results Limit / `resultsLimit`: `1`
 - About-page info / `includeAboutPage`: OFF / `false`
 - Extra ad details / `isDetailsPerAd`: OFF / `false`
 - Date, sorting, and ecommerce options: defaults
 - Maximum charge: `$6` recommended. At the current `$0.005` charged-item rate, 1,012 unique inputs are expected to cost about `$5.06`; a `$4` ceiling will stop near 800 items again.
 
-Before starting, reopen the saved input and verify both `onlyTotal: true` and `resultsLimit: 1` are present. Preserve the raw export unchanged after completion.
+Purpose: independently test whether each input can produce at least one real active-ad record. This is the same Pass 2 mode proven by the earlier 150-lead and 101-lead evidence runs.
+
+Before starting, reopen the saved input and verify both `onlyTotal: false` and `resultsLimit: 1` are present. The saved `activeStatus` may appear as lowercase `active`; that is the Actor's stored form of the ACTIVE UI selection. Preserve the raw JSON unchanged as the **Pass 2 evidence export**.
+
+`resultsLimit=1` is mandatory even though prior Actor builds sometimes returned more than one nested ad record. Extra nested records are an Actor efficiency behavior, not permission to leave the limit blank and not proof that the saved settings are wrong.
 
 ## Stop gate after Pass 2
 
-Do not tier, write to the production Sheet, or treat source URLs as verified before Pass 2 reconciliation and the conditional evidence gate are complete.
+Do not tier, write to the production Sheet, or treat source URLs as verified before Pass 2 reconciliation and the conditional retry gate are complete.
 
-Reconcile every Pass 2 result by normalized input and resolved Page ID using `pass2-manifest-1012.csv`. Accept only technically clean positive/positive pairs that remain in the same operational tier. Send zero/positive, zero/zero, tier conflicts, either-pass errors, positive-count-empty records, missing or contradictory Page IDs, CAPTCHA, system issues, and malformed counts to the single conditional evidence pass.
+Reconcile every Pass 2 result by normalized input and resolved Page ID using `pass2-manifest-1012.csv`. The Pass 2 input is the complete 1,012-URL set, not an exception-only subset.
 
-Run 3 is exceptions only with `onlyTotal=false` and `resultsLimit=1`. Never perform a fourth Apify execution for the same lead path. Anything still unresolved becomes `CODEX_REVIEW_REQUIRED`. The original 33 non-Page input exceptions remain outside Apify until official Page identity recovery.
+Apply this decision matrix:
+
+| Pass 1 count | Pass 2 evidence | Action |
+|---|---|---|
+| `>0` | matching active-ad record | Accept the positive when Page ID and technical fields are clean |
+| `0` | no active-ad record | Conditional Pass 3 count-mode zero confirmation |
+| `>0` | no active-ad record | Axell-style anomaly; conditional Pass 3 evidence retry |
+| `0` | matching active-ad record | Contradiction; targeted Pass 3 retry/review |
+| missing/error/malformed | matching active-ad record | Activity is supported, but use Pass 3 count mode if a count is still needed for tiering |
+| any | wrong/missing Page ID, CAPTCHA, system issue, or incomplete technical result | Targeted Pass 3 retry/review in the failed mode |
+
+Run 3 is exceptions only and must use the mode required by the unresolved condition. Never perform a fourth Apify execution for the same lead path. Anything still unresolved becomes `CODEX_REVIEW_REQUIRED`. The original 33 non-Page input exceptions remain outside Apify until official Page identity recovery.

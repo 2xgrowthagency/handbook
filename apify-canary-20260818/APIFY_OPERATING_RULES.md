@@ -99,6 +99,19 @@ The current 101-lead Batch 2 began under the original architecture and also cons
 
 Beginning with the next enrichment batch, use a cost-optimized architecture built around two cheap count samples and conditional evidence only.
 
+### Explicit 2026-08-20 batch override
+
+For `apify-canary-20260820/email-generated-all`, Dennis explicitly selected the earlier proven architecture after Pass 1 was complete:
+
+```text
+Pass 1: Total Count ON — all 1,012 unique inputs
++
+Pass 2: Total Count OFF, Results Limit 1 — the same complete 1,012-input set
+→ Pass 3 only for unresolved exceptions
+```
+
+This batch-specific instruction overrides the generic two-count architecture below for that handoff. Do not narrow Pass 2 to an exception subset, and do not run it with Total Count ON. The exact machine input and settings are recorded in `apify-canary-20260820/email-generated-all/README.md`.
+
 ```text
 Run 1: Total Count ON — all leads
 +
