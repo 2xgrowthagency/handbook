@@ -18,13 +18,13 @@ Source CSV SHA-256: `ff1c4474f1a0fab270215994da9ac7f2ad117e1ea90364cf4dcebb18ff5
 
 Use this raw URL in `requestsFromUrl`:
 
-`https://raw.githubusercontent.com/2xgrowthagency/handbook/agent/apify-canary-20260817/apify-canary-20260820/email-generated-all/pass1-facebook-page-input-1027.txt`
+`https://raw.githubusercontent.com/2xgrowthagency/handbook/agent/apify-canary-20260817/apify-canary-20260820/email-generated-all/facebook-pages-pass1-1027.txt`
 
-The raw file contains exactly 1,027 newline-separated HTTPS Facebook URLs and no GitHub HTML.
+The raw file contains exactly 1,027 newline-separated HTTPS Facebook URLs and no GitHub HTML. Its raw GitHub serialization matches the proven `facebook-pages-vetted-20.txt` handoff: UTF-8 without a byte-order marker, LF-delimited, one URL per line, and a final LF newline.
 
 ## Files
 
-- `pass1-facebook-page-input-1027.txt` — exact Pass 1 machine input in Sheet order.
+- `facebook-pages-pass1-1027.txt` — exact Pass 1 machine input in Sheet order and the proven Facebook Pages canary file format.
 - `pass1-manifest-1060.csv` — all 1,060 leads, Sheet-row mapping, normalized input, eligibility, and exception reason.
 - `pass1-exceptions-33.csv` — the 33 rows that cannot be sent as Page inputs without identity recovery.
 
