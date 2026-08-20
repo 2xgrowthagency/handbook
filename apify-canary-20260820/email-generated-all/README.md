@@ -1,6 +1,6 @@
 # Email generated — Pass 1 count and Pass 2 one-ad evidence handoff
 
-Status: Pass 1 captured; Pass 2 prepared  
+Status: Pass 1 captured; Pass 2 partial; 211-input continuation prepared  
 Source workbook: `2x Growth Agency (2x) // Shopify Cold Outreach - July 2026`  
 Source tab: `Email generated` (gid `487999415`)  
 Observed: `2026-08-20T09:45:01.376Z`  
@@ -31,6 +31,7 @@ The raw file contains exactly 1,027 newline-separated HTTPS Facebook URLs and no
 - `pass1-exceptions-33.csv` — the 33 rows that cannot be sent as Page inputs without identity recovery.
 - `facebook-pages-pass1-continuation-209.txt` — exact continuation set that completed the aborted first count pass.
 - `facebook-pages-pass2-shuffled-1012.txt` — the complete unique Pass 2 input set in deterministic shuffled order.
+- `facebook-pages-pass2-continuation-211.txt` — exact Pass 2 remainder after subtracting the 801 unique inputs captured by aborted run `PBfJg0HeMZaxyygZy`; retained in original Pass 2 manifest order.
 - `pass2-manifest-1012.csv` — Pass 2 order, shuffle proof, all source-row mappings, and the reconciled Pass 1 state for every unique input.
 
 SHA-256:
@@ -40,6 +41,7 @@ SHA-256:
 - Exceptions: `ccfa3c5696a4bb911ebfc536156ecaec97a1cefd80873e4c8831b8f263764e0d`
 - Pass 1 continuation: `723c253f6d5b055c4ab481ef3e2b17f067dfa8f0372c208cfd6957d5639e3a0e`
 - Pass 2 input: `136521675010d783e153a74e1882afc1fee03e66fe9bd0f8c76994f606c5f192`
+- Pass 2 continuation input: `9cdecfb50e049f868c63768a08bc8393f725f535b5849b5388973fa1ac82d1fe`
 - Pass 2 manifest: `6a62ace366bb99b510856c4a165b8ef94fd9b94fd7d7c3b6b6c81cafb1107c12`
 
 ## Pass 1 count-mode actor settings
@@ -105,6 +107,28 @@ Purpose: independently test whether each input can produce at least one real act
 Before starting, reopen the saved input and verify both `onlyTotal: false` and `resultsLimit: 1` are present. The saved `activeStatus` may appear as lowercase `active`; that is the Actor's stored form of the ACTIVE UI selection. Preserve the raw JSON unchanged as the **Pass 2 evidence export**.
 
 `resultsLimit=1` is mandatory even though prior Actor builds sometimes returned more than one nested ad record. Extra nested records are an Actor efficiency behavior, not permission to leave the limit blank and not proof that the saved settings are wrong.
+
+## Pass 2 continuation after the aborted run
+
+Run `PBfJg0HeMZaxyygZy` used the correct Pass 2 raw input and saved settings, but it ended with status `ABORTED` at `$4.00` usage after writing 801 unique dataset items. Its exported JSON has SHA-256 `feec619c736bc87559e9be19ce340a99f50b3d6ac583c1fecd50d767754565fd` and exactly matches the live 801-item dataset read through the Apify MCP.
+
+The missing inputs are scattered across the shuffled request queue; they are not the last 211 manifest positions. `facebook-pages-pass2-continuation-211.txt` is the exact set difference between the complete 1,012-input file and those 801 observed inputs. The continuation has no overlap with the completed set, and their union equals all 1,012 inputs.
+
+Use this direct raw URL in `requestsFromUrl`:
+
+`https://raw.githubusercontent.com/2xgrowthagency/handbook/agent/apify-canary-20260817/apify-canary-20260820/email-generated-all/facebook-pages-pass2-continuation-211.txt`
+
+Use the same Pass 2 evidence settings:
+
+- Active status / `activeStatus`: `ACTIVE`
+- Total Count / `onlyTotal`: **OFF / `false`**
+- Results Limit / `resultsLimit`: `1`
+- About-page info / `includeAboutPage`: OFF / `false`
+- Extra ad details / `isDetailsPerAd`: OFF / `false`
+- Date, sorting, and ecommerce options: defaults
+- Maximum charge: `$2` recommended. At the observed `$0.005` per processed input, 211 inputs are expected to cost about `$1.06`.
+
+This is still Pass 2 coverage, not Pass 3. Reconcile the continuation export with the 801-item partial export before generating any conditional Pass 3 handoff.
 
 ## Stop gate after Pass 2
 
