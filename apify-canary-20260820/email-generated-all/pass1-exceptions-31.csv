@@ -1,0 +1,32 @@
+sheet_row,first_name,last_name,company_name,website,source_facebook_url,exception_reason
+240,Scott,London,GLDN PNT,https://gldnpnt.com,https://www.facebook.com/profile.php,profile_php_missing_id
+241,David,Goldstein,DAPS FIT,https://daps.fit,https://www.facebook.com/profile.php,profile_php_missing_id
+242,Solene,Thubert,Trolet,https://trolet.ca,https://www.facebook.com/profile.php,profile_php_missing_id
+243,Alan,Ying,Bobby Heaters,https://bobbyheaters.com,https://www.facebook.com/profile.php,profile_php_missing_id
+244,Kaylie,Burchardt,Coastal Cowgirls Collective,https://coastalcowgirlscollective.com,https://www.facebook.com/profile.php,profile_php_missing_id
+245,Terrie,Rose,Saltie Rose,https://saltierose.com,https://www.facebook.com/profile.php,profile_php_missing_id
+246,Robin,Briggs,Althyrea,https://althyrea.com,https://www.facebook.com/profile.php,profile_php_missing_id
+247,Nathan,Beamenderfer,Hip Heads,https://hipheads.com,https://www.facebook.com/profile.php,profile_php_missing_id
+248,Lauren,Falesnik,GILi Guise,https://giliguise.com,https://www.facebook.com/profile.php,profile_php_missing_id
+249,Samantha,Giordano,Intuition Kicks,https://intuitionkicks.com,https://www.facebook.com/profile.php,profile_php_missing_id
+250,Ethan,Chandler,978 Jerseys LLC,https://978jerseys.com,https://www.facebook.com/profile.php,profile_php_missing_id
+251,McKayla,Briggs,grace blooms,https://graceblooms.com,https://www.facebook.com/profile.php,profile_php_missing_id
+252,April,Yarahmadi,Academix Apparel,https://academixapparel.com,https://www.facebook.com/profile.php,profile_php_missing_id
+253,Noah,Robertson,3BIRD,https://3bird.com,https://www.facebook.com/profile.php,profile_php_missing_id
+254,Lincoln,Lawler,Bread,https://lacebread.com,https://www.facebook.com/profile.php,profile_php_missing_id
+255,Maya,Yaari,Femme Libérée,https://femmeliberee.com,https://www.facebook.com/profile.php,profile_php_missing_id
+256,Saron,Theodros,Gobez,https://shopgobez.com,https://www.facebook.com/profile.php,profile_php_missing_id
+257,Eytan,Azami,Nominal,https://nominalclothing.com,https://www.facebook.com/profile.php,profile_php_missing_id
+258,Hannah,Liebenstein,Fescue & Dunes,https://fescueanddunes.com,https://www.facebook.com/profile.php,profile_php_missing_id
+259,Kyle,Fetcho,One-Eyed Equine,https://oneeyedequine.com,https://www.facebook.com/profile.php,profile_php_missing_id
+260,Ivan,Wang,WHISP,https://whisplux.com,https://www.facebook.com/profile.php,profile_php_missing_id
+261,Pat,Decrescenzo,Volto Santo,https://voltosantoclothing.com,https://www.facebook.com/profile.php,profile_php_missing_id
+262,Tim,Pierce,Pierce Apparel,https://pierceapparel.com,https://www.facebook.com/profile.php,profile_php_missing_id
+263,Marc,Elbaz,Tomahawk Performance Inc,https://tomahawkperformance.com,https://www.facebook.com/profile.php,profile_php_missing_id
+264,Stefan,Cox,ITL GOLF,https://itlgolf.com,https://www.facebook.com/profile.php,profile_php_missing_id
+265,John,Paladino,Small Batch Hats,https://smallbatchhats.com,https://www.facebook.com/profile.php,profile_php_missing_id
+266,Betsy,Greenberg,Elizabeth James The Label,https://elizabethjamesthelabel.com,https://www.facebook.com/profile.php,profile_php_missing_id
+267,Amber,Bacon,YoungerBod,https://youngerbod.com,https://www.facebook.com/profile.php,profile_php_missing_id
+268,David,Porteous,Èidean,https://eidean.com,https://www.facebook.com/profile.php,profile_php_missing_id
+515,Tobias,,OLIVER CHARLES,https://oliver-charles.com,https://www.facebook.com/groups/oliver.charles.clothing,facebook_group_not_page
+719,Brandon,Hodder,The 6th Bureau,https://the6thbureau.co,https://m.facebook.com/profile.php,profile_php_missing_id
