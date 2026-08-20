@@ -9,30 +9,30 @@ Source CSV SHA-256: `ff1c4474f1a0fab270215994da9ac7f2ad117e1ea90364cf4dcebb18ff5
 ## Scope and counts
 
 - 1,061 Sheet rows total: one header plus 1,060 leads.
-- 1,029 leads have page-like Facebook inputs eligible for Pass 1.
-- 31 leads are held out as explicit exceptions: 30 bare `profile.php` URLs without an ID and one Facebook Group.
-- 16 repeated normalized URLs are deliberately retained. This handoff preserves one Pass 1 input per eligible Sheet row; it does not collapse leads before resolved Page identity is known.
+- 1,027 leads have page-like Facebook inputs eligible for Pass 1.
+- 33 leads are held out as explicit exceptions: 30 bare `profile.php` URLs without an ID, one Facebook Group, and two Facebook search routes that are not Pages.
+- 15 repeated normalized URLs are deliberately retained. This handoff preserves one Pass 1 input per eligible Sheet row; it does not collapse leads before resolved Page identity is known.
 - Source Facebook values are unverified inputs. They are not yet accepted as official Pages.
 
 ## Apify machine input
 
 Use this raw URL in `requestsFromUrl`:
 
-`https://raw.githubusercontent.com/2xgrowthagency/handbook/agent/apify-canary-20260817/apify-canary-20260820/email-generated-all/pass1-facebook-page-input-1029.txt`
+`https://raw.githubusercontent.com/2xgrowthagency/handbook/agent/apify-canary-20260817/apify-canary-20260820/email-generated-all/pass1-facebook-page-input-1027.txt`
 
-The raw file contains exactly 1,029 newline-separated HTTPS Facebook URLs and no GitHub HTML.
+The raw file contains exactly 1,027 newline-separated HTTPS Facebook URLs and no GitHub HTML.
 
 ## Files
 
-- `pass1-facebook-page-input-1029.txt` — exact Pass 1 machine input in Sheet order.
+- `pass1-facebook-page-input-1027.txt` — exact Pass 1 machine input in Sheet order.
 - `pass1-manifest-1060.csv` — all 1,060 leads, Sheet-row mapping, normalized input, eligibility, and exception reason.
-- `pass1-exceptions-31.csv` — the 31 rows that cannot be sent as Page inputs without identity recovery.
+- `pass1-exceptions-33.csv` — the 33 rows that cannot be sent as Page inputs without identity recovery.
 
 SHA-256:
 
-- Input: `82743f1b7f3430d1b50410c7f681e033defafb1d6a17130a2e9cf0b9a01e1da2`
-- Manifest: `7d164d74b851fc217cd11e7b7529ebcf29d1aeab2987e77161a9c187da23755f`
-- Exceptions: `1f52710bccbd760df0e3d93e7cb3a2ebd112a8a48eb3be03ffdef63fd0195a82`
+- Input: `c6e0d3705d4abf8f5832ce8e740129e9e5aa951407066a30b6726e6936a048ab`
+- Manifest: `e70f9281894e5501ac5bc246d57fb207774e76dd55a8b8e84c459b2889e45a5a`
+- Exceptions: `ccfa3c5696a4bb911ebfc536156ecaec97a1cefd80873e4c8831b8f263764e0d`
 
 ## Pass 1 actor settings
 

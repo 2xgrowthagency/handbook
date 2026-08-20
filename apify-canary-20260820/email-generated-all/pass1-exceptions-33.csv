@@ -1,4 +1,6 @@
 sheet_row,first_name,last_name,company_name,website,source_facebook_url,exception_reason
+196,Bobby,Nicholson,Everyday Faith,https://everydayfaith.store,https://www.facebook.com/search/top,facebook_system_route_not_page
+197,Davis,Rogers,Birdie Retriever,https://birdieretriever.com,https://www.facebook.com/search/top,facebook_system_route_not_page
 240,Scott,London,GLDN PNT,https://gldnpnt.com,https://www.facebook.com/profile.php,profile_php_missing_id
 241,David,Goldstein,DAPS FIT,https://daps.fit,https://www.facebook.com/profile.php,profile_php_missing_id
 242,Solene,Thubert,Trolet,https://trolet.ca,https://www.facebook.com/profile.php,profile_php_missing_id
