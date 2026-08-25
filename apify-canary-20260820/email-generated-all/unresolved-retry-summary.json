@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-08-25T03:56:27.824Z",
+  "source": "Email generated unresolved reconciliation from 2026-08-20, rechecked against the live 2026-08-24 tab snapshot",
+  "unresolved_leads_total": 136,
+  "apify_ready_leads": 103,
+  "apify_ready_unique_urls": 100,
+  "held_out_non_page_leads": 33,
+  "groups": {
+    "count_retry": {
+      "unique_urls": 95,
+      "leads": 98,
+      "onlyTotal": true,
+      "resultsLimit": 1
+    },
+    "evidence_retry": {
+      "unique_urls": 5,
+      "leads": 5,
+      "onlyTotal": false,
+      "resultsLimit": 1
+    }
+  },
+  "sha256": {
+    "count_retry": "333356ea7b8b3aa0d981164387fd248a3ccb8168c14a512628ccdf781b1e9f9e",
+    "evidence_retry": "a3773abfb6b2758ea5dfc42297a9ab946df64a86b1ea261709f8487306cd56a4",
+    "manifest": "2ff979312d627c493845d4e96ef04d43a803d75d282fffebc40b850360acb96f"
+  }
+}

@@ -1,0 +1,101 @@
+retry_mode,input_url,source_sheet_rows,lead_count,companies,pass1_state,pass2_state,reason
+count,https://www.facebook.com/simplebabying,780,1,Lalabu,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/bruceglen,994,1,BRUCEGLEN,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/bromeliaswimwear,638,1,Bromelia Swimwear,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/savannahchildren,796,1,Strasburg Children,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/apnyapparel,1023,1,APNY Apparel,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/effybee,960,1,fyb jewelry,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/ChoppaheadKustoms,624,1,Choppahead Kustom Cycles,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/WOLACOinc,19,1,WOLACO,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/yliana.yepez.5,721,1,YLIANA YEPEZ,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/wrightsockusa,726,1,"Wrightsock - Wrightenberry Mills, Inc",error,error,pass1_not_technically_clean
+count,https://www.facebook.com/HBarCRanchwear,504,1,H Bar C Ranchwear,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/jeffrey.bartlett.18,925,1,Jeffrey Bartlett Clothiers,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/shopyandi,158,1,y&i clothing boutique,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/oddliclothing,870,1,Oddli,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/cavitycolorsaaron,984,1,CavityColors,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/therubymint,756,1,Ruby Mint®,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/hashke.ee,505,1,Hashké,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/jbrds.kids,926,1,jbrds,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/NGEL.Kelowna,382,1,Naughty Girl Essentials Lingerie,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/mariemurusa,895,1,MARIEMUR,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/gofizzy,946,1,Wear Fizzy,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/Tara-Grinna-Swimwear-Page/138098452909658,762,1,Tara Grinna Swimwear,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/lahangatelier,444,1,Atelier de La Hang,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/Bonnbonnbaby,998,1,BonnBonn Baby Antimicrobial Moisture Wicking Performance Baby wear and Essentials,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/bangclothes,1011,1,"Bang Clothes, Corp",error,error,pass1_not_technically_clean
+count,https://www.facebook.com/feelgoodz.flipflops,953,1,Feelgoodz,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/skyfootwearsocks,777,1,Sky Manufacturing,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/NoelAsmarGroup,378,1,Noel Asmar Group of Companies,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/bellabellaboutique,1009,1,Bella Bella Boutique,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/iolanihawaii,931,1,IOLANI,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/pages/Tiny-Turnip/126115125533,818,1,Tiny Turnip LLC,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/pappyco,314,1,Pappy & Company,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/pages/Somerville-MA/Diaper-Lab/52569396050,821,1,Diaper Lab,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/wethepeopleholsters,728,1,WeThePeopleHolsters,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/theflomo,758,1,FLOMOTION,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/soulku,141,1,SoulKu,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/plentyhumanwear.ca,276,1,Plenty Humanwear,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/GretchenScottDesigns,517,1,Gretchen Scott Designs,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/Kahindonyc,463,1,KAHINDO,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/pages/Caycee-Black/129223240441128,854,1,Caycee Black Collection,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/EnvyWigsHairAddOns,957,1,ENVY by Alan Eaton,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/pages/Saint-Paul-MN/Donalds-Uniforms/94275392794,823,1,Donald's Uniform,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/LoweryBrands,902,1,Lowery Brands,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/mesbobettes,408,1,MesBobettes,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/zootsports,3,1,Zoot Sports,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/OOSHIELUVS,867,1,Ooshie Resortwear LLC,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/DraperJamesGirl,967,1,Draper James,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/pages/Modatrova/1431975317066566,833,1,Modatrova,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/osagafootwear,358,1,Osaga,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/worldofomika,16,1,Omika,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/thegroundedpeople,102,1,Grounded People Apparel,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/izzyandliv,930,1,Izzy & Liv,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/Airblaster.O.F.P,1034,1,Airblaster,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/GRIPANDCO,516,1,GRIP & CO.,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/noragardnerapparel,872,1,Nora Gardner,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/pages/61573508854581,317,1,INFLOW Swimwear,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/10156059209583669,1039,1,Product of the North,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/Yesaet,12,1,YESAET,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/AlignOrthoticsClinic,1032,1,Align Custom Fit,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/yathletics,14,1,Y Athletics Inc.,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/sahroo.official,204,1,sahroo,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/vertetvogue,740,1,Vert & Vogue,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/attickoncept,1020,1,Attic Koncept,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/businessnotbullets,992,1,Combat Flip Flops,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/hopeandmaybyron,937,1,HOPE AND MAY,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/shred.dog.gear,781,1,AKOVA,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/shopstitchyfish,161,1,Stitchy Fish,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/teamltdeu,761,1,TEAMLTD,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/JustDeuceIt,917,1,Deuce Shirts,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/pages/Spectrum-Of-Life/358746560955328,820,1,Savette,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/people/Zephan-Parker/61576175744350,1060,1,Zephan Parker | Parker Boot Company,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/jessleaboutique,923,1,JESS LEA,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/HERTreasuresboutique,501,1,HER Treasures Boutique,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/shopbittylove,181,1,BITTY LOVE LLC,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/MojoSportswearCompany,396,1,Mojo Sportswear Company,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/frankmarzetti15,539,1,"Frank Marzetti, LLC",error,error,pass1_not_technically_clean
+count,https://www.facebook.com/tr,745|746|747,3,Neely & Chloe|Southern Scholar Socks|Abacus Sportswear US,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/Savannah7sWesternChic,797,1,Savannah Sevens Western Life & Style,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/paddleandpin,318,1,"Paddle + Pin, LLC",error,error,pass1_not_technically_clean
+count,https://www.facebook.com/pages/Oakland-CA/Mannequin-Madness-sales-rentals-and-recycling-of-mannequins/177449619003,830,1,Mannequin Madness all things mannequin,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/pages/Austin-Linen/353087948129402,858,1,Austin Linen,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/shopclette,789,1,Clétte,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/BrynnCapellaInc,993,1,"Brynn Capella, Inc.",error,error,pass1_not_technically_clean
+count,https://www.facebook.com/gbny123,530,1,GBNY,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/thebarfashion,108|109,2,The Bar|The Bar,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/azzaik_official,670,1,Azzaik,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/RetrokidTO,217,1,Retrokid,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/bluecutaprons,1001,1,BlueCut,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/basicobranco,666,1,Basico Branco,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/shahidaparides,792,1,Shahida Parides,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/threadlogic,750,1,Thread Logic,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/pages/Fish-Hippie,845,1,Fish Hippie,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/dusterlosangeles,576,1,Duster,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/ferraramanufacturing,952,1,Ferrara Manufacturing,error,error,pass1_not_technically_clean
+count,https://www.facebook.com/dudleystephensclothing,965,1,Dudley Stephens,error,error,pass1_not_technically_clean
+evidence,https://www.facebook.com/people/Scarlett-Gasque-Ltd/61582121787822,289,1,Scarlett Gasque,positive,active_record,pass2_not_technically_clean
+evidence,https://www.facebook.com/BigBoyBamboo,653,1,"Big Boy Bamboo (Smart Bamboo Technologies, Inc.)",positive_empty,positive_count_empty,pass2_not_technically_clean
+evidence,https://www.facebook.com/norainuofficial,376,1,NORA INU,positive_empty,positive_count_empty,pass2_not_technically_clean
+evidence,https://www.facebook.com/profile.php?id=61565049963546,237,1,Axell,positive_empty,positive_count_empty,pass2_not_technically_clean
+evidence,https://www.facebook.com/pikalayers,281,1,Pika Layers,positive,zero_empty,two_pass_contradiction_or_unsupported_result
